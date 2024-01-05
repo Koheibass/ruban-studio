@@ -1,4 +1,5 @@
 import { SectionHeader } from "@/components/SectionHeader"
+import { HeaderSlider } from "@/components/HeaderSlider"
 
 export default function Home() {
   return (
@@ -53,7 +54,7 @@ export default function Home() {
           </div>
         </div>
       </nav>
-
+      <HeaderSlider />
       <div class="swiper">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
