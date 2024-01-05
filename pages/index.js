@@ -19,10 +19,10 @@ export default function Home() {
               </div>
               <div class="header__icon">
                 <a href="https://www.instagram.com/akaboshi_rina/" class="instagram">
-                  <img src="Instagram.svg" width="20" height="20" alt="instagram" />
+                  <img src="/icon/Instagram.svg" width="20" height="20" alt="instagram" />
                 </a>
                 <a href="https://www.youtube.com/@akaboshirina" class="youtube">
-                  <img src="YouTube.svg" width="28" height="28" alt="YouTube" />
+                  <img src="/icon/YouTube.svg" width="28" height="28" alt="YouTube" />
                 </a>
               </div>
               <ul class="dropdown">
@@ -111,9 +111,9 @@ export default function Home() {
               </h3>
               <div>
                 <div class="top-movie" data-video-id="4Tr9Y_rOfh4">
-                  <img alt="video" class="top-movie2" src="Lebewohl.jpg" width="100%" />
+                  <img alt="video" class="top-movie2" src="/photo/Lebewohl.jpg" width="100%" />
                   <div class="movie-play">
-                    <img src="playmovie.svg" width="20%" class="movie-play2" />
+                    <img src="/icon/playmovie.svg" width="20%" class="movie-play2" />
                   </div>
                 </div>
                 <div class="top-tracklist">
@@ -133,7 +133,7 @@ export default function Home() {
 
           <div class="biography__content">
             <div>
-              <img src="biography.webp" class="biography__photo" width="100%" />
+              <img src="/photo/biography.webp" class="biography__photo" width="100%" />
             </div>
 
             <div class="biography__name">
@@ -194,7 +194,7 @@ export default function Home() {
               </div>
             </div>
             <div>
-              <img src="concert1.webp" class="concert-photo" width="100%" />
+              <img src="/photo/concert1.webp" class="concert-photo" width="100%" />
             </div>
           </div>
         </section>
@@ -209,9 +209,9 @@ export default function Home() {
             <div class="media__list">
               <div>
                 <div class="top-movie" data-video-id="4Tr9Y_rOfh4">
-                  <img alt="video" class="top-movie3" src="Lebewohl.jpg" width="100%" />
+                  <img alt="video" class="top-movie3" src="/photo/Lebewohl.jpg" width="100%" />
                   <div class="movie-play">
-                    <img src="playmovie.svg" width="20%" class="movie-play3" />
+                    <img src="/icon/playmovie.svg" width="20%" class="movie-play3" />
                   </div>
                 </div>
                 <div class="individual-videos">
@@ -220,27 +220,27 @@ export default function Home() {
               </div>
               <div>
                 <div class="top-movie" data-video-id="n-B9BzPxbzk">
-                  <img alt="video" class="top-movie3" src="Widmung.jpg" width="100%" />
+                  <img alt="video" class="top-movie3" src="/photo/Widmung.jpg" width="100%" />
                   <div class="movie-play">
-                    <img src="playmovie.svg" width="20%" class="movie-play3" />
+                    <img src="/icon/playmovie.svg" width="20%" class="movie-play3" />
                   </div>
                 </div>
                 <div class="individual-videos">シューマン＝リスト : 献呈</div>
               </div>
               <div>
                 <div class="top-movie" data-video-id="IkZB4TZtUAM">
-                  <img alt="video" class="top-movie3" src="blackkeys.jpg" width="100%" />
+                  <img alt="video" class="top-movie3" src="/photo/blackkeys.jpg" width="100%" />
                   <div class="movie-play">
-                    <img src="playmovie.svg" width="20%" class="movie-play3" />
+                    <img src="/icon/playmovie.svg" width="20%" class="movie-play3" />
                   </div>
                 </div>
                 <div class="individual-videos">ショパン : 練習曲集op.10よりNo.5「黒鍵」</div>
               </div>
               <div>
                 <div class="top-movie" data-video-id="66Fel4dySJ8">
-                  <img alt="video" class="top-movie3" src="Impromptus.jpg" width="100%" />
+                  <img alt="video" class="top-movie3" src="/photo/Impromptus.jpg" width="100%" />
                   <div class="movie-play">
-                    <img src="playmovie.svg" width="20%" class="movie-play3" />
+                    <img src="/icon/playmovie.svg" width="20%" class="movie-play3" />
                   </div>
                 </div>
                 <div class="individual-videos">シューベルト：即興曲 第3番 D899 op.90-3 変ト長調</div>
@@ -258,7 +258,7 @@ export default function Home() {
           <SectionHeader id="recordings" title="CD" titleEn="Recordings" />
           <div class="recordings__content">
             <div>
-              <img src="NeueWelt1.webp" class="recordings__photo" width="100%" />
+              <img src="/photo/NeueWelt1.webp" class="recordings__photo" width="100%" />
             </div>
             <div class="cd__content">
               <h3 class="cd__title">Neue Welt 〜新しい世界〜</h3>
@@ -332,10 +332,10 @@ export default function Home() {
       <div class="footer">
         <div class="footer__content">
           <a href="https://www.instagram.com/akaboshi_rina/">
-            <img src="Instagram.svg" class="footer__instagram" width="40" height="50" alt="twitter" />
+            <img src="/icon/Instagram.svg" class="footer__instagram" width="40" height="50" alt="twitter" />
           </a>
           <a href="https://www.youtube.com/@akaboshirina">
-            <img src="YouTube.svg" class="footer__youtube" width="60" height="60" alt="YouTube" />
+            <img src="/icon/YouTube.svg" class="footer__youtube" width="60" height="60" alt="YouTube" />
           </a>
         </div>
         <div class="lisence">© 2023 Rina Akaboshi</div>
