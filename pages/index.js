@@ -1,5 +1,5 @@
 import { SectionHeader } from "@/components/SectionHeader"
-import { HeaderSlider } from "@/components/HeaderSlider"
+import HeaderSlider from "@/components/HeaderSlider";
 
 export default function Home() {
   return (
@@ -55,20 +55,6 @@ export default function Home() {
         </div>
       </nav>
       <HeaderSlider />
-      <div class="swiper">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <img src="/photo/hero1b.webp" class="top__photo1" width="100%" height="auto" />
-          </div>
-          <div class="swiper-slide">
-            <img src="/photo/hero2b.webp" class="top__photo1" width="100%" height="auto" />
-          </div>
-          <div class="swiper-slide">
-            <img src="/photo/hero3b.webp" class="top__photo1" width="100%" height="auto" />
-          </div>
-        </div>
-        <div class="swiper-pagination"></div>
-      </div>
 
       <main class="main">
         <section class="section_news">
