@@ -1,5 +1,5 @@
 import { SectionHeader } from "@/components/SectionHeader"
-import HeaderSlider from "@/components/HeaderSlider";
+import TopSlider from "@/components/TopSlider";
 
 export default function Home() {
   return (
@@ -54,7 +54,7 @@ export default function Home() {
           </div>
         </div>
       </nav>
-      <HeaderSlider />
+      <TopSlider />
 
       <main class="main">
         <section class="section_news">
