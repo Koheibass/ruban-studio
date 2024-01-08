@@ -14,12 +14,12 @@ const images = [
 export default function TopSlider() {
     const slideSettings = {
         0: {
-            slidesPerView: 1.4,
-            spaceBetween: 10,
+            slidesPerView: 1,
+            spaceBetween: 1,
         },
         1024: {
-            slidesPerView: 2,
-            spaceBetween: 10,
+            slidesPerView: 1,
+            spaceBetween: 1,
         },
     };
     return (
@@ -44,7 +44,7 @@ export default function TopSlider() {
                     <Image
                         src={src}
                         width={1920}
-                        height={1038}
+                        height={820}
                         sizes="(min-width: 1024px) 100vw, 60vw"
                     />
                 </SwiperSlide>

@@ -1,5 +1,6 @@
 import { SectionHeader } from "@/components/SectionHeader"
 import TopSlider from "@/components/TopSlider";
+import Link from "next/link"
 
 export default function Home() {
   return (
@@ -8,32 +9,32 @@ export default function Home() {
         <div>
           <div class="header__whole">
             <div class="header__left">
-              <a class="header__title" href="/">Rina Akaboshi</a>
+              <Link class="header__title" href="/">Rina Akaboshi</Link>
             </div>
             <div class="header__right">
               <div class="header__menu">
-                <a href="#biography" class="menu__biography">プロフィール</a>
-                <a href="#concerts" class="menu__concerts">コンサート</a>
-                <a href="#media" class="menu__media">メディア</a>
-                <a href="#recordings" class="menu__recordings">CD</a>
-                <a href="#contact" class="menu__contact">お問い合わせ</a>
+                <Link href="#biography" class="menu__biography">プロフィール</Link>
+                <Link href="#concerts" class="menu__concerts">コンサート</Link>
+                <Link href="#media" class="menu__media">メディア</Link>
+                <Link href="#recordings" class="menu__recordings">CD</Link>
+                <Link href="#contact" class="menu__contact">お問い合わせ</Link>
               </div>
               <div class="header__icon">
-                <a href="https://www.instagram.com/akaboshi_rina/" class="instagram">
+                <Link href="https://www.instagram.com/Linkkaboshi_rina/" class="instagram">
                   <img src="/icon/Instagram.svg" width="20" height="20" alt="instagram" />
-                </a>
-                <a href="https://www.youtube.com/@akaboshirina" class="youtube">
+                </Link>
+                <Link href="https://www.youtube.com/@akaboshirina" class="youtube">
                   <img src="/icon/YouTube.svg" width="28" height="28" alt="YouTube" />
-                </a>
+                </Link>
               </div>
               <ul class="dropdown">
                 <li class="dropdown__content">
-                  <a href="/" class="dropdown__menu__link">Japanese</a>
+                  <Link href="/" class="dropdown__menu__link">Japanese</Link>
                   <ul class="dropdown__menu">
-                    <li class="dropdown__menu__item"><a href="index.html"
-                      class="drop-menu__link">Japanese</a></li>
-                    <li class="dropdown__menu__item"><a href="/english/indexen.html"
-                      class="drop-menu__link">English</a></li>
+                    <li class="dropdown__menu__item"><Link href="index.html"
+                      class="drop-menu__link">Japanese</Link></li>
+                    <li class="dropdown__menu__item"><Link href="/english/indexen.html"
+                      class="drop-menu__link">English</Link></li>
                   </ul>
                 </li>
               </ul>
@@ -45,11 +46,11 @@ export default function Home() {
               </div>
             </div>
             <ul class="slide-menu">
-              <li><a href="#biography" class="slide-menu1">プロフィール</a></li>
-              <li><a href="#concerts" class="slide-menu2">コンサート</a></li>
-              <li><a href="#media" class="slide-menu3">メディア</a></li>
-              <li><a href="#recordings" class="slide-menu4">CD</a></li>
-              <li><a href="#contact" class="slide-menu5">お問い合わせ</a></li>
+              <li><Link href="#biography" class="slide-menu1">プロフィール</Link></li>
+              <li><Link href="#concerts" class="slide-menu2">コンサート</Link></li>
+              <li><Link href="#media" class="slide-menu3">メディア</Link></li>
+              <li><Link href="#recordings" class="slide-menu4">CD</Link></li>
+              <li><Link href="#contact" class="slide-menu5">お問い合わせ</Link></li>
             </ul>
           </div>
         </div>
@@ -60,9 +61,9 @@ export default function Home() {
         <section class="section_news">
           <div class="news">
             <div class="news__title">NEWS</div>
-            <a href="https://oto-inochi.com/" class="top__news">
+            <Link href="https://oto-inochi.com/" class="top__news">
               <span class="top__news__content">クラシック愛好家のためのオンラインコミュニティ“おといのちオンライン”開設のお知らせ</span>
-            </a>
+            </Link>
           </div>
           <div class="topix">
             <div>
@@ -72,21 +73,21 @@ export default function Home() {
               </h3>
               <div class="info_content">
                 <div class="info_content_days">
-                  "2023.09.18"
+                  {"2023.09.18"}
                   <small>(Mon)</small>
                 </div>
-                <a href="https://oto-inochi.com/"
-                  class="info_detail">クラシック愛好家のためのオンラインコミュニティ“おといのちオンライン”開設のお知らせ</a>
+                <Link href="https://oto-inochi.com/"
+                  class="info_detail">クラシック愛好家のためのオンラインコミュニティ“おといのちオンライン”開設のお知らせ</Link>
                 <br />
                 <div class="info_content_days">
-                  "2023.08.01"
+                  {"2023.08.01"}
                   <small>(Tue)</small>
                 </div>
-                <a href="/news/2023801.html" class="info_detail">みんなの挑戦をあたたかく見守る場所“おといのち音楽会”開催決定</a>
+                <Link href="/news/2023801.html" class="info_detail">みんなの挑戦をあたたかく見守る場所“おといのち音楽会”開催決定</Link>
               </div>
               <div class="top__button__updates">
                 <button class="top__button__content">
-                  <a href="topnews.html"> もっと見る</a>
+                  <Link href="topnews.html"> もっと見る</Link>
                 </button>
               </div>
             </div>
@@ -109,7 +110,7 @@ export default function Home() {
               </div>
               <div class="top__button">
                 <button class="top__button__content">
-                  <a href="videos.html"> もっと見る</a>
+                  <Link href="videos.html"> もっと見る</Link>
                 </button>
               </div>
             </div>
@@ -151,7 +152,7 @@ export default function Home() {
                 現在は自身の演奏に関する研究活動や後進の育成とともに、クラシック音楽界に貢献すべく活動の幅を広げている。
               </p>
               <button class="biography__button__content__japanese">
-                <a href="biography.html">詳細</a>
+                <Link href="biography.html">詳細</Link>
               </button>
             </div>
           </div>
@@ -174,8 +175,8 @@ export default function Home() {
                       <span class="concert-days">2021.06.19</span>
                       <span class="concert-detail">YouTube / イマチケ</span>
                     </div>
-                    <a href="concert1.html" class="concert-update">赤星 里奈 ピアノリサイタル vol.1 presented by
-                      "MUSICUM"</a>
+                    <Link href="concert1.html" class="concert-update">赤星 里奈 ピアノリサイタル vol.1 presented by
+                      {"MUSICUM"}</Link>
                   </div>
                 </div>
               </div>
@@ -236,7 +237,7 @@ export default function Home() {
             <br />
             <div class="top__button">
               <button class="top__button__content">
-                <a href="videos.html"> もっと見る</a>
+                <Link href="videos.html"> もっと見る</Link>
               </button>
             </div>
           </div>
@@ -271,16 +272,16 @@ export default function Home() {
                     <li class="recorded-music-list__content">
                       F.シューベルト
                       <br />
-                      ピアノソナタ第18番 ト長調 "幻想" D894
+                      ピアノソナタ第18番 ト長調 幻想 D894
                     </li>
                   </ul>
                 </div>
                 <br />
-                "録音: 2017年4月27日
-                <br />Barocksaal Rostock, Deutschland "
+                録音: 2017年4月27日
+                <br />Barocksaal Rostock, Deutschland
               </div>
               <button class="recordings__button">
-                <a href="https://rinaakaboshi.official.ec/items/65023901">CDを購入</a>
+                <Link href="https://rinaakaboshi.official.ec/items/65023901">CDを購入</Link>
               </button>
             </div>
           </div>
@@ -289,7 +290,7 @@ export default function Home() {
           <SectionHeader id="contact" title="お問い合わせ" titleEn="contact" />
           <div>
             <div class="contact__annotation">ピアニスト 赤星里奈へのご依頼・お問い合わせなどは、<br />こちらからお願い致します。</div>
-            <form action="/api/contact" method="get" novalidate id="contact-form" class="contact-form">
+            <form action="/Linkpi/contact" method="get" novalidate id="contact-form" class="contact-form">
               <div>
                 <label for="name" class="contact-form2">お名前</label>
                 <input class="contact__frame" id="name" name="name" />
@@ -318,12 +319,12 @@ export default function Home() {
 
       <div class="footer">
         <div class="footer__content">
-          <a href="https://www.instagram.com/akaboshi_rina/">
+          <Link href="https://www.instagram.com/Linkkaboshi_rina/">
             <img src="/icon/Instagram.svg" class="footer__instagram" width="40" height="50" alt="twitter" />
-          </a>
-          <a href="https://www.youtube.com/@akaboshirina">
+          </Link>
+          <Link href="https://www.youtube.com/@akaboshirina">
             <img src="/icon/YouTube.svg" class="footer__youtube" width="60" height="60" alt="YouTube" />
-          </a>
+          </Link>
         </div>
         <div class="lisence">© 2023 Rina Akaboshi</div>
       </div>
