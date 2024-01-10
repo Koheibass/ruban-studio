@@ -1,5 +1,6 @@
-import { SectionHeader } from "@/components/SectionHeader"
+import { SectionHeader } from "@/components/SectionHeader";
 import TopSlider from "@/components/TopSlider";
+import { TopButton } from "@/components/TopButton";
 import Link from "next/link"
 
 export default function Home() {
@@ -21,10 +22,10 @@ export default function Home() {
               </div>
               <div class="header__icon">
                 <Link href="https://www.instagram.com/Linkkaboshi_rina/" class="instagram">
-                  <img src="/icon/Instagram.svg" width="20" height="20" alt="instagram" />
+                  <img src="/icon/Instagram.svg" width="50" height="30" alt="instagram" />
                 </Link>
                 <Link href="https://www.youtube.com/@akaboshirina" class="youtube">
-                  <img src="/icon/YouTube.svg" width="28" height="28" alt="YouTube" />
+                  <img src="/icon/YouTube.svg" width="60" height="30" alt="YouTube" />
                 </Link>
               </div>
               <ul class="dropdown">
@@ -86,9 +87,7 @@ export default function Home() {
                 <Link href="/news/2023801.html" class="info_detail">みんなの挑戦をあたたかく見守る場所“おといのち音楽会”開催決定</Link>
               </div>
               <div class="top__button__updates">
-                <button class="top__button__content">
-                  <Link href="topnews.html"> もっと見る</Link>
-                </button>
+                <TopButton />
               </div>
             </div>
 
@@ -109,9 +108,7 @@ export default function Home() {
                 </div>
               </div>
               <div class="top__button">
-                <button class="top__button__content">
-                  <Link href="videos.html"> もっと見る</Link>
-                </button>
+                <TopButton />
               </div>
             </div>
           </div>
@@ -236,9 +233,7 @@ export default function Home() {
             </div>
             <br />
             <div class="top__button">
-              <button class="top__button__content">
-                <Link href="videos.html"> もっと見る</Link>
-              </button>
+              <TopButton />
             </div>
           </div>
         </section>
