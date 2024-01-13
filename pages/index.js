@@ -1,159 +1,20 @@
-import { SectionHeader } from "@/components/SectionHeader";
-import TopSlider from "@/components/TopSlider";
-import { TopButton } from "@/components/TopButton";
-import Link from "next/link"
+import { SectionHeader } from '@/components/SectionHeader';
+import TopSlider from '@/components/TopSlider';
+import { TopButton } from '@/components/TopButton';
+import Link from 'next/link'
+import * as React from 'react'
+import { AppNav } from '@/components/AppNav'
+import { SectionBiography } from '@/components/SectionBiography'
+import { SectionNews } from '@/components/SectionNews';
 
 export default function Home() {
   return (
     <div class="whole">
-      <nav class="header">
-        <div>
-          <div class="header__whole">
-            <div class="header__left">
-              <Link class="header__title" href="/">Rina Akaboshi</Link>
-            </div>
-            <div class="header__right">
-              <div class="header__menu">
-                <Link href="#biography" class="menu__biography">プロフィール</Link>
-                <Link href="#concerts" class="menu__concerts">コンサート</Link>
-                <Link href="#media" class="menu__media">メディア</Link>
-                <Link href="#recordings" class="menu__recordings">CD</Link>
-                <Link href="#contact" class="menu__contact">お問い合わせ</Link>
-              </div>
-              <div class="header__icon">
-                <Link href="https://www.instagram.com/Linkkaboshi_rina/" class="instagram">
-                  <img src="/icon/Instagram.svg" width="50" height="30" alt="instagram" />
-                </Link>
-                <Link href="https://www.youtube.com/@akaboshirina" class="youtube">
-                  <img src="/icon/YouTube.svg" width="60" height="30" alt="YouTube" />
-                </Link>
-              </div>
-              <ul class="dropdown">
-                <li class="dropdown__content">
-                  <Link href="/" class="dropdown__menu__link">Japanese</Link>
-                  <ul class="dropdown__menu">
-                    <li class="dropdown__menu__item"><Link href="index.html"
-                      class="drop-menu__link">Japanese</Link></li>
-                    <li class="dropdown__menu__item"><Link href="/english/indexen.html"
-                      class="drop-menu__link">English</Link></li>
-                  </ul>
-                </li>
-              </ul>
-              <div class="hamburger">
-                <span>
-                  <img src="/photo/piano.svg" width="25" height="25" alt="piano" />
-                </span>
-                <p class="piano-menu">menu</p>
-              </div>
-            </div>
-            <ul class="slide-menu">
-              <li><Link href="#biography" class="slide-menu1">プロフィール</Link></li>
-              <li><Link href="#concerts" class="slide-menu2">コンサート</Link></li>
-              <li><Link href="#media" class="slide-menu3">メディア</Link></li>
-              <li><Link href="#recordings" class="slide-menu4">CD</Link></li>
-              <li><Link href="#contact" class="slide-menu5">お問い合わせ</Link></li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+      <AppNav />
       <TopSlider />
-
       <main class="main">
-        <section class="section_news">
-          <div class="news">
-            <div class="news__title">NEWS</div>
-            <Link href="https://oto-inochi.com/" class="top__news">
-              <span class="top__news__content">クラシック愛好家のためのオンラインコミュニティ“おといのちオンライン”開設のお知らせ</span>
-            </Link>
-          </div>
-          <div class="topix">
-            <div>
-              <h3 class="info">
-                <div>最新情報</div>
-                <div class="translate__another">Updates</div>
-              </h3>
-              <div class="info_content">
-                <div class="info_content_days">
-                  {"2023.09.18"}
-                  <small>(Mon)</small>
-                </div>
-                <Link href="https://oto-inochi.com/"
-                  class="info_detail">クラシック愛好家のためのオンラインコミュニティ“おといのちオンライン”開設のお知らせ</Link>
-                <br />
-                <div class="info_content_days">
-                  {"2023.08.01"}
-                  <small>(Tue)</small>
-                </div>
-                <Link href="/news/2023801.html" class="info_detail">みんなの挑戦をあたたかく見守る場所“おといのち音楽会”開催決定</Link>
-              </div>
-              <div class="top__button__updates">
-                <TopButton />
-              </div>
-            </div>
-
-            <div>
-              <h3 class="play-movie">
-                <div>演奏動画</div>
-                <div class="translate__another">Movies</div>
-              </h3>
-              <div>
-                <div class="top-movie" data-video-id="4Tr9Y_rOfh4">
-                  <img alt="video" class="top-movie2" src="/photo/Lebewohl.jpg" width="100%" />
-                  <div class="movie-play">
-                    <img src="/icon/playmovie.svg" width="20%" class="movie-play2" />
-                  </div>
-                </div>
-                <div class="top-tracklist">
-                  ベートーヴェン : ピアノソナタ第26番「告別」op.81a
-                </div>
-              </div>
-              <div class="top__button">
-                <TopButton />
-              </div>
-            </div>
-          </div>
-        </section>
-        <section class="section_biography">
-          <SectionHeader id="biography" title="プロフィール" titleEn="Biography" />
-
-          <div class="biography__content">
-            <div>
-              <img src="/photo/biography.webp" class="biography__photo" width="100%" />
-            </div>
-
-            <div class="biography__name">
-              <div class="biography__name__japanese">
-                赤星 里奈
-                <span class="biography__name__alphabet">
-                  Rina Akaboshi
-                </span>
-              </div>
-            </div>
-
-            <div class="biography__button">
-              <button onClick="switchToJapanese();removeClassToJapanese()" id="JapaneseLeft"
-                class="biography__button__japanese activate">Japanese</button>
-              <button onClick="switchToEnglish();addClassToEmglish()" id="EnglishRight"
-                class="biography__button__english">English</button>
-            </div>
-
-            <div class="main__profile" id="profile">
-              <p>
-                クラシック音楽を専門とするピアニスト。<br />
-                特にドイツ音楽に造詣が深いが、近年ではフランス音楽やロシア音楽にも研究心を持ち、レパートリーと表現の幅を拡げている。
-                <br />
-                円熟した表現と音楽性を深く追求した演奏に定評があり、響きの新しい可能性を探求するために奏法を研究し続けている。
-                <br />
-                2018 年に初のソロアルバム<br />「Neue Welt ～新しい世界～」をリリース。
-                <br />
-                現在は自身の演奏に関する研究活動や後進の育成とともに、クラシック音楽界に貢献すべく活動の幅を広げている。
-              </p>
-              <button class="biography__button__content__japanese">
-                <Link href="biography.html">詳細</Link>
-              </button>
-            </div>
-          </div>
-        </section>
+        <SectionNews />
+        <SectionBiography />
 
         <section class="section_concerts">
           <SectionHeader id="concerts" title="コンサート" titleEn="Conserts" />
@@ -323,7 +184,7 @@ export default function Home() {
         </div>
         <div class="lisence">© 2023 Rina Akaboshi</div>
       </div>
-    </div>
+    </div >
 
   )
 }
