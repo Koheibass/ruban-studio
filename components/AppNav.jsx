@@ -8,7 +8,7 @@ export const AppNav = () => {
                     <div class="header__left">
                         <Link class="header__title" href="/">Rina Akaboshi</Link>
                     </div>
-                    <div class="header__right">
+                    <div className="header__right">
                         <div class="header__menu">
                             <Link href="#biography" class="menu__biography">プロフィール</Link>
                             <Link href="#concerts" class="menu__concerts">コンサート</Link>

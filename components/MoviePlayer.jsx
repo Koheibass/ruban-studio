@@ -10,8 +10,9 @@ export const MoviePlayer = () => {
     return (
         <>
             <ModalVideo channel="youtube" youtube={{ mute: 1, autoplay: 1, playsinline: 0, }} isOpen={isOpen} videoId="4Tr9Y_rOfh4" onClose={() => setIsOpen(false)} />
-            <div className="pl-24">
-                <button className="btn-primary" onClick={() => setIsOpen(true)}><PhotoButton /></button>
+            <div>
+                <button className="btn-primary" onClick={() => setIsOpen(true)}></button>
+                <PhotoButton className="btn-primary" onClick={() => setIsOpen(true)} />
             </div >
             <div class="top-tracklist">
                 ベートーヴェン : ピアノソナタ第26番「告別」op.81a

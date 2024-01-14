@@ -5,7 +5,7 @@ export const SectionBiography = () => {
     return (
         <section class="section_biography">
             <SectionHeader id="biography" title="プロフィール" titleEn="Biography" />
-            <div class="biography__content">
+            <div>
                 <div>
                     <img src="/photo/biography.webp" class="biography__photo" width="100%" />
                 </div>

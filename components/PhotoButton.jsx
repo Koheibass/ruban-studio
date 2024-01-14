@@ -1,12 +1,10 @@
-export const PhotoButton = () => {
-    function onClick() { }
+export const PhotoButton = ({ onClick, className }) => {
     return (
-        <div class="top-movie">
+        <button onClick={onClick} className={`${className} top-movie`}>
             <img class="top-movie3" src="/photo/Lebewohl.jpg" width="100%" />
-            <div class="movie-play">
+            <span class="movie-play">
                 <img src="/icon/playmovie.svg" width="20%" class="movie-play3" />
-            </div>
-            {onClick}
-        </div >
+            </span>
+        </button>
     )
 }
