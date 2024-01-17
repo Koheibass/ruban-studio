@@ -1,7 +1,7 @@
-import * as React from 'react'
+import * as React from 'react';
 import TopSlider from '@/components/TopSlider';
-import { AppNav } from '@/components/AppNav'
-import { SectionBiography } from '@/components/SectionBiography'
+import { AppNav } from '@/components/AppNav';
+import { SectionBiography } from '@/components/SectionBiography';
 import { SectionNews } from '@/components/SectionNews';
 import { SectionConcerts } from '@/components/SectionConcerts';
 import { SectionMedia } from '@/components/SectionMedia';
