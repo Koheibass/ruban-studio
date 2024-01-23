@@ -38,7 +38,7 @@ export const SectionBiography = () => {
                         現在は自身の演奏に関する研究活動や後進の育成とともに、クラシック音楽界に貢献すべく活動の幅を広げている。
                     </p>
                     <button class="biography__button__content__japanese">
-                        <Link href="biography.html">詳細</Link>
+                        <Link href="/biography">詳細</Link>
                     </button>
                 </div>
             </div>

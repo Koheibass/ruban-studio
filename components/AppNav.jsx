@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import { HeaderLeft } from './Header/HeaerLeft'
 import { HeaderMenu } from './Header/HeaderMenu'
 import { HeaderIcon } from './Header/HeaderIcon'
