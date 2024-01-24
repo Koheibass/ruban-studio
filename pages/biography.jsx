@@ -1,22 +1,17 @@
-import Link from "next/link"
+import Link from 'next/link'
 import { AppNav } from '@/components/AppNav';
-import TopSlider from "@/components/TopSlider";
 import { SectionHeader } from "@/components/SectionHeader";
+import { Footer } from '@/components/Footer';
 
-export default function Bio() {
+export default function Biography() {
     return (
         <div class="whole">
             <AppNav />
-            <TopSlider />
             <main class="main">
                 <SectionHeader id="biography" title="プロフィール" titleEn="Biography" />
-                <h2 class="element__title">
-                    <div>プロフィール</div>
-                    <div class="translate">Biography</div>
-                </h2>
                 <div class="biography__content">
                     <div>
-                        <Link src="biography.webp" class="biography__photo" width="100%"></Link>
+                        <img src="/photo/biography.webp" class="biography__photo" width="100%" />
                     </div>
                     <div class="biography__name">
                         <div class="biography__name__japanese">
@@ -49,23 +44,13 @@ export default function Bio() {
                                 現在は、自身の演奏に関する研究活動や後進の育成とともに、クラシック音楽界に貢献すべく活動の幅を広げている。
                             </p>
                             <div class="return">
-                                <a class="return__content" href="index.html">Topに戻る</a>
+                                <Link class="return__content" href="/">Topに戻る</Link>
                             </div>
                         </div>
                     </div>
                 </div>
             </main>
-            <div class="footer">
-                <div class="footer__content">
-                    <a href="https://www.instagram.com/akaboshi_rina/">
-                        <Link src="Instagram.svg" class="footer__instagram" width="50" height="50" alt="twitter"></Link>
-                    </a>
-                    <a href="https://www.youtube.com/@akaboshirina">
-                        <Link src="YouTube.svg" class="footer__youtube" width="60" height="60" alt="YouTube"></Link>
-                    </a>
-                </div>
-                <div class="lisence">© 2023 Rina Akaboshi</div>
-            </div>
-        </div>
+            <Footer />
+        </div >
     )
 }
