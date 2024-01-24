@@ -42,7 +42,7 @@ export const SectionRecordings = () => {
                         <br />Barocksaal Rostock, Deutschland
                     </div>
                     <button class="recordings__button">
-                        <Link href="https://rinaakaboshi.official.ec/items/65023901">CDを購入</Link>
+                        <a href="https://rinaakaboshi.official.ec/items/65023901/" target="_blank" rel="noopener noreferrer">CDを購入</a>
                     </button>
                 </div>
             </div>

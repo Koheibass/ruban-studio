@@ -1,4 +1,4 @@
-import { Info } from '@/components/Info'
+import { Info } from '@/components/News/Info'
 import { MoviePlayer } from '@/components/MoviePlayer'
 
 export const Topix = () => {

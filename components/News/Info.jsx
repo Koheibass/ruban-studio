@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import { TopButton } from '@/components/TopButton'
 
 export const Info = () => {
     return (
@@ -14,15 +13,19 @@ export const Info = () => {
                     <small>(Mon)</small>
                 </div>
                 <Link href="https://oto-inochi.com/"
-                    class="info_detail">クラシック愛好家のためのオンラインコミュニティ“おといのちオンライン”開設のお知らせ</Link>
+                    class="info_detail" target="_blank" rel="noopener noreferrer">クラシック愛好家のためのオンラインコミュニティ“おといのちオンライン”開設のお知らせ</Link>
                 <br />
                 <div class="info_content_days">
                     {"2023.08.01"}
                     <small>(Tue)</small>
                 </div>
-                <Link href="/news/2023801.html" class="info_detail">みんなの挑戦をあたたかく見守る場所“おといのち音楽会”開催決定</Link>
+                <Link href="/news/20230801" class="info_detail">みんなの挑戦をあたたかく見守る場所“おといのち音楽会”開催決定</Link>
             </div>
-            <TopButton />
+            <div class="top__button__updates">
+                <button class="top__button__content">
+                    <Link href="/news/topnews"> もっと見る</Link>
+                </button>
+            </div>
         </div>
     )
 }
