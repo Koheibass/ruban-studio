@@ -20,9 +20,9 @@ export const SectionBiography = () => {
                 </div>
 
                 <div class="biography__button">
-                    <button onClick="switchToJapanese();removeClassToJapanese()" id="JapaneseLeft"
+                    <button onClick={() => /*日本語にする*/ null} id="JapaneseLeft"
                         class="biography__button__japanese activate">Japanese</button>
-                    <button onClick="switchToEnglish();addClassToEmglish()" id="EnglishRight"
+                    <button onClick={() => /*英語にする*/ null} id="EnglishRight"
                         class="biography__button__english">English</button>
                 </div>
 

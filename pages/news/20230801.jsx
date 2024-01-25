@@ -14,13 +14,13 @@ export default function News20230801() {
                                 みんなの挑戦をあたたかく見守る場所“おといのち音楽会”開催決定
                             </div>
                             <div class="latest-information__days">
-                                2023.08.01
+                                {"2023.08.01"}
                             </div>
-                            <img src="/photo/2023801.jpg" width="30%" />
+                            <img src="/photo/2023801.jpg" width="30%" /><image />
                         </div>
                         <hr class=" while" />
                         <div class="latest-information__detail">
-                            <p>ピアニスト赤星里奈主催 "第1回 おといのち音楽会"
+                            <p>ピアニスト赤星里奈主催 {"第1回 おといのち音楽会"}
                                 開催決定！！
                                 <br />
                                 <br />

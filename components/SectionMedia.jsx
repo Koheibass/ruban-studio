@@ -1,10 +1,11 @@
 import React from 'react'
 import { SectionHeader } from "./SectionHeader"
-import { TopButton } from "./TopButton"
-import { Media } from './Media'
+import Link from 'next/link'
+import { VideoMedia } from './VideoMedia'
+import { ImageMedia } from './ImageMedia'
 
 export const SectionMedia = () => {
-    const mediaList = [
+    const videoList = [
         {
             id: 1,
             title: 'ベートーヴェン : ピアノソナタ第s26番「告別」op.81a',
@@ -31,6 +32,25 @@ export const SectionMedia = () => {
         }
     ]
 
+    const imageList = [
+        {
+            id: 1,
+            imageURL: '/photo/photo1.webp',
+        },
+        {
+            id: 2,
+            imageURL: '/photo/photo2.webp',
+        },
+        {
+            id: 3,
+            imageURL: '/photo/photo3.webp',
+        },
+        {
+            id: 4,
+            imageURL: '/photo/photo4.webp',
+        }
+    ]
+
     const [mode, setMode] = React.useState('video') // or image
     const handleClickModeButton = (mode) => {
         if (mode === 'video') {
@@ -41,34 +61,44 @@ export const SectionMedia = () => {
     }
 
     return (
-        <section class="section_media">
+        <section className="section_media">
             <SectionHeader id="media" title="メディア" titleEn="Media" />
             <div class="media__button">
                 <button
-                    id="MovieLeft"
                     className={`movie-button ${mode === 'video' ? 'activate' : ''}`}
                     onClick={() => handleClickModeButton('video')}
                 >
                     動画
                 </button>
                 <button
-                    id="PhotoRight"
                     className={`photo-button ${mode === 'image' ? 'activate' : ''}`}
-                    onClick={() => handleClickModeButton('image')} i
+                    onClick={() => handleClickModeButton('image')}
                 >
                     写真
                 </button>
             </div>
 
-            <div class="media__content" id="medialist">
-                <div class="media__list">
-                    {mediaList.map((media) => (
-                        <Media media={media} />
-                    ))}
+            <div className="media__content" id="medialist">
+                <div className="media__list">
+                    {
+                        mode === 'video' &&
+                        videoList.map((video) => (
+                            <VideoMedia key={video.id} video={video} />
+                        ))
+                    }
+
+                    {
+                        mode === 'image' &&
+                        imageList.map((image) => (
+                            <ImageMedia key={video.id} image={image} />
+                        ))
+                    }
                 </div>
                 <br />
-                <div class="top__button">
-                    <TopButton />
+                <div className="top__button__updates">
+                    <button className="top__button__content">
+                        <Link href="/videos">もっと見る</Link>
+                    </button>
                 </div>
             </div>
         </section >

@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import ModalVideo from 'react-modal-video'
 import 'react-modal-video/scss/modal-video.scss'
-import { TopButton } from '@/components/TopButton'
+import { MoreButton } from '@/components/MoreButton'
 import { PhotoButton } from '@/components/PhotoButton'
 
 export const MoviePlayer = () => {
@@ -17,7 +17,7 @@ export const MoviePlayer = () => {
             <div class="top-tracklist">
                 ベートーヴェン : ピアノソナタ第26番「告別」op.81a
             </div>
-            <TopButton />
+            <MoreButton />
         </>
     )
 }

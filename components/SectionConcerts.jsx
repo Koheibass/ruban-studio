@@ -9,9 +9,11 @@ export const SectionConcerts = () => {
                 <div class="concerts__selector">
                     <div>
                         <div class="concerts__button">
-                            <button onClick="switchToUpcoming();removeClassToUpcoming()" id="UpcomingLeft"
+                            {/* "switchToUpcoming();removeClassToUpcoming()" */}
+                            <button onClick={() => null} id="UpcomingLeft"
                                 class="upcoming__button">Upcoming</button>
-                            <button onClick="switchToPast();addClassToPast()" id="PastRight"
+                            {/* "switchToPast();addClassToPast()"  */}
+                            <button onClick={() => null} id="PastRight"
                                 class="past__button activate">Past</button>
                         </div>
                         <div class="concerts__content" id="Concerts">
@@ -20,7 +22,7 @@ export const SectionConcerts = () => {
                                     <span class="concert-days">2021.06.19</span>
                                     <span class="concert-detail">YouTube / イマチケ</span>
                                 </div>
-                                <Link href="concert1.html" class="concert-update">赤星 里奈 ピアノリサイタル vol.1 presented by
+                                <Link href="/concert/20210619" class="concert-update">赤星 里奈 ピアノリサイタル vol.1 presented by
                                     {"MUSICUM"}</Link>
                             </div>
                         </div>

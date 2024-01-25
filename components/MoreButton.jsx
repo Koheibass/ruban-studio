@@ -3,7 +3,7 @@
  */
 import Link from 'next/link'
 
-export const TopButton = () => {
+export const MoreButton = () => {
     return (
         <div class="top__button__updates">
             <button class="top__button__content">

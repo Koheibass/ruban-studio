@@ -46,6 +46,7 @@ export default function TopSlider() {
                         width={1920}
                         height={820}
                         sizes="(min-width: 1024px) 100vw, 60vw"
+                        alt="slide"
                     />
                 </SwiperSlide>
             ))}
