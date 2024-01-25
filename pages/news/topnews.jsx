@@ -29,13 +29,13 @@ export default function Topnews() {
                             {"2022.02.12"}
                             <small>(Sat)</small>
                         </div>
-                        <a href="/news/20220212" className="info_detail">カルチャーメディア誌「Bridge」に掲載されました。</a>
+                        <Link href="/news/20220212" className="info_detail">カルチャーメディア誌「Bridge」に掲載されました。</Link>
                         <br />
                         <div className="info_content_days">
                             {"2021.05.31"}
                             <small>(Mon)</small>
                         </div>
-                        <a href="/concert/20210619" className="info_detail">オンラインコンサート開催決定！</a>
+                        <Link href="/concert/20210619" className="info_detail">オンラインコンサート開催決定！</Link>
                     </div>
                 </div>
                 <div className="return">

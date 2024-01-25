@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import ModalVideo from 'react-modal-video'
 import 'react-modal-video/scss/modal-video.scss'
-import { MoreButton } from '@/components/MoreButton'
 import { PhotoButton } from '@/components/PhotoButton'
+import Link from 'next/link'
 
 export const MoviePlayer = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -17,7 +17,11 @@ export const MoviePlayer = () => {
             <div className="top-tracklist">
                 ベートーヴェン : ピアノソナタ第26番「告別」op.81a
             </div>
-            <MoreButton />
+            <div className="top__button__updates">
+                <button className="top__button__content">
+                    <Link href="/videos">もっと見る</Link>
+                </button>
+            </div>
         </>
     )
 }

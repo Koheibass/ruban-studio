@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { VideoMedia } from './VideoMedia'
 import { ImageMedia } from './ImageMedia'
 
-export const SectionMedia = () => {
+export const MediaContent = () => {
     const videoList = [
         {
             id: 1,
@@ -29,7 +29,31 @@ export const SectionMedia = () => {
             title: 'シューベルト：即興曲 第3番 D899 op.90-3 変ト長調',
             videoId: '66Fel4dySJ8',
             thumbnailURL: '/photo/Impromptus.jpg',
-        }
+        },
+        {
+            id: 5,
+            title: 'ショパン：舟歌 作品60 嬰ヘ長調',
+            videoId: 'Cq0A7z6Ov24',
+            thumbnailURL: '/photo/Barcarolle.jpg',
+        },
+        {
+            id: 6,
+            title: 'ブラームス：ピアノのための４つの小品 作品119',
+            videoId: 'Z89P1TQiEHM',
+            thumbnailURL: '/photo/119.jpg',
+        },
+        {
+            id: 7,
+            title: 'ベートーヴェン : ピアノソナタ 第21番「ワルトシュタイン」 Op.53 第1楽章',
+            videoId: 'K5D_2XrDhiQ',
+            thumbnailURL: '/photo/waldstein.jpg',
+        },
+        {
+            id: 8,
+            title: 'ブラームス：ピアノのための６つの小品 Op.118',
+            videoId: '7wDfVUm4-B0',
+            thumbnailURL: '/photo/118.jpg',
+        },
     ]
 
     const imageList = [
@@ -48,7 +72,31 @@ export const SectionMedia = () => {
         {
             id: 4,
             imageURL: '/photo/photo4.webp',
-        }
+        },
+        {
+            id: 5,
+            imageURL: '/photo/hero1.webp',
+        },
+        {
+            id: 6,
+            imageURL: '/photo/hero2.webp',
+        },
+        {
+            id: 7,
+            imageURL: '/photo/hero3.webp',
+        },
+        {
+            id: 8,
+            imageURL: '/photo/biography.webp',
+        },
+        {
+            id: 9,
+            imageURL: '/photo/concert1.webp',
+        },
+        {
+            id: 8,
+            imageURL: '/photo/concert2.webp',
+        },
     ]
 
     const [mode, setMode] = React.useState('video') // or image

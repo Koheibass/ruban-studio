@@ -12,7 +12,7 @@ export default function Concert20210619() {
                     <div className="latest-information__content">
                         <div>
                             <div className="latest-information__sentence">
-                                赤星 里奈 ピアノリサイタル vol.1 presented by "MUSICUM"
+                                赤星 里奈 ピアノリサイタル vol.1 presented by {"MUSICUM"}
                             </div>
                             <div className="latest-information__days">
                                 2021.06.19 YouTube / イマチケ

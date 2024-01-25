@@ -23,7 +23,7 @@ export const Info = () => {
             </div>
             <div className="top__button__updates">
                 <button className="top__button__content">
-                    <Link href="/news/topnews"> もっと見る</Link>
+                    <Link href="/news/topnews">もっと見る</Link>
                 </button>
             </div>
         </div>
