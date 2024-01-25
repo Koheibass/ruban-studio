@@ -63,7 +63,7 @@ export const SectionMedia = () => {
     return (
         <section className="section_media">
             <SectionHeader id="media" title="メディア" titleEn="Media" />
-            <div class="media__button">
+            <div className="media__button">
                 <button
                     className={`movie-button ${mode === 'video' ? 'activate' : ''}`}
                     onClick={() => handleClickModeButton('video')}

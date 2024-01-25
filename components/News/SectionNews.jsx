@@ -3,7 +3,7 @@ import { Topix } from "./Topix"
 
 export const SectionNews = () => {
     return (
-        <section class="section_news">
+        <section className="section_news">
             <TopNews />
             <Topix />
         </section>

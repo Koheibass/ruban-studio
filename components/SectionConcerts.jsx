@@ -3,33 +3,33 @@ import Link from "next/link"
 
 export const SectionConcerts = () => {
     return (
-        <section class="section_concerts">
+        <section className="section_concerts">
             <SectionHeader id="concerts" title="コンサート" titleEn="Conserts" />
-            <div class="concerts__whole">
-                <div class="concerts__selector">
+            <div className="concerts__whole">
+                <div className="concerts__selector">
                     <div>
-                        <div class="concerts__button">
+                        <div className="concerts__button">
                             {/* "switchToUpcoming();removeClassToUpcoming()" */}
                             <button onClick={() => null} id="UpcomingLeft"
-                                class="upcoming__button">Upcoming</button>
+                                className="upcoming__button">Upcoming</button>
                             {/* "switchToPast();addClassToPast()"  */}
                             <button onClick={() => null} id="PastRight"
-                                class="past__button activate">Past</button>
+                                className="past__button activate">Past</button>
                         </div>
-                        <div class="concerts__content" id="Concerts">
+                        <div className="concerts__content" id="Concerts">
                             <div>
                                 <div>
-                                    <span class="concert-days">2021.06.19</span>
-                                    <span class="concert-detail">YouTube / イマチケ</span>
+                                    <span className="concert-days">2021.06.19</span>
+                                    <span className="concert-detail">YouTube / イマチケ</span>
                                 </div>
-                                <Link href="/concert/20210619" class="concert-update">赤星 里奈 ピアノリサイタル vol.1 presented by
+                                <Link href="/concert/20210619" className="concert-update">赤星 里奈 ピアノリサイタル vol.1 presented by
                                     {"MUSICUM"}</Link>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div>
-                    <img src="/photo/concert1.webp" class="concert-photo" width="100%" />
+                    <img src="/photo/concert1.webp" className="concert-photo" width="100%" />
                 </div>
             </div>
         </section>

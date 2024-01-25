@@ -4,22 +4,22 @@ import { Footer } from "@/components/Footer"
 
 export default function Concert20210619() {
     return (
-        <div class="whole" >
+        <div className="whole" >
             <AppNav />
-            <main class="latest-information__main">
-                <div class="latest-information">
-                    <h2 class="latest-information__title">コンサート</h2>
-                    <div class="latest-information__content">
+            <main className="latest-information__main">
+                <div className="latest-information">
+                    <h2 className="latest-information__title">コンサート</h2>
+                    <div className="latest-information__content">
                         <div>
-                            <div class="latest-information__sentence">
+                            <div className="latest-information__sentence">
                                 赤星 里奈 ピアノリサイタル vol.1 presented by "MUSICUM"
                             </div>
-                            <div class="latest-information__days">
+                            <div className="latest-information__days">
                                 2021.06.19 YouTube / イマチケ
                             </div>
                         </div>
-                        <hr class="while" />
-                        <div class="latest-information__detail">
+                        <hr className="while" />
+                        <div className="latest-information__detail">
                             <p>クラシックピアニスト 赤星 里奈
                                 <br />
                                 本人初のオンライン配信によるピアノリサイタル。ゲストを交えたトークコーナーの二本立てです。
@@ -58,8 +58,8 @@ export default function Concert20210619() {
                             </ul>
                         </div>
                     </div>
-                    <div class="return">
-                        <Link class="return__content" href="/">Topに戻る</Link>
+                    <div className="return">
+                        <Link className="return__content" href="/">Topに戻る</Link>
                     </div>
                 </div>
                 <Footer />

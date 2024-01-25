@@ -7,9 +7,9 @@ import { SideMenu } from './Header/SideMenu'
 
 export const AppNav = () => {
     return (
-        <nav class="header">
+        <nav className="header">
             <div>
-                <div class="header__whole">
+                <div className="header__whole">
                     <HeaderLeft />
                     <div className="flex items-center justify-end">
                         <HeaderMenu />

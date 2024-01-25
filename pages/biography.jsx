@@ -5,28 +5,28 @@ import { Footer } from '@/components/Footer';
 
 export default function Biography() {
     return (
-        <div class="whole">
+        <div className="whole">
             <AppNav />
-            <main class="main">
+            <main className="main">
                 <SectionHeader id="biography" title="プロフィール" titleEn="Biography" />
-                <div class="biography__content">
+                <div className="biography__content">
                     <div>
-                        <img src="/photo/biography.webp" class="biography__photo" width="100%" />
+                        <img src="/photo/biography.webp" className="biography__photo" width="100%" />
                     </div>
-                    <div class="biography__name">
-                        <div class="biography__name__japanese">
+                    <div className="biography__name">
+                        <div className="biography__name__japanese">
                             赤星 里奈
-                            <span class="biography__name__alphabet">
+                            <span className="biography__name__alphabet">
                                 Rina Akaboshi
                             </span>
                         </div>
-                        <div class="biography__button">
+                        <div className="biography__button">
                             <button onClick="switchToJapanese();removeClassToJapanese()" id="JapaneseLeft"
-                                class="biography__button__japanese activate">Japanese</button>
+                                className="biography__button__japanese activate">Japanese</button>
                             <button onClick="switchToEnglish();addClassToEmglish()" id="EnglishRight"
-                                class="biography__button__english">English</button>
+                                className="biography__button__english">English</button>
                         </div>
-                        <div class="main__profile" id="profile">
+                        <div className="main__profile" id="profile">
                             <p>1989 年滋賀県に生まれ、2 歳より音楽教室にてピアノを始める。2002 年、妹の赤星佳奈とのデュオで第 26
                                 回ピティナピアノコンペティションデュオ中級西日本大会第一位、全国決勝大会奨励賞受賞。高校在学中には第 21 回滋賀県高校生ピアノコンクールにて第二位となる。
                                 <br />
@@ -43,8 +43,8 @@ export default function Biography() {
                                 <br />
                                 現在は、自身の演奏に関する研究活動や後進の育成とともに、クラシック音楽界に貢献すべく活動の幅を広げている。
                             </p>
-                            <div class="return">
-                                <Link class="return__content" href="/">Topに戻る</Link>
+                            <div className="return">
+                                <Link className="return__content" href="/">Topに戻る</Link>
                             </div>
                         </div>
                     </div>

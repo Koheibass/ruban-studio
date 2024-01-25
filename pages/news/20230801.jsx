@@ -4,22 +4,22 @@ import { Footer } from "@/components/Footer"
 
 export default function News20230801() {
     return (
-        <div class="whole" >
+        <div className="whole" >
             <AppNav />
-            <main class="latest-information__main">
-                <div class="latest-information">
-                    <div class="latest-information__content">
+            <main className="latest-information__main">
+                <div className="latest-information">
+                    <div className="latest-information__content">
                         <div>
-                            <div class="latest-information__sentence">
+                            <div className="latest-information__sentence">
                                 みんなの挑戦をあたたかく見守る場所“おといのち音楽会”開催決定
                             </div>
-                            <div class="latest-information__days">
+                            <div className="latest-information__days">
                                 {"2023.08.01"}
                             </div>
                             <img src="/photo/2023801.jpg" width="30%" /><image />
                         </div>
-                        <hr class=" while" />
-                        <div class="latest-information__detail">
+                        <hr className=" while" />
+                        <div className="latest-information__detail">
                             <p>ピアニスト赤星里奈主催 {"第1回 おといのち音楽会"}
                                 開催決定！！
                                 <br />
@@ -37,8 +37,8 @@ export default function News20230801() {
                             </p>
                         </div>
                     </div>
-                    <div class="return">
-                        <Link class="return__content" href="/">Topに戻る</Link>
+                    <div className="return">
+                        <Link className="return__content" href="/">Topに戻る</Link>
                     </div>
                 </div>
             </main>

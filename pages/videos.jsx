@@ -4,13 +4,13 @@ import Link from "next/link"
 
 export default function Videos() {
     return (
-        <div class="whole" >
+        <div className="whole" >
             <AppNav />
-            <main class="latest-information__main">
-                <section class="section_media">
-                    <h2 class="element__title" id="media">
+            <main className="latest-information__main">
+                <section className="section_media">
+                    <h2 className="element__title" id="media">
                         <div>メディア</div>
-                        <div class="translate">Media</div>
+                        <div className="translate">Media</div>
                     </h2>
                 </section>
 

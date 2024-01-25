@@ -3,30 +3,30 @@ import Link from 'next/link'
 
 export const SectionBiography = () => {
     return (
-        <section class="section_biography">
+        <section className="section_biography">
             <SectionHeader id="biography" title="プロフィール" titleEn="Biography" />
             <div>
                 <div>
-                    <img src="/photo/biography.webp" class="biography__photo" width="100%" />
+                    <img src="/photo/biography.webp" className="biography__photo" width="100%" />
                 </div>
 
-                <div class="biography__name">
-                    <div class="biography__name__japanese">
+                <div className="biography__name">
+                    <div className="biography__name__japanese">
                         赤星 里奈
-                        <span class="biography__name__alphabet">
+                        <span className="biography__name__alphabet">
                             Rina Akaboshi
                         </span>
                     </div>
                 </div>
 
-                <div class="biography__button">
+                <div className="biography__button">
                     <button onClick={() => /*日本語にする*/ null} id="JapaneseLeft"
-                        class="biography__button__japanese activate">Japanese</button>
+                        className="biography__button__japanese activate">Japanese</button>
                     <button onClick={() => /*英語にする*/ null} id="EnglishRight"
-                        class="biography__button__english">English</button>
+                        className="biography__button__english">English</button>
                 </div>
 
-                <div class="main__profile" id="profile">
+                <div className="main__profile" id="profile">
                     <p>
                         クラシック音楽を専門とするピアニスト。<br />
                         特にドイツ音楽に造詣が深いが、近年ではフランス音楽やロシア音楽にも研究心を持ち、レパートリーと表現の幅を拡げている。
@@ -37,7 +37,7 @@ export const SectionBiography = () => {
                         <br />
                         現在は自身の演奏に関する研究活動や後進の育成とともに、クラシック音楽界に貢献すべく活動の幅を広げている。
                     </p>
-                    <button class="biography__button__content__japanese">
+                    <button className="biography__button__content__japanese">
                         <Link href="/biography">詳細</Link>
                     </button>
                 </div>

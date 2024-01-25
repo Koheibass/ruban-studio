@@ -14,7 +14,7 @@ export const MoviePlayer = () => {
                 <button className="btn-primary" onClick={() => setIsOpen(true)}></button>
                 <PhotoButton className="btn-primary" onClick={() => setIsOpen(true)} />
             </div >
-            <div class="top-tracklist">
+            <div className="top-tracklist">
                 ベートーヴェン : ピアノソナタ第26番「告別」op.81a
             </div>
             <MoreButton />

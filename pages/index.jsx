@@ -12,10 +12,10 @@ import { Footer } from '@/components/Footer';
 
 export default function Home() {
   return (
-    <div class="whole">
+    <div className="whole">
       <AppNav />
       <TopSlider />
-      <main class="main">
+      <main className="main">
         <SectionNews />
         <SectionBiography />
         <SectionConcerts />
