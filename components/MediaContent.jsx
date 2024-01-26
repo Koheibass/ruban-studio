@@ -143,10 +143,8 @@ export const MediaContent = () => {
                     }
                 </div>
                 <br />
-                <div className="top__button__updates">
-                    <button className="top__button__content">
-                        <Link href="/videos">もっと見る</Link>
-                    </button>
+                <div className="return">
+                    <Link className="return__content" href="/">Topに戻る</Link>
                 </div>
             </div>
         </section >

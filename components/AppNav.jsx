@@ -1,5 +1,5 @@
 import { HeaderLeft } from './Header/HeaerLeft'
-import { HeaderMenu } from './Header/HeaderMenu'
+import HeaderMenu from './Header/HeaderMenu'
 import { HeaderIcon } from './Header/HeaderIcon'
 import { HeaderDropdown } from './Header/HeaderDropdown'
 import { HeaderHumburger } from './Header/HeaderHumburger'
