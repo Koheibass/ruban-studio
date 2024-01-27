@@ -131,7 +131,7 @@ export const MediaContent = () => {
                     {
                         mode === 'video' &&
                         videoList.map((video) => (
-                            <VideoMedia key={video.id} video={video} />
+                            <VideoMedia key={video.id} video={video} videoId={video.videoId} />
                         ))
                     }
 

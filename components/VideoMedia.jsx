@@ -1,13 +1,19 @@
+import { useState } from 'react'
+import ModalVideo from 'react-modal-video'
+import 'react-modal-video/scss/modal-video.scss'
+import { PhotoButton } from '@/components/PhotoButton'
 
-export const VideoMedia = ({ video }) => {
+
+export const VideoMedia = ({ video, videoId }) => {
+    const [isOpen, setIsOpen] = useState(false)
+
     return (
         <div>
-            <div className="top-movie" data-video-id={video.videoId}>
-                <img alt="video" className="top-movie3" src={video.thumbnailURL} width="100%" />
-                <div className="movie-play">
-                    <img src="/icon/playmovie.svg" width="20%" className="movie-play3" />
-                </div>
-            </div>
+            <ModalVideo channel="youtube" youtube={{ mute: 1, autoplay: 1, playsinline: 0, }} isOpen={isOpen} videoId={videoId} onClose={() => setIsOpen(false)} />
+            <div>
+                <button className="btn-primary" onClick={() => setIsOpen(true)}></button>
+                <PhotoButton className="btn-primary" onClick={() => setIsOpen(true)} />
+            </div >
             <div className="individual-videos">
                 {video.title}
             </div>
