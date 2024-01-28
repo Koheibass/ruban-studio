@@ -12,7 +12,7 @@ export const VideoMedia = ({ video, videoId }) => {
             <ModalVideo channel="youtube" youtube={{ mute: 1, autoplay: 1, playsinline: 0, }} isOpen={isOpen} videoId={videoId} onClose={() => setIsOpen(false)} />
             <div>
                 <button className="btn-primary" onClick={() => setIsOpen(true)}></button>
-                <PhotoButton className="btn-primary" onClick={() => setIsOpen(true)} />
+                <PhotoButton className="btn-primary" onClick={() => setIsOpen(true)} thumbnailURL={video.thumbnailURL} />
             </div >
             <div className="individual-videos">
                 {video.title}
