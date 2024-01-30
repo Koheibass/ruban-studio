@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import ModalVideo from 'react-modal-video'
 import 'react-modal-video/scss/modal-video.scss'
-import { PhotoButton } from '@/components/PhotoButton'
+import { TopMovieButton } from './TopMovieButton'
 import Link from 'next/link'
 
 export const MoviePlayer = () => {
@@ -12,7 +12,7 @@ export const MoviePlayer = () => {
             <ModalVideo channel="youtube" youtube={{ mute: 1, autoplay: 1, playsinline: 0, }} isOpen={isOpen} videoId="4Tr9Y_rOfh4" onClose={() => setIsOpen(false)} />
             <div>
                 <button className="btn-primary" onClick={() => setIsOpen(true)}></button>
-                <PhotoButton className="btn-primary" onClick={() => setIsOpen(true)} />
+                <TopMovieButton className="btn-primary" onClick={() => setIsOpen(true)} />
             </div >
             <div className="top-tracklist">
                 ベートーヴェン : ピアノソナタ第26番「告別」op.81a

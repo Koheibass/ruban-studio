@@ -1,7 +1,18 @@
 import { SectionHeader } from "./SectionHeader"
-import Link from "next/link"
+import React from "react"
+import { ConcertsPast } from "./ConcertsPast"
+import { ConcertsUpcoming } from "./ConcertsUpcoming"
 
 export const SectionConcerts = () => {
+
+    const [mode, setMode] = React.useState('upcoming') // or English
+    const handleClickModeButton = (mode) => {
+        if (mode === 'upcoming') {
+            setMode('upcoming')
+        } else if (mode === 'past') {
+            setMode('past')
+        }
+    }
     return (
         <section className="section_concerts">
             <SectionHeader id="concerts" title="コンサート" titleEn="Conserts" />
@@ -9,22 +20,28 @@ export const SectionConcerts = () => {
                 <div className="concerts__selector">
                     <div>
                         <div className="concerts__button">
-                            {/* "switchToUpcoming();removeClassToUpcoming()" */}
-                            <button onClick={() => null} id="UpcomingLeft"
-                                className="upcoming__button">Upcoming</button>
-                            {/* "switchToPast();addClassToPast()"  */}
-                            <button onClick={() => null} id="PastRight"
-                                className="past__button activate">Past</button>
+                            <button
+                                className={`upcoming__button ${mode === 'upcoming' ? 'activate' : ''}`}
+                                onClick={() => handleClickModeButton('upcoming')}
+                            >
+                                Upcoming
+                            </button>
+                            <button
+                                className={`past__button ${mode === 'past' ? 'activate' : ''}`}
+                                onClick={() => handleClickModeButton('past')}
+                            >
+                                Past
+                            </button>
                         </div>
                         <div className="concerts__content" id="Concerts">
-                            <div>
-                                <div>
-                                    <span className="concert-days">2021.06.19</span>
-                                    <span className="concert-detail">YouTube / イマチケ</span>
-                                </div>
-                                <Link href="/concert/20210619" className="concert-update">赤星 里奈 ピアノリサイタル vol.1 presented by
-                                    {"MUSICUM"}</Link>
-                            </div>
+                            {
+                                mode === 'upcoming' &&
+                                <ConcertsUpcoming />
+                            }
+                            {
+                                mode === 'past' &&
+                                <ConcertsPast />
+                            }
                         </div>
                     </div>
                 </div>

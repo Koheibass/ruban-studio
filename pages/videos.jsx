@@ -1,6 +1,6 @@
 import { AppNav } from "@/components/AppNav"
-import Link from "next/link"
 import { MediaContent } from "@/components/MediaContent"
+import { Footer } from "@/components/Footer"
 
 export default function Videos() {
     return (
@@ -11,6 +11,7 @@ export default function Videos() {
                     <MediaContent />
                 </section>
             </main>
+            <Footer />
         </div>
     )
 }
