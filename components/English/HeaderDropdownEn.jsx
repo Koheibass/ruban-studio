@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { useEffect } from "react";
 
-export const HeaderDropdown = () => {
+export const HeaderDropdownEn = () => {
 
     useEffect(() => {
         const parentMenuItem = document.querySelectorAll('.dropdown__content');
@@ -41,7 +41,7 @@ export const HeaderDropdown = () => {
     return (
         <ul className="dropdown">
             <li className="dropdown__content">
-                <Link href="/" className="dropdown__menu__link">Japanese</Link>
+                <Link href="/indexen" className="dropdown__menu__link">English</Link>
                 <ul className="dropdown__menu">
                     <li className="dropdown__menu__item">
                         <Link href="/" className="drop-menu__link">Japanese</Link>

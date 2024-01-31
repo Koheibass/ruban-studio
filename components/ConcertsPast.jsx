@@ -6,7 +6,7 @@ export const ConcertsPast = () => {
                 <span className="concert-detail">YouTube / イマチケ</span>
             </div>
             <a href="concert1.html" className="concert-update">赤星 里奈 ピアノリサイタル vol.1 presented by
-                "MUSICUM"</a>
+                {"MUSICUM"}</a>
         </div>
     )
 }
