@@ -1,5 +1,5 @@
-import { MoviePlayer } from '@/components/MoviePlayer'
 import { InfoEn } from './InfoEn'
+import { MoviePlayerEn } from './MoviePlayerEn'
 
 export const TopixEn = () => {
     return (
@@ -10,7 +10,7 @@ export const TopixEn = () => {
                     <div>Movies</div>
                     <div className="translate__another">Movies</div>
                 </h3>
-                <MoviePlayer />
+                <MoviePlayerEn />
             </div>
         </div>
     )

@@ -11,7 +11,7 @@ export const Footer = () => {
                     <img src="/icon/YouTube.svg" className="footer__youtube" width="60" height="60" alt="YouTube" />
                 </Link>
             </div>
-            <div className="lisence">© 2023 Rina Akaboshi</div>
+            <div className="lisence">© 2024 Rina Akaboshi</div>
         </div>
     )
 }

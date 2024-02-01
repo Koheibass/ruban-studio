@@ -1,13 +1,13 @@
 import * as React from 'react';
 import TopSlider from '@/components/TopSlider';
-import { SectionBiography } from '@/components/SectionBiography';
-import { SectionConcerts } from '@/components/SectionConcerts';
-import { SectionMedia } from '@/components/SectionMedia';
-import { SectionRecordings } from '@/components/SectionRecordings';
-import { SectionContact } from '@/components/SectionContact';
 import { Footer } from '@/components/Footer';
 import { AppNavEn } from '@/components/English/AppNavEn';
 import { SectionNewsEn } from '@/components/English/Newsen.jsx/SectionNewsEn';
+import { SectionBiographyEn } from '@/components/English/SectionBiographyEn';
+import { SectionConcertsEn } from '@/components/English/SectionConcertsEn';
+import { SectionMediaEn } from '@/components/English/SectionMediaEn';
+import { SectionRecordingsEn } from '@/components/English/SectionRecordingsEn';
+import { SectionContactEn } from '@/components/English/SectionContactEn';
 
 
 export default function HomeEn() {
@@ -17,11 +17,11 @@ export default function HomeEn() {
             <TopSlider />
             <main className="main">
                 <SectionNewsEn />
-                <SectionBiography />
-                <SectionConcerts />
-                <SectionMedia />
-                <SectionRecordings />
-                <SectionContact />
+                <SectionBiographyEn />
+                <SectionConcertsEn />
+                <SectionMediaEn />
+                <SectionRecordingsEn />
+                <SectionContactEn />
             </main>
             <Footer />
         </div >
