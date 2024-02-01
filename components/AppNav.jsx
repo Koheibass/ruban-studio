@@ -1,18 +1,29 @@
 import { HeaderLeft } from './Header/HeaerLeft'
-import HeaderMenu from './Header/HeaderMenu'
 import { HeaderIcon } from './Header/HeaderIcon'
 import { HeaderDropdown } from './Header/HeaderDropdown'
 import { HeaderHumburger } from './Header/HeaderHumburger'
 import { SideMenu } from './Header/SideMenu'
+import { useLanguage } from '@/utils/language'
+import HeaderMenuEn from './English/HeaderEn/HeaderMenuEn'
+import HeaderMenu from './Header/HeaderMenu'
 
 export const AppNav = () => {
+    const { lang } = useLanguage()
+
     return (
-        <nav className="header">
+        <nav className="top-0 z-10 w-full sticky bg-[#ffeeee]">
             <div>
-                <div className="header__whole">
+                <div className="flex items-center h-12">
                     <HeaderLeft />
                     <div className="flex items-center justify-end">
-                        <HeaderMenu />
+                        {
+                            lang === 'ja' &&
+                            <HeaderMenu />
+                        }
+                        {
+                            lang === 'en' &&
+                            <HeaderMenuEn />
+                        }
                         <HeaderIcon />
                         <HeaderDropdown />
                         <HeaderHumburger />

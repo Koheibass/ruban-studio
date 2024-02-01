@@ -8,22 +8,25 @@ import { SectionMedia } from '@/components/SectionMedia';
 import { SectionRecordings } from '@/components/SectionRecordings';
 import { SectionContact } from '@/components/SectionContact';
 import { Footer } from '@/components/Footer';
+import { LanguageContext } from '@/utils/language';
 
 
 export default function Home() {
   return (
-    <div className="whole">
-      <AppNav />
-      <TopSlider />
-      <main className="main">
-        <SectionNews />
-        <SectionBiography />
-        <SectionConcerts />
-        <SectionMedia />
-        <SectionRecordings />
-        <SectionContact />
-      </main>
-      <Footer />
-    </div >
+    <LanguageContext.Provider value='ja'>
+      <div className="whole">
+        <AppNav />
+        <TopSlider />
+        <main className="main">
+          <SectionNews />
+          <SectionBiography />
+          <SectionConcerts />
+          <SectionMedia />
+          <SectionRecordings />
+          <SectionContact />
+        </main>
+        <Footer />
+      </div >
+    </LanguageContext.Provider>
   )
 }

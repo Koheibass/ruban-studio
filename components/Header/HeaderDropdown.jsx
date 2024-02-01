@@ -1,7 +1,9 @@
 import Link from "next/link";
 import { useEffect } from "react";
+import { useLanguage } from '@/utils/language'
 
 export const HeaderDropdown = () => {
+    const { lang } = useLanguage()
 
     useEffect(() => {
         const parentMenuItem = document.querySelectorAll('.dropdown__content');
@@ -39,18 +41,35 @@ export const HeaderDropdown = () => {
     }
 
     return (
-        <ul className="dropdown">
-            <li className="dropdown__content">
-                <Link href="/" className="dropdown__menu__link">Japanese</Link>
-                <ul className="dropdown__menu">
-                    <li className="dropdown__menu__item">
-                        <Link href="/" className="drop-menu__link">Japanese</Link>
-                    </li>
-                    <li className="dropdown__menu__item">
-                        <Link href="/indexen" className="drop-menu__link">English</Link>
-                    </li>
-                </ul>
-            </li>
-        </ul>
+        < ul className="dropdown" >
+            {
+                lang === 'ja' &&
+                <li className="dropdown__content">
+                    <Link href="/" className="dropdown__menu__link">Japanese</Link>
+                    <ul className="dropdown__menu">
+                        <li className="dropdown__menu__item">
+                            <Link href="/" className="drop-menu__link">Japanese</Link>
+                        </li>
+                        <li className="dropdown__menu__item">
+                            <Link href="/indexen" className="drop-menu__link">English</Link>
+                        </li>
+                    </ul>
+                </li>
+            }
+            {
+                lang === 'en' &&
+                <li className="dropdown__content">
+                    <Link href="/indexen" className="dropdown__menu__link">English</Link>
+                    <ul className="dropdown__menu">
+                        <li className="dropdown__menu__item">
+                            <Link href="/" className="drop-menu__link">Japanese</Link>
+                        </li>
+                        <li className="dropdown__menu__item">
+                            <Link href="/indexen" className="drop-menu__link">English</Link>
+                        </li>
+                    </ul>
+                </li>
+            }
+        </ ul>
     );
 };

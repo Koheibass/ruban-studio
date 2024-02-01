@@ -1,9 +1,11 @@
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 
+
 export default function HeaderMenu() {
     const router = useRouter()
     const isTopPage = router.pathname === '/'
+
 
     if (isTopPage) return <div className="header__menu">
         <Link href="#biography" className="menu__biography">プロフィール</Link>
