@@ -6,7 +6,7 @@ export const HeaderDropdown = () => {
     const { lang } = useLanguage()
 
     useEffect(() => {
-        const parentMenuItem = document.querySelectorAll('.dropdown__content');
+        const parentMenuItem = document.querySelectorAll('#dropdown');
         console.log(parentMenuItem);
 
         for (let i = 0; i < parentMenuItem.length; i++) {
@@ -41,10 +41,10 @@ export const HeaderDropdown = () => {
     }
 
     return (
-        < ul className="dropdown" >
+        < ul className="flex pl-0" >
             {
                 lang === 'ja' &&
-                <li className="dropdown__content">
+                <li className="p-0 m-0" id="dropdown">
                     <Link href="/" className="dropdown__menu__link">Japanese</Link>
                     <ul className="dropdown__menu">
                         <li className="dropdown__menu__item">
@@ -58,7 +58,7 @@ export const HeaderDropdown = () => {
             }
             {
                 lang === 'en' &&
-                <li className="dropdown__content">
+                <li className="dropdown__content" id="dropdown">
                     <Link href="/indexen" className="dropdown__menu__link">English</Link>
                     <ul className="dropdown__menu">
                         <li className="dropdown__menu__item">

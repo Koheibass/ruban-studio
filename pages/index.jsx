@@ -14,7 +14,7 @@ import { LanguageContext } from '@/utils/language';
 export default function Home() {
   return (
     <LanguageContext.Provider value='ja'>
-      <div className="whole">
+      <div className="flex flex-col relative min-h-lvh font-noto">
         <AppNav />
         <TopSlider />
         <main className="main">

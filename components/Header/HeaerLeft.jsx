@@ -6,14 +6,14 @@ export const HeaderLeft = () => {
 
     return (
 
-        <div className="header__left">
+        <div className="flex-1 text-2xl pl-[5px] font-black text-nowrap">
             {
                 lang === 'ja' &&
-                <Link className="header__title" href="/">Rina Akaboshi</Link>
+                <Link className="font-castoro text-[#937a43] no-underline pl-[5px]" href="/">Rina Akaboshi</Link>
             }
             {
                 lang === 'en' &&
-                <Link className="header__title" href="/indexen">Rina Akaboshi</Link>
+                <Link className="font-castoro text-[#937a43] no-underline pl-[5px]" href="/indexen">Rina Akaboshi</Link>
             }
         </div>
     )

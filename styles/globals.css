@@ -1,3 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Castoro&family=Noto+Serif+JP:wght@300&family=Parisienne&display=swap");
+
+@layer base {
+  html {
+    font-family: Noto Serif JP, serif, Castoro, Parisienne;
+  }
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -6,6 +14,13 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+}
+
+@media screen and (max-width: 320px) {
+
+  body {
+    width: auto;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
