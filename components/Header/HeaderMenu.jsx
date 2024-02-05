@@ -7,11 +7,11 @@ export default function HeaderMenu() {
     const isTopPage = router.pathname === '/'
 
 
-    if (isTopPage) return <div className="invisible lg:visible text-center items-center w-full text-[18px] font-bold font-noto text-[#937a43] tracking-[0.05rem]">
-        <Link href="#biography" className="pr-2.5">プロフィール</Link>
-        <Link href="#concerts" className="pr-2.5">コンサート</Link>
-        <Link href="#media" className="pr-2.5">メディア</Link>
-        <Link href="#recordings" className="pr-2.5">CD</Link>
+    if (isTopPage) return <div className="hidden lg:block text-center items-center lg:w-full lg:text-[18px] font-bold font-noto text-[#937a43] lg:tracking-[0.05rem]">
+        <Link href="#biography" className="lg:pr-2.5">プロフィール</Link>
+        <Link href="#concerts" className="lg:pr-2.5">コンサート</Link>
+        <Link href="#media" className="lg:pr-2.5">メディア</Link>
+        <Link href="#recordings" className="lg:pr-2.5">CD</Link>
         <Link href="#contact" className="">お問い合わせ</Link>
     </div>
 

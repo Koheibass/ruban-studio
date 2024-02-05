@@ -5,11 +5,11 @@ export default function HeaderMenuEn() {
     const router = useRouter()
     const isTopPage = router.pathname === '/indexen'
 
-    if (isTopPage) return <div className="text-center items-center w-full text-[18px] font-bold font-noto text-[#937a43] tracking-[0.05rem]">
-        <Link href="#biography" className="pr-2.5">Biography</Link>
-        <Link href="#concerts" className="pr-2.5">Concerts</Link>
-        <Link href="#media" className="pr-2.5">Media</Link>
-        <Link href="#recordings" className="pr-2.5">CD</Link>
+    if (isTopPage) return <div className="hidden lg:block text-center items-center lg:w-full lg:text-[18px] font-bold font-noto text-[#937a43] lg:tracking-[0.05rem]">
+        <Link href="#biography" className="lg:pr-2.5">Biography</Link>
+        <Link href="#concerts" className="lg:pr-2.5">Concerts</Link>
+        <Link href="#media" className="lg:pr-2.5">Media</Link>
+        <Link href="#recordings" className="lg:pr-2.5">CD</Link>
         <Link href="#contact" className="">Contact</Link>
     </div>
 

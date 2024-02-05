@@ -3,6 +3,7 @@ import Link from 'next/link'
 export const Info = () => {
     return (
         <div>
+            { }
             <h3 className="info">
                 <div>最新情報</div>
                 <div className="translate__another">Updates</div>

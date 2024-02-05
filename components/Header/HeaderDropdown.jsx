@@ -58,8 +58,8 @@ export const HeaderDropdown = () => {
             }
             {
                 lang === 'en' &&
-                <li className="dropdown__content" id="dropdown">
-                    <Link href="/indexen" className="dropdown__menu__link">English</Link>
+                <li className="p-0 m-0" id="dropdown">
+                    <Link href="/indexen" className="dropdown__menu__link__en">English</Link>
                     <ul className="dropdown__menu">
                         <li className="dropdown__menu__item">
                             <Link href="/" className="drop-menu__link">Japanese</Link>

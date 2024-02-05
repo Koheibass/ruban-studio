@@ -1,8 +1,107 @@
+.whole {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    min-height: 100vh;
+    font-family: 'Noto Serif JP', serif;
+}
+
+.header {
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    position: sticky;
+    background-color: #ffeeee;
+}
+
+.header__whole {
+    display: flex;
+    align-items: center;
+    height: 3rem;
+}
+
+.header__left {
+    flex: 1 1 0%;
+    font-size: 1.5rem;
+    padding-left: 5px;
+    line-height: 2rem;
+    font-weight: 900;
+}
+
+.header__title {
+    font-family: 'Castoro', serif;
+    color: #937a43;
+    text-decoration: none;
+    padding-left: 5px;
+}
+
+.header__right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.header__menu {
+    display: none;
+    margin-left: 1.5rem;
+}
+
+.header__icon {
+    display: inline-flex;
+
+}
+
+.instagram {
+    display: inline-block;
+    padding-top: 10px;
+    margin-right: 5px;
+}
+
+.youtube {
+    display: inline-block;
+    position: relative;
+    padding-top: 6px;
+    padding-left: 5px;
+    margin-right: 1px;
+}
+
+.header__button {
+    font-size: .75rem;
+    line-height: 1rem;
+    color: #937a43;
+    display: inline-flex;
+    align-items: center;
+    border-width: 1px;
+    background-image: none;
+    border-color: #937a43;
+    justify-content: center;
+    background-color: transparent;
+    margin-left: 0.5rem;
+    font-weight: 500;
+    padding: 6px 6px;
+    margin: 10px 5px;
+    font-weight: bold;
+    border: solid 1px #a07c43;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
 .top__photo1 {
     width: 150%;
     height: 150%;
 }
 
+
+.visibility-hidden {
+    visibility: hidden;
+}
+
+.main {
+    flex-grow: 1;
+    background-color: #fefaff;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
 
 .top-image {
     margin-left: -1rem;
