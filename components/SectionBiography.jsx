@@ -18,19 +18,28 @@ export const SectionBiography = () => {
             <SectionHeader id="biography" title="プロフィール" titleEn="Biography" />
             <div>
                 <div>
-                    <img src="/photo/biography.webp" className="biography__photo" width="100%" />
+                    <img src="/photo/biography.webp" className="rounded-xl" width="100%" />
                 </div>
 
-                <div className="biography__name">
-                    <div className="biography__name__japanese">
-                        赤星 里奈
-                        <span className="biography__name__alphabet">
+                <div className="mt-2 text-[#937a43]">
+                    {
+                        mode === 'japanese' &&
+                        <div className="text-2xl font-noto">
+                            赤星 里奈
+                            <span className="text-lg font-paris ml-1">
+                                Rina Akaboshi
+                            </span>
+                        </div>
+                    }
+                    {
+                        mode === 'english' &&
+                        <div className="text-2xl font-noto">
                             Rina Akaboshi
-                        </span>
-                    </div>
+                        </div>
+                    }
                 </div>
 
-                <div className="biography__button">
+                <div className="justify-center flex my-2">
                     <button
                         className={`movie-button ${mode === 'japanese' ? 'activate' : ''}`}
                         onClick={() => handleClickModeButton('japanese')}
@@ -45,10 +54,10 @@ export const SectionBiography = () => {
                     </button>
                 </div>
 
-                <div className="main__profile" id="profile">
+                <div className="max-w-none" id="profile">
                     {
                         mode === 'japanese' &&
-                        <p>クラシック音楽を専門とするピアニスト。<br />特にドイツ音楽に造詣が深いが、近年ではフランス音楽やロシア音楽にも研究心を持ち、レパートリーと表現の幅を拡げている。
+                        <p className="mb-3">クラシック音楽を専門とするピアニスト。<br />特にドイツ音楽に造詣が深いが、近年ではフランス音楽やロシア音楽にも研究心を持ち、レパートリーと表現の幅を拡げている。
                             <br />
                             円熟した表現と音楽性を深く追求した演奏に定評があり、響きの新しい可能性を探求するために奏法を研究し続けている。
                             <br />
@@ -69,16 +78,16 @@ export const SectionBiography = () => {
                         </p>
 
                     }
-                    <button className="biography__button__content__japanese">
+                    <button className="text-xs text-[#937a43] inline-flex items-center border bg-none font-bold justify-center bg-transparent ml-2 py-1.5 px-3 my-px mx-[5px] rounded-[5px] border-solid border-[#a07c43] no-underline">
                         {
                             mode === 'japanese' &&
                             <Link href="/biography">詳細</Link>
                         }
                         {
-                            mode === 'english' &&
-                            <Link href="/biography">Details</Link>
-                        }
 
+                            mode === 'english' &&
+                            <Link href="/biographyen">Details</Link>
+                        }
                     </button>
                 </div>
             </div>

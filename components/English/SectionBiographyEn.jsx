@@ -18,21 +18,21 @@ export const SectionBiographyEn = () => {
             <SectionHeader id="biography" title="Biography" titleEn="Biography" />
             <div>
                 <div>
-                    <img src="/photo/biography.webp" className="biography__photo" width="100%" />
+                    <img src="/photo/biography.webp" className="rounded-xl" width="100%" />
                 </div>
 
-                <div className="biography__name">
+                <div className="mt-2 text-[#937a43]">
                     {
                         mode === 'english' &&
-                        <div className="biography__name__japanese">
+                        <div className="text-2xl font-noto">
                             Rina Akaboshi
                         </div>
                     }
                     {
                         mode === 'japanese' &&
-                        <div className="biography__name__japanese">
+                        <div className="text-2xl font-noto">
                             赤星 里奈
-                            <span className="biography__name__alphabet">
+                            <span className="text-lg font-paris ml-1">
                                 Rina Akaboshi
                             </span>
                         </div>
@@ -78,17 +78,18 @@ export const SectionBiographyEn = () => {
                         </p>
 
                     }
-                    <button className="biography__button__content__japanese">
-                        {
-                            mode === 'japanese' &&
-                            <Link href="/biography">詳細</Link>
-                        }
-                        {
-                            mode === 'english' &&
-                            <Link href="/biographyen">Details</Link>
-                        }
-
-                    </button>
+                    <div className="text-center">
+                        <button className="biography__button__content__japanese">
+                            {
+                                mode === 'japanese' &&
+                                <Link href="/biography">詳細</Link>
+                            }
+                            {
+                                mode === 'english' &&
+                                <Link href="/biographyen">Details</Link>
+                            }
+                        </button>
+                    </div>
                 </div>
             </div>
         </section>

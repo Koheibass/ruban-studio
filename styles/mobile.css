@@ -16,62 +16,7 @@
     padding-bottom: 2rem;
 }
 
-.news {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.5rem;
-    width: 350px;
-}
 
-.news__title {
-    --tw-bg-opacity: 1;
-    background-color: rgb(236 72 153 / var(--tw-bg-opacity));
-    padding-left: 0.625rem;
-    padding-right: 0.625rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-    border-radius: 0.25rem;
-    --tw-text-opacity: 1;
-    color: rgb(255 255 255 / var(--tw-text-opacity));
-    letter-spacing: .025em;
-}
-
-.top__news {
-    text-decoration: none;
-    color: #937a43;
-    font-size: 93%;
-    margin-left: 0.5rem;
-}
-
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
-.topix {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 1rem;
-}
-
-.info {
-    text-align: center;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 1;
-    padding-top: 1rem;
-    padding-bottom: 0.25em;
-    color: #937a43;
-    font-family: 'Noto Serif JP', serif;
-
-
-}
 
 .translate {
     font-size: 12px;
@@ -115,6 +60,7 @@ a {
     position: relative;
     text-transform: capitalize;
     font-family: 'Parisienne', cursive;
+    /*text-[12px] text-center w-full inline-block relative capitalize font-paris*/
 }
 
 .translate__another::before {
@@ -142,6 +88,7 @@ a {
 .info_content {
     display: grid;
     margin-bottom: 1rem;
+    /*grid mb-4*/
 }
 
 .info_content_detail {
@@ -151,26 +98,23 @@ a {
 }
 
 .info_content_days {
-    font-weight: 700;
-    font-size: .875rem;
-    line-height: 1.25rem;
-    color: #937a43;
+    /*
+    "font-bold text-sm text-[#937a43]
+*/
+    font-size: large;
 }
+
+.info {
+    align-items: center;
+    /*text-center text-[16px] leading-none font-bold pt-4 pb-1 text-[#937a43] font-noto*/
+}
+
 
 .info_detail {
     display: block;
     text-decoration-line: underline;
     color: rgb(255, 154, 154);
-}
-
-.play-movie {
-    text-align: center;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 1;
-    padding-top: 1rem;
-    padding-bottom: 0.5rem;
-    color: #937a43;
+    /*block underline text-[#ff9a9a]*/
 }
 
 .top-movie {
@@ -210,6 +154,7 @@ a {
     line-height: 1rem;
     padding-bottom: 1rem;
     color: #937a43;
+    /*items-center text-xs pb-4 text-[#937a43]*/
 }
 
 .top__button {
@@ -235,6 +180,7 @@ a {
     border: solid 1px #a07c43;
     border-radius: 10px;
     text-decoration: none;
+    /*text-xs text-[#937a43] inline-flex items-center border bg-none font-bold justify-center bg-transparent ml-2 py-1.5 px-1.5 my-px mx-[5px] rounded-[10px] border-solid border-[#a07c43] no-underline*/
 }
 
 .element__title {
@@ -252,18 +198,21 @@ a {
 .biography__name {
     margin-top: 0.5rem;
     color: #937a43;
+    /*mt-2 text-[#937a43]*/
 }
 
 .biography__name__japanese {
     font-size: 1.5rem;
     line-height: 2rem;
     font-family: 'Noto Serif JP', serif;
+    /*text-2xl font-noto*/
 }
 
 .biography__name__alphabet {
     font-size: 1.125rem;
     line-height: 1.75rem;
     font-family: 'Parisienne', cursive;
+    /*text-lg font-paris*/
 }
 
 .biography__button {
@@ -271,6 +220,7 @@ a {
     display: flex;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
+    /*justify-center flex my-2*/
 }
 
 .biography__button__japanese.activate {
@@ -336,6 +286,11 @@ a {
     background-color: #ffeeee;
 }
 
+.play-movie {
+    align-items: center;
+    /*text-center text-[16px] font-bold leading-4 pt-4 pb-2 text-[937a43]*/
+}
+
 button {
     cursor: pointer;
     background-image: none;
@@ -346,6 +301,7 @@ button {
 
 .main__profile {
     max-width: none;
+    /*max-w-none*/
 }
 
 .biography__button__content {
@@ -371,6 +327,7 @@ button {
 
 .biography__photo {
     border-radius: 10px;
+    /*rounded-xl*/
 }
 
 .biography__button__content__japanese {
@@ -797,7 +754,7 @@ select {
 
 .footer__instagram {
     display: inline-block;
-    padding-top: 13px;
+    padding-top: 6px;
 }
 
 .footer__youtube {

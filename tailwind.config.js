@@ -14,7 +14,8 @@ module.exports = {
       },
       fontFamily: {
         noto: ['Noto Serif JP', 'serif'],
-        castoro: ['Castoro', 'serif']
+        castoro: ['Castoro', 'serif'],
+        paris: ['Parisienne', 'cursive'],
       }
     },
   },

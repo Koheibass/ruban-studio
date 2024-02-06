@@ -15,9 +15,9 @@ export default function Biography() {
         }
     }
     return (
-        <div className="whole">
+        <div className="flex flex-col relative min-h-lvh font-noto">
             <AppNav />
-            <main className="main">
+            <main className="grow bg-[#fefaff] px-4">
                 <SectionHeader id="biography" title="プロフィール" titleEn="Biography" />
                 <div className="biography__content">
                     <div>

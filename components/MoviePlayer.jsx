@@ -14,11 +14,11 @@ export const MoviePlayer = () => {
                 <button className="btn-primary" onClick={() => setIsOpen(true)}></button>
                 <TopMovieButton className="btn-primary" onClick={() => setIsOpen(true)} />
             </div >
-            <div className="top-tracklist">
+            <div className="text-center text-xs pb-4 text-[#937a43]">
                 ベートーヴェン : ピアノソナタ第26番「告別」op.81a
             </div>
-            <div className="top__button__updates">
-                <button className="top__button__content">
+            <div className="text-center">
+                <button className="text-xs text-[#937a43] inline-flex items-center border bg-none font-bold justify-center bg-transparent ml-2 py-1.5 px-1.5 my-px mx-[5px] rounded-[10px] border-solid border-[#a07c43] no-underline">
                     <Link href="/videos">もっと見る</Link>
                 </button>
             </div>

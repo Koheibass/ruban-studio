@@ -17,7 +17,7 @@ export default function Home() {
       <div className="flex flex-col relative min-h-lvh font-noto">
         <AppNav />
         <TopSlider />
-        <main className="main grow bg-[#fefaff] px-4">
+        <main className="grow bg-[#fefaff] px-4">
           <SectionNews />
           <SectionBiography />
           <SectionConcerts />
