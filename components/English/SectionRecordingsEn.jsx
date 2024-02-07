@@ -40,7 +40,7 @@ export const SectionRecordingsEn = () => {
                         Recorded : April 27,2017
                         <br />Barocksaal Rostock, Deutschland
                     </div>
-                    <button className="text-center items-center font-medium text-sm py-2 px-4 bg-transparent border bg-[#fcafaf] rounded-lg w-2/4 text-white m-auto">
+                    <button className="font-medium text-sm py-2 px-4 justify-center items-center bg-[#fcafaf] rounded-lg w-[96%] mt-3 ml-[7px] text-white">
                         <a href="https://rinaakaboshi.official.ec/items/65023901/" target="_blank" rel="noopener noreferrer">🛒 buy CD</a>
                     </button>
                 </div>
