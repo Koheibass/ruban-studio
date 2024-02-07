@@ -193,6 +193,7 @@
     margin: 0;
     color: #937a43;
     font-family: 'Noto Serif JP', serif;
+    /*leading-none font-bold text-[28px] text-center py-8 m-0 text-[#937a43] font-noto*/
 }
 
 .biography__name {
@@ -560,6 +561,7 @@ button {
     font-size: .875rem;
     line-height: 1.25rem;
     color: rgb(161, 143, 106);
+    /*mb-[15px] text-center text-sm text-[#a18f6a]*/
 }
 
 .media__content {
@@ -584,6 +586,7 @@ button {
     margin-right: auto;
     max-width: 100%;
     display: block;
+
 
 }
 
@@ -649,6 +652,7 @@ b {
     padding-bottom: 0.5rem;
     padding-left: 1rem;
     padding-right: 1rem;
+
     background-color: transparent;
     border-width: 1px;
     background-color: #fcafaf;
@@ -726,12 +730,16 @@ select {
     font-weight: 500;
     font-size: .875rem;
     line-height: 1.25rem;
+
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
+
     padding-left: 1rem;
     padding-right: 1rem;
+
     justify-content: center;
     align-items: center;
+
     background-color: #fcafaf;
     border-radius: 0.5rem;
     width: 96%;
@@ -777,11 +785,13 @@ select {
     padding-left: 1rem;
     padding-right: 1rem;
     background-color: #fefaff;
+    /*grow px-4 bg-[#fefaff]*/
 }
 
 .latest-information {
     margin-left: auto;
     margin-right: auto;
+    /*mx-auto*/
 }
 
 .latest-information__title {
@@ -802,12 +812,14 @@ select {
     border-color: #9d8566;
     border: #937a43 solid 0.5px;
     margin-top: 1rem;
+    /*grid p-4 border rounded gap-4 bg-white border-[#9d8566] border-solid mt-4*/
 }
 
 .latest-information__sentence {
     font-weight: 700;
     font-size: 1.5rem;
     line-height: 2rem;
+    /*font-bold text-2xl*/
 }
 
 .latest-information__days {
@@ -815,6 +827,7 @@ select {
     margin-bottom: 0.5rem;
     font-size: 1.125rem;
     line-height: 1.75rem;
+    /*my-2 text-lg*/
 }
 
 .while {
@@ -824,21 +837,25 @@ select {
     height: 0;
     color: inherit;
     border-top-width: 1px;
+    /*my-4 m-0 h-0 text-inherit border-t*/
 }
 
 .latest-information__detail {
     word-break: break-all;
+    /*break-all*/
 }
 
 .return {
     text-align: center;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    /*text-center my-4*/
 }
 
 .return__content {
     text-decoration-line: underline;
     color: rgb(255, 154, 154);
+    /*underline text-[#ff9a9a]*/
 }
 
 ul {

@@ -1,6 +1,6 @@
-import { MediaContent } from "@/components/MediaContent"
 import { Footer } from "@/components/Footer"
 import { AppNavIndi } from "@/components/AppNavIndi"
+import { MediaContentEn } from "@/components/English/MediaContentEn"
 
 
 export default function Videos() {
@@ -9,7 +9,7 @@ export default function Videos() {
             <AppNavIndi />
             <main className="grow px-4 bg-[#fefaff]">
                 <section className="pb-8">
-                    <MediaContent />
+                    <MediaContentEn />
                 </section>
             </main>
             <Footer />

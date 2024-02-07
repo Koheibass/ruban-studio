@@ -39,7 +39,7 @@ export const SectionBiographyEn = () => {
                     }
                 </div>
 
-                <div className="biography__button">
+                <div className="justify-center flex my-2">
                     <button
                         className={`movie-button ${mode === 'japanese' ? 'activate' : ''}`}
                         onClick={() => handleClickModeButton('japanese')}
@@ -54,10 +54,10 @@ export const SectionBiographyEn = () => {
                     </button>
                 </div>
 
-                <div className="main__profile" id="profile">
+                <div className="max-w-none" id="profile">
                     {
                         mode === 'japanese' &&
-                        <p>クラシック音楽を専門とするピアニスト。<br />特にドイツ音楽に造詣が深いが、近年ではフランス音楽やロシア音楽にも研究心を持ち、レパートリーと表現の幅を拡げている。
+                        <p className="mb-3 text-[#937a43]">クラシック音楽を専門とするピアニスト。<br />特にドイツ音楽に造詣が深いが、近年ではフランス音楽やロシア音楽にも研究心を持ち、レパートリーと表現の幅を拡げている。
                             <br />
                             円熟した表現と音楽性を深く追求した演奏に定評があり、響きの新しい可能性を探求するために奏法を研究し続けている。
                             <br />
@@ -69,7 +69,7 @@ export const SectionBiographyEn = () => {
 
                     {
                         mode === 'english' &&
-                        <p>
+                        <p className='text-[#937a43]'>
                             Rina Akaboshi is a classical concert pianist. Although her forte is German music, her recent focus has been on broadening her repertoire with French and Russian music.
                             <br /> She has a reputation for pursuing a mature expression and deep musicality, while exploring techniques in-depth to discover the ideal touch to bring out new possibilities in every tone.
                             <br />After receiving numerous awards in both national and international competitions, in 2018, her first solo album, “Neue Welt - New World” was released.
@@ -78,18 +78,16 @@ export const SectionBiographyEn = () => {
                         </p>
 
                     }
-                    <div className="text-center">
-                        <button className="biography__button__content__japanese">
-                            {
-                                mode === 'japanese' &&
-                                <Link href="/biography">詳細</Link>
-                            }
-                            {
-                                mode === 'english' &&
-                                <Link href="/biographyen">Details</Link>
-                            }
-                        </button>
-                    </div>
+                    <button className="text-xs text-[#937a43] inline-flex items-center border bg-none font-bold justify-center bg-transparent ml-2 py-1.5 px-3 my-px mx-[5px] rounded-[5px] border-solid border-[#a07c43] no-underline">
+                        {
+                            mode === 'japanese' &&
+                            <Link href="/biography">詳細</Link>
+                        }
+                        {
+                            mode === 'english' &&
+                            <Link href="/biographyen">Details</Link>
+                        }
+                    </button>
                 </div>
             </div>
         </section>

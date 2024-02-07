@@ -3,12 +3,12 @@ import TopSlider from '@/components/TopSlider';
 import { Footer } from '@/components/Footer';
 import { AppNav } from '@/components/AppNav';
 import { SectionBiographyEn } from '@/components/English/SectionBiographyEn';
-import { SectionConcertsEn } from '@/components/English/SectionConcertsEn';
 import { SectionMediaEn } from '@/components/English/SectionMediaEn';
 import { SectionRecordingsEn } from '@/components/English/SectionRecordingsEn';
 import { SectionContactEn } from '@/components/English/SectionContactEn';
 import { LanguageContext } from '@/utils/language';
 import { SectionNews } from '@/components/News/SectionNews';
+import { SectionConcerts } from '@/components/SectionConcerts';
 
 export default function HomeEn() {
     return (
@@ -19,7 +19,7 @@ export default function HomeEn() {
                 <main className="main grow bg-[#fefaff] px-4">
                     <SectionNews />
                     <SectionBiographyEn />
-                    <SectionConcertsEn />
+                    <SectionConcerts />
                     <SectionMediaEn />
                     <SectionRecordingsEn />
                     <SectionContactEn />

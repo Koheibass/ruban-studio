@@ -5,7 +5,8 @@ export const InfoEn = () => {
                 <div>Updates</div>
                 <div className="translate__another text-[12px] text-center w-full inline-block relative capitalize font-paris">Updates</div>
             </h3>
-            <div className="grid mb-4">
+            <div className="grid mb-4 text-center">
+                <br />
                 Coming Soon!
             </div>
         </div>

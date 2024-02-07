@@ -1,25 +1,26 @@
 import Link from "next/link"
-import { AppNav } from "@/components/AppNav"
+
 import { Footer } from "@/components/Footer"
+import { AppNavIndi } from "@/components/AppNavIndi"
 
 export default function News20230801() {
     return (
-        <div className="whole" >
-            <AppNav />
-            <main className="latest-information__main">
-                <div className="latest-information">
-                    <div className="latest-information__content">
+        <div className="flex flex-col relative min-h-lvh font-noto" >
+            <AppNavIndi />
+            <main className="grow px-4 bg-[#fefaff]">
+                <div className="mx-auto">
+                    <div className="grid p-4 border rounded gap-4 bg-white border-[#9d8566] border-solid mt-4">
                         <div>
-                            <div className="latest-information__sentence">
+                            <div className="font-bold text-xl">
                                 みんなの挑戦をあたたかく見守る場所“おといのち音楽会”開催決定
                             </div>
-                            <div className="latest-information__days">
+                            <div className="my-2 text-lg">
                                 {"2023.08.01"}
                             </div>
-                            <img src="/photo/2023801.jpg" width="30%" /><image />
+                            <img src="/photo/2023801.jpg" width="100%" /><image />
                         </div>
-                        <hr className=" while" />
-                        <div className="latest-information__detail">
+                        <hr className="my-4 m-0 h-0 text-inherit border-t" />
+                        <div className="break-all">
                             <p>ピアニスト赤星里奈主催 {"第1回 おといのち音楽会"}
                                 開催決定！！
                                 <br />
@@ -37,8 +38,8 @@ export default function News20230801() {
                             </p>
                         </div>
                     </div>
-                    <div className="return">
-                        <Link className="return__content" href="/">Topに戻る</Link>
+                    <div className="text-center my-4">
+                        <Link className="underline text-[#ff9a9a]" href="/">Topに戻る</Link>
                     </div>
                 </div>
             </main>

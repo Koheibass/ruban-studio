@@ -14,7 +14,7 @@ export const VideoMedia = ({ video, videoId }) => {
                 <button className="btn-primary" onClick={() => setIsOpen(true)}></button>
                 <PhotoButton className="btn-primary" onClick={() => setIsOpen(true)} thumbnailURL={video.thumbnailURL} />
             </div >
-            <div className="individual-videos">
+            <div className="mb-[15px] text-center text-sm text-[#a18f6a]">
                 {video.title}
             </div>
         </div>

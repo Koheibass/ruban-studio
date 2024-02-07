@@ -1,25 +1,24 @@
 import Link from "next/link"
-import { AppNav } from "@/components/AppNav"
 import { Footer } from "@/components/Footer"
+import { AppNavIndi } from "@/components/AppNavIndi"
 
 export default function Concert20210619() {
     return (
-        <div className="whole" >
-            <AppNav />
-            <main className="latest-information__main">
-                <div className="latest-information">
-                    <h2 className="latest-information__title">コンサート</h2>
-                    <div className="latest-information__content">
+        <div className="flex flex-col relative min-h-lvh font-noto" >
+            <AppNavIndi />
+            <main className="grow px-4 bg-[#fefaff]">
+                <div className="mx-auto">
+                    <div className="grid p-4 border rounded gap-4 bg-white border-[#9d8566] border-solid mt-4">
                         <div>
-                            <div className="latest-information__sentence">
+                            <div className="font-bold text-xl">
                                 赤星 里奈 ピアノリサイタル vol.1 presented by {"MUSICUM"}
                             </div>
-                            <div className="latest-information__days">
+                            <div className="my-2 text-xm">
                                 2021.06.19 YouTube / イマチケ
                             </div>
                         </div>
-                        <hr className="while" />
-                        <div className="latest-information__detail">
+                        <hr className="my-4 m-0 h-0 text-inherit border" />
+                        <div className="break-all">
                             <p>クラシックピアニスト 赤星 里奈
                                 <br />
                                 本人初のオンライン配信によるピアノリサイタル。ゲストを交えたトークコーナーの二本立てです。
@@ -58,12 +57,12 @@ export default function Concert20210619() {
                             </ul>
                         </div>
                     </div>
-                    <div className="return">
-                        <Link className="return__content" href="/">Topに戻る</Link>
+                    <div className="text-center my-4">
+                        <Link className="underline text-[#ff9a9a]" href="/">Topに戻る</Link>
                     </div>
                 </div>
-                <Footer />
             </main>
+            <Footer />
         </div>
     )
 }

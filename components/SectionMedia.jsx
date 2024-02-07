@@ -61,9 +61,9 @@ export const SectionMedia = () => {
     }
 
     return (
-        <section className="section_media">
+        <section className="pb-8">
             <SectionHeader id="media" title="メディア" titleEn="Media" />
-            <div className="media__button">
+            <div className="flex justify-center my-2">
                 <button
                     className={`movie-button ${mode === 'video' ? 'activate' : ''}`}
                     onClick={() => handleClickModeButton('video')}
@@ -78,8 +78,8 @@ export const SectionMedia = () => {
                 </button>
             </div>
 
-            <div className="media__content" id="medialist">
-                <div className="media__list">
+            <div className="text-center" id="medialist">
+                <div className="text-center gap-2 grid-cols-2 grid mt-4">
                     {
                         mode === 'video' &&
                         videoList.map((video) => (
@@ -95,8 +95,8 @@ export const SectionMedia = () => {
                     }
                 </div>
                 <br />
-                <div className="top__button__updates">
-                    <button className="top__button__content">
+                <div>
+                    <button className="text-xs text-[#937a43] inline-flex items-center border bg-none font-bold justify-center bg-transparent ml-2 py-1.5 px-1.5 my-px mx-[5px] rounded-[10px] border-solid border-[#a07c43] no-underline">
                         <Link href="/videos">もっと見る</Link>
                     </button>
                 </div>
