@@ -16,7 +16,7 @@ export const SectionContact = () => {
                         <input className="border rounded w-[95%] h-6 flex m-auto" id="email" name="email" />
                     </div>
                     <div>
-                        <label className="font-medium block bg-inherit pl-2 pb-1 text-[.875rem] leading-none" htmlFor="contact-form-type">お問い合わせの種別</label>
+                        <label className="font-medium block bg-inherit pl-2 pb-1 text-[.875rem] leading-none" htmlFor="type">お問い合わせの種別</label>
                         <div className="relative">
                             <div className="absolute right-3 top-1 w-6"><img src="/icon/PhCaretUpDown.svg"></img></div>
                             <select name="type" className="rounded w-[95%] h-8 flex m-auto text-[#937a43]">
