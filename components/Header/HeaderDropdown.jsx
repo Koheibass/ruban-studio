@@ -23,7 +23,7 @@ export const HeaderDropdown = () => {
     }, []);
 
     function dropDownMenuOpen(e) {
-        const childMenuLink = e.currentTarget.querySelectorAll('.drop-menu__link');
+        const childMenuLink = e.currentTarget.querySelectorAll('#drop-menu-link');
         console.log(childMenuLink);
 
         for (let i = 0; i < childMenuLink.length; i++) {
@@ -32,7 +32,7 @@ export const HeaderDropdown = () => {
     }
 
     function dropDownMenuClose(e) {
-        const childMenuLink = e.currentTarget.querySelectorAll('.drop-menu__link');
+        const childMenuLink = e.currentTarget.querySelectorAll('#drop-menu-link');
         console.log(childMenuLink);
 
         for (let i = 0; i < childMenuLink.length; i++) {
@@ -46,15 +46,15 @@ export const HeaderDropdown = () => {
                 lang === 'ja' &&
                 <li className="p-0 m-0" id="dropdown">
                     <ul className="dropdown__menu__link">Japanese</ul>
-                    <ul className="lg:top-9 top-12 absolute m-0 p-0 bg-white rounded-[10px]">
+                    <ul className="lg:top-[38px] top-12 absolute m-0 p-0 bg-white rounded-[10px]">
                         <li className="dropdown__menu__item">
-                            <Link href="/" className="drop-menu__link">Japanese</Link>
+                            <Link href="/" className="drop-menu__link" id="drop-menu-link">Japanese</Link>
                         </li>
                         <li className="dropdown__menu__item">
-                            <Link href="/indexen" className="drop-menu__link">English</Link>
+                            <Link href="/indexen" className="drop-menu__link" id="drop-menu-link">English</Link>
                         </li>
                     </ul>
-                </li>
+                </li >
             }
             {
                 lang === 'en' &&
@@ -62,14 +62,14 @@ export const HeaderDropdown = () => {
                     <ul className="dropdown__menu__link__en">English</ul>
                     <ul className="lg:top-9 top-12 absolute m-0 p-0 bg-white rounded-[10px]">
                         <li className="dropdown__menu__item">
-                            <Link href="/" className="drop-menu__link">Japanese</Link>
+                            <Link href="/" className="drop-menu__link" id="drop-menu-link">Japanese</Link>
                         </li>
                         <li className="dropdown__menu__item">
-                            <Link href="/indexen" className="drop-menu__link">English</Link>
+                            <Link href="/indexen" className="drop-menu__link" id="drop-menu-link">English</Link>
                         </li>
                     </ul>
                 </li>
             }
-        </ ul>
+        </ ul >
     );
 };

@@ -18,5 +18,5 @@ export default async function handler(req, res) {
         return res.status(400).json(error);
     }
 
-    res.redirect(307, '/')
+    res.redirect(307, '/Thanks')
 }
