@@ -18,7 +18,8 @@ export const MoviePlayer = () => {
                 ベートーヴェン : ピアノソナタ第26番「告別」op.81a
             </div>
             <div className="text-center">
-                <button className="text-xs text-[#937a43] inline-flex items-center border bg-none font-bold justify-center bg-transparent ml-2 py-1.5 px-1.5 my-px mx-[5px] rounded-[10px] border-solid border-[#a07c43] no-underline">
+                <button className="text-xs text-[#937a43] inline-flex items-center absolut border  bg-none font-bold justify-center bg-transparent ml-2 py-1.5 px-3 my-2 mx-[5px] rounded-[10px] border-solid border-[#a07c43] no-underline lg:mt-2">
+                    <img src="/icon/right-arrow-g.svg" className='w-2 mr-1'></img>
                     <Link href="/videos">もっと見る</Link>
                 </button>
             </div>

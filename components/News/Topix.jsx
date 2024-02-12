@@ -7,7 +7,7 @@ import { MoviePlayerEn } from '../English/Newsen.jsx/MoviePlayerEn';
 export const Topix = () => {
     const { lang } = useLanguage();
     return (
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid grid-cols-2 gap-4 lg:mt-10">
             {
                 lang === 'ja' &&
                 <Info />
@@ -20,16 +20,16 @@ export const Topix = () => {
                 {
                     lang === 'ja' &&
 
-                    <h3 className="text-center text-[16px] leading-none font-bold pt-4 pb-1 text-[#937a43] font-noto">
+                    <h3 className="text-center text-[16px] lg:tracking-widest lg:text-[18px] leading-none font-bold pt-4 pb-1 lg:pb-2 text-[#937a43] font-noto">
                         <div>演奏動画</div>
-                        <div className="translate__another text-[12px] text-center w-full inline-block relative capitalize font-paris">Movies</div>
+                        <div className="translate__another">Movies</div>
                     </h3>
                 }
                 {
                     lang === 'en' &&
-                    <h3 className="text-center text-[16px] leading-none font-bold pt-4 pb-1 text-[#937a43]">
+                    <h3 className="text-center text-[16px] lg:tracking-widest lg:text-[18px] leading-none font-bold pt-4 pb-1 text-[#937a43]">
                         <div>Movies</div>
-                        <div className="translate__another text-[12px] text-center w-full inline-block relative capitalize font-paris">Movies</div>
+                        <div className="translate__another">Movies</div>
                     </h3>
                 }
                 {

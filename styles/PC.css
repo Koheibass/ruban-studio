@@ -58,9 +58,6 @@
     cursor: pointer;
 }
 
-.section1 {
-    padding-bottom: 2rem;
-}
 
 .news {
     margin-left: auto;
@@ -166,6 +163,9 @@ a {
     position: relative;
     text-transform: capitalize;
     font-family: 'Parisienne', cursive;
+
+
+    /* text-[12px] text-center w-full inline-block relative capitalize font-paris*/
 }
 
 .translate__another::before {

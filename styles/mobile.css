@@ -12,11 +12,6 @@
     cursor: pointer;
 }
 
-.section1 {
-    padding-bottom: 2rem;
-}
-
-
 
 .translate {
     font-size: 12px;
@@ -27,6 +22,10 @@
     position: relative;
     text-transform: capitalize;
     font-family: 'Parisienne', cursive;
+
+    @media screen and (min-width:1024px) {
+        font-size: 15px;
+    }
 }
 
 .translate::before {
@@ -60,6 +59,11 @@
     position: relative;
     text-transform: capitalize;
     font-family: 'Parisienne', cursive;
+
+    @media screen and (min-width:1024px) {
+        font-size: 13px;
+    }
+
     /*text-[12px] text-center w-full inline-block relative capitalize font-paris*/
 }
 
@@ -83,6 +87,7 @@
     position: absolute;
     right: 0;
     content: "";
+
 }
 
 .info_content {
@@ -909,7 +914,7 @@ ul {
     text-align: center;
 
     @media screen and (min-width:1024px) {
-        padding: 2px 12px;
+        padding: 2.5px 12px;
         font-size: 12px;
     }
 }

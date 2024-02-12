@@ -77,9 +77,8 @@ export const SectionMedia = () => {
                     写真
                 </button>
             </div>
-
             <div className="text-center" id="medialist">
-                <div className="text-center gap-2 grid-cols-2 grid mt-4">
+                <div className="text-center gap-2 grid-cols-2 grid mt-4 lg:grid lg:grid-cols-4 lg:gap-[1px] lg:mt-6">
                     {
                         mode === 'video' &&
                         videoList.map((video) => (
@@ -96,7 +95,8 @@ export const SectionMedia = () => {
                 </div>
                 <br />
                 <div>
-                    <button className="text-xs text-[#937a43] inline-flex items-center border bg-none font-bold justify-center bg-transparent ml-2 py-1.5 px-1.5 my-px mx-[5px] rounded-[10px] border-solid border-[#a07c43] no-underline">
+                    <button className="text-xs text-[#937a43] inline-flex items-center absolut border bg-none font-bold justify-center bg-transparent ml-2 py-1.5 px-3 my-2 mx-[5px] rounded-[10px] border-solid border-[#a07c43] no-underline lg:mt-0.5">
+                        <img src="/icon/right-arrow-g.svg" className='w-2 mr-1'></img>
                         <Link href="/videos">もっと見る</Link>
                     </button>
                 </div>
