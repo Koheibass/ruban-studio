@@ -21,14 +21,14 @@ export default function Biography() {
                 <SectionHeader id="biography" title="プロフィール" titleEn="Biography" />
                 <div>
                     <div>
-                        <img src="/photo/biography.webp" className="biography__photo" width="100%" />
+                        <img src="/photo/biography.webp" className="rounded-xl lg:w-[600px] lg:m-auto" width="100%" />
                     </div>
-                    <div className="mt-2 text-[#937a43]">
+                    <div className="mt-2 text-[#937a43] lg:text-center lg:my-6">
                         {
                             mode === 'japanese' &&
-                            <div className="text-2xl font-noto">
+                            <div className="text-2xl font-noto lg:text-3xl">
                                 赤星 里奈
-                                <span className="text-lg font-paris ml-1">
+                                <span className="text-lg font-paris ml-1 lg:text-3xl">
                                     Rina Akaboshi
                                 </span>
                             </div>
@@ -40,7 +40,7 @@ export default function Biography() {
                             </div>
                         }
                     </div>
-                    <div className="biography__button">
+                    <div className="justify-center flex my-4 lg:pb-4">
                         <button
                             className={`movie-button ${mode === 'japanese' ? 'activate' : ''}`}
                             onClick={() => handleClickModeButton('japanese')}
@@ -54,10 +54,10 @@ export default function Biography() {
                             English
                         </button>
                     </div>
-                    <div className="max-w-none" id="profile">
+                    <div className="max-w-none " id="profile">
                         {
                             mode === 'japanese' &&
-                            <p className='text-[#937a43]'>1989 年滋賀県に生まれ、2 歳より音楽教室にてピアノを始める。2002 年、妹の赤星佳奈とのデュオで第 26
+                            <p className='text-[#937a43] lg:text-[18px] lg:mx-20'>1989 年滋賀県に生まれ、2 歳より音楽教室にてピアノを始める。2002 年、妹の赤星佳奈とのデュオで第 26
                                 回ピティナピアノコンペティションデュオ中級西日本大会第一位、全国決勝大会奨励賞受賞。高校在学中には第 21 回滋賀県高校生ピアノコンクールにて第二位となる。
                                 <br />
                                 愛知県立芸術大学音楽学部に在学中には、選抜され定期演奏会や新進演奏家コンサートなどに出演。大学 3 年生時に第 29
