@@ -4,17 +4,17 @@ export const SectionRecordingsEn = () => {
     return (
         <section className="pb-8">
             <SectionHeader id="recordings" title="CD" titleEn="Recordings" />
-            <div>
+            <div className="lg:flex">
                 <div>
-                    <img src="/photo/NeueWelt1.webp" className="recordings__photo" width="100%" />
+                    <img src="/photo/NeueWelt1.webp" className="lg:w-[500px] lg:ml-20" width="100%" />
                 </div>
-                <div className="gap-4 grid text-[#937a43]">
+                <div className="gap-4 grid text-[#937a43] lg:mt-[30px]">
                     <h3 className="font-bold text-xl text-center mt-2 m-0">Neue Welt 〜新しい世界〜</h3>
                     <p className="text-sm text-center mt-2 m-0">Released January 11, 2018<br />¥ 3,300 (tax included) + shipping fee</p>
-                    <p className="mt-4 m-0">This CD was recorded in Germany.
-                        Please enjoy the beautiful tones that resonate in the German air.
+                    <p className="mt-4 m-0 lg:ml-[150px] lg:text-[#937a43]">This CD was recorded in Germany.
+                        <br />Please enjoy the beautiful tones that resonate in the German air.
                     </p>
-                    <div className="my-4">
+                    <div className="my-4 lg:pl-20">
                         <b>Track Listings</b>
                         <br />
                         <div>
@@ -37,10 +37,12 @@ export const SectionRecordingsEn = () => {
                             </ul>
                         </div>
                         <br />
-                        Recorded : April 27,2017
-                        <br />Barocksaal Rostock, Deutschland
+                        <div className="ml-2">
+                            Recorded : April 27,2017
+                            <br />Barocksaal Rostock, Deutschland
+                        </div>
                     </div>
-                    <button className="font-medium text-sm py-2 px-4 justify-center items-center bg-[#fcafaf] rounded-lg w-[96%] mt-3 ml-[7px] text-white">
+                    <button className="font-medium text-sm py-2 px-4 justify-center items-center bg-[#fcafaf] rounded-lg w-[96%] lg:w-[50%] mt-3 lg:mt-0 lg:ml-[150px] ml-[7px] text-white">
                         <a href="https://rinaakaboshi.official.ec/items/65023901/" target="_blank" rel="noopener noreferrer">🛒 buy CD</a>
                     </button>
                 </div>

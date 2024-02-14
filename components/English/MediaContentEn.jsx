@@ -127,7 +127,7 @@ export const MediaContentEn = () => {
             </div>
 
             <div className="text-center" id="medialist">
-                <div className="media__list text-center gap-2 grid-cols-2 grid mt-4">
+                <div className="text-center gap-2 grid-cols-2 grid mt-4 lg:grid-cols-4 lg:gap-[1px] lg:mt-6">
                     {
                         mode === 'video' &&
                         videoList.map((video) => (
@@ -152,7 +152,7 @@ export const MediaContentEn = () => {
                 }
                 <br />
                 <div className="text-center my-4">
-                    <Link className="underline text-[#ff9a9a]" href="/">Top</Link>
+                    <Link className="underline text-[#ff9a9a]" href="/indexen">Top</Link>
                 </div>
             </div>
         </section >
