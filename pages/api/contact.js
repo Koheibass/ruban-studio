@@ -5,11 +5,15 @@ import { EmailTemplate } from '@/components/EmailTemplate';
 const resend = new Resend(process.env.RESEND_API_KEY);
 
 export default async function handler(req, res) {
-    const { name, email, type, message } = req.query
+    const { name, email, type, message, favorite_color } = req.query
+    if (favorite_color !== '') {
+        return res.redirect(307, '/thanks')
+    }
+
     const { error } = await resend.emails.send({
         from: 'contact@rina-akaboshi.com',
         to: [email],
-        bcc: 'kouhei9@gmail.com',
+        bcc: 'jajjimentoyuantian@gmail.com',
         subject: '【赤星里奈】お問い合わせありがとうございます',
         react: EmailTemplate({ name, email, message, type })
     });
@@ -18,5 +22,5 @@ export default async function handler(req, res) {
         return res.status(400).json(error);
     }
 
-    res.redirect(307, '/thanks')
+    return res.redirect(307, '/thanks')
 }

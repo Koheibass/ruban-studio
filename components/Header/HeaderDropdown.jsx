@@ -45,7 +45,7 @@ export const HeaderDropdown = () => {
             {
                 lang === 'ja' &&
                 <li className="p-0 m-0" id="dropdown">
-                    <ul className="block w-full py-[2px] px-[7px] mt-[2px] mx-[1px] mb-0 textx-[8px] font-thin pb-1 bg-[#FFF] border-solid border border-[#a07c43] rounded-[10px] text-[#a07c43] no-underline text-center lg:text-[12px] lg:py-[2.5px] lg:px-3 hover:bg-[#ebebeb] hover:text-[#fefaff]">Japanese</ul>
+                    <ul className="block w-full py-[2px] px-[7px] mt-[2px] mx-[1px] mb-0 text-[8px] font-thin pb-1 bg-[#FFF] border-solid border border-[#a07c43] rounded-[10px] text-[#a07c43] no-underline text-center lg:text-[12px] lg:py-[2.5px] lg:px-3 hover:bg-[#ebebeb] hover:text-[#fefaff]">Japanese</ul>
                     <ul className="lg:top-[38px] top-12 absolute m-0 p-0 bg-white rounded-[10px]">
                         <li className="list-none p-0 m-0">
                             <Link href="/" className="drop-menu__link" id="drop-menu-link">Japanese</Link>
@@ -59,7 +59,7 @@ export const HeaderDropdown = () => {
             {
                 lang === 'en' &&
                 <li className="p-0 m-0" id="dropdown">
-                    <ul className="block w-full py-[2px] px-[10px] mt-[2px] mx-[1px] mb-0 textx-[8px] font-thin pb-1 bg-[#FFF] border-solid border border-[#a07c43] rounded-[10px] text-[#a07c43] no-underline text-center lg:text-[12px] lg:py-[2px] lg:px-3 hover:bg-[#ebebeb] hover:text-[#fefaff]">English</ul>
+                    <ul className="block w-full py-[2px] px-[10px] mt-[2px] mx-[1px] mb-0 text-[8px] font-thin pb-1 bg-[#FFF] border-solid border border-[#a07c43] rounded-[10px] text-[#a07c43] no-underline text-center lg:text-[12px] lg:py-[2px] lg:px-3 hover:bg-[#ebebeb] hover:text-[#fefaff]">English</ul>
                     <ul className="lg:top-[38px] top-12 absolute m-0 p-0 bg-white rounded-[10px]">
                         <li className="list-none p-0 m-0">
                             <Link href="/" className="drop-menu__link" id="drop-menu-link">Japanese</Link>
