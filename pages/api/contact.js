@@ -6,10 +6,10 @@ const resend = new Resend(process.env.RESEND_API_KEY);
 
 export default async function handler(req, res) {
     const { name, email, type, message } = req.query
-    const { data, error } = await resend.emails.send({
-        from: 'info2@rina-akaboshi.com',
+    const { error } = await resend.emails.send({
+        from: 'contact@rina-akaboshi.com',
         to: [email],
-        bcc: 'kouheihand@yahoo.co.jp',
+        bcc: 'kouhei9@gmail.com',
         subject: '【赤星里奈】お問い合わせありがとうございます',
         react: EmailTemplate({ name, email, message, type })
     });
@@ -18,5 +18,5 @@ export default async function handler(req, res) {
         return res.status(400).json(error);
     }
 
-    res.redirect(307, '/Thanks')
+    res.redirect(307, '/thanks')
 }
