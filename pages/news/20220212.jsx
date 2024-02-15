@@ -1,11 +1,11 @@
 import Link from "next/link"
 import { Footer } from "@/components/Footer"
-import { AppNavIndi } from "@/components/AppNavIndi"
+import { AppNavNews } from "@/components/AppNavNews"
 
 export default function News20220212() {
     return (
         <div className="flex flex-col relative min-h-lvh font-noto" >
-            <AppNavIndi />
+            <AppNavNews />
             <main className="grow px-4 bg-[#fefaff]">
                 <div className="mx-auto">
                     <div className="grid p-4 border rounded gap-4 bg-white border-[#9d8566] border-solid mt-4">

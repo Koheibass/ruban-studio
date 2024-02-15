@@ -1,11 +1,11 @@
 import Link from "next/link"
 import { Footer } from "@/components/Footer"
-import { AppNavIndi } from "@/components/AppNavIndi"
+import { AppNavNews } from "@/components/AppNavNews"
 
 export default function Topnews() {
     return (
         <div className="flex flex-col relative min-h-lvh font-noto">
-            <AppNavIndi />
+            <AppNavNews />
             <main className="grow px-4 bg-[#fefaff]">
                 <div>
                     <h3 className="text-center text-[16px] leading-none font-bold mb-4 pt-4 pb-1 text-[#937a43] font-noto">
