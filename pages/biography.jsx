@@ -42,13 +42,13 @@ export default function Biography() {
                     </div>
                     <div className="justify-center flex my-4 lg:pb-4">
                         <button
-                            className={`movie-button ${mode === 'japanese' ? 'activate' : ''}`}
+                            className={`font-medium text-sm py-1 px-4 border border-solid border-[#937a43] bg-[#fefaff] text-[#937a43] ${mode === 'japanese' ? 'font-medium text-sm py-1 px-4 border border-solid text-[#ee71bf] bg-[#ffeeee]' : ''}`}
                             onClick={() => handleClickModeButton('japanese')}
                         >
                             Japanese
                         </button>
                         <button
-                            className={`photo-button ${mode === 'english' ? 'activate' : ''}`}
+                            className={`font-medium text-sm py-1 px-4 border border-solid ml-[15px] border-[#937a43] bg-[#fefaff] text-[#937a43] ${mode === 'english' ? 'font-medium text-sm py-1 px-4 border border-solid ml-[15px]  text-[#ee71bf] bg-[#ffeeee]' : ''}`}
                             onClick={() => handleClickModeButton('english')}
                         >
                             English

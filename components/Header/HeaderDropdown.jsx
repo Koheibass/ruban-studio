@@ -47,10 +47,10 @@ export const HeaderDropdown = () => {
                 <li className="p-0 m-0" id="dropdown">
                     <ul className="dropdown__menu__link">Japanese</ul>
                     <ul className="lg:top-[38px] top-12 absolute m-0 p-0 bg-white rounded-[10px]">
-                        <li className="dropdown__menu__item">
+                        <li className="list-none p-0 m-0">
                             <Link href="/" className="drop-menu__link" id="drop-menu-link">Japanese</Link>
                         </li>
-                        <li className="dropdown__menu__item">
+                        <li className="list-none p-0 m-0">
                             <Link href="/indexen" className="drop-menu__link" id="drop-menu-link">English</Link>
                         </li>
                     </ul>
@@ -61,10 +61,10 @@ export const HeaderDropdown = () => {
                 <li className="p-0 m-0" id="dropdown">
                     <ul className="dropdown__menu__link__en">English</ul>
                     <ul className="lg:top-[38px] top-12 absolute m-0 p-0 bg-white rounded-[10px]">
-                        <li className="dropdown__menu__item">
+                        <li className="list-none p-0 m-0">
                             <Link href="/" className="drop-menu__link" id="drop-menu-link">Japanese</Link>
                         </li>
-                        <li className="dropdown__menu__item">
+                        <li className="list-none p-0 m-0">
                             <Link href="/indexen" className="drop-menu__link" id="drop-menu-link">English</Link>
                         </li>
                     </ul>

@@ -63,6 +63,8 @@
     @media screen and (min-width:1024px) {
         font-size: 13px;
     }
+
+    /*text-[12px] text-center w-full inline-block relative capitalize font-paris*/
 }
 
 .translate__another::before {
@@ -493,7 +495,6 @@ button {
     border: solid 1px;
     color: #ee71bf;
     background-color: #ffeeee;
-    /*font-medium text-sm py-1 px-4 border border-solid text-[#ee71bf] bg-[#ffeeee]*/
 
 }
 
@@ -510,8 +511,6 @@ button {
     border-color: #937a43;
     background-color: #fefaff;
     color: #937a43;
-
-    /*font-medium text-sm py-1 px-4 border border-solid border-[#937a43] bg-[#fefaff] text-[#937a43]*/
 }
 
 .photo-button {
@@ -528,8 +527,6 @@ button {
     border-color: #937a43;
     background-color: #fefaff;
     color: #937a43;
-
-    /*font-medium text-sm py-1 px-4 border border-solid ml-[15px] border-[#937a43] bg-[#fefaff] text-[#937a43]*/
 }
 
 .photo-button.activate {
@@ -545,8 +542,6 @@ button {
     margin-left: 15px;
     color: #ee71bf;
     background-color: #ffeeee;
-
-    /*font-medium text-sm py-1 px-4 border border-solid ml-[15px]  text-[#ee71bf] bg-[#ffeeee]*/
 }
 
 .media__list {

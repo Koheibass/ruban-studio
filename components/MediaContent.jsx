@@ -113,13 +113,13 @@ export const MediaContent = () => {
             <SectionHeader id="media" title="メディア" titleEn="Media" />
             <div className="flex justify-center my-2">
                 <button
-                    className={`movie-button ${mode === 'video' ? 'activate' : ''}`}
+                    className={`font-medium text-sm py-1 px-4 border border-solid border-[#937a43] bg-[#fefaff] text-[#937a43] ${mode === 'video' ? 'font-medium text-sm py-1 px-4 border border-solid text-[#ee71bf] bg-[#ffeeee]' : ''}`}
                     onClick={() => handleClickModeButton('video')}
                 >
                     動画
                 </button>
                 <button
-                    className={`photo-button ${mode === 'image' ? 'activate' : ''}`}
+                    className={`font-medium text-sm py-1 px-4 border border-solid ml-[15px] border-[#937a43] bg-[#fefaff] text-[#937a43] ${mode === 'image' ? 'font-medium text-sm py-1 px-4 border border-solid ml-[15px] text-[#ee71bf] bg-[#ffeeee]' : ''}`}
                     onClick={() => handleClickModeButton('image')}
                 >
                     写真

@@ -18,7 +18,6 @@ export const SectionContactEn = () => {
                     <div>
                         <label className="font-medium block bg-inherit pl-2 lg:pl-8 pb-1 text-[.875rem] leading-none lg:mb-2" htmlFor="contact-form-type">Type of inquiry</label>
                         <div className="relative">
-                            <div className="absolute right-3 top-1 w-6 lg:right-10 lg:top-2"><img src="/icon/PhCaretUpDown.svg"></img></div>
                             <select name="type" className="rounded w-[95%] h-8 flex m-auto text-[#937a43] lg:h-10">
                                 <option value="演奏依頼">Performance request</option>
                                 <option value="企業からのご依頼">Requests from companies</option>
@@ -36,3 +35,7 @@ export const SectionContactEn = () => {
         </section>
     )
 }
+
+/**
+ * <div className="absolute right-3 top-1 w-6 lg:right-10 lg:top-2"><img src="/icon/PhCaretUpDown.svg"></img></div>
+ */

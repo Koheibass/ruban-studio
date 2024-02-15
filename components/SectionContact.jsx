@@ -18,7 +18,6 @@ export const SectionContact = () => {
                     <div>
                         <label className="font-medium block bg-inherit pl-2 lg:pl-8 pb-1 text-[.875rem] leading-none lg:mb-2" htmlFor="type">お問い合わせの種別</label>
                         <div className="relative">
-                            <div className="absolute right-3 top-1 w-6 lg:right-10 lg:top-2"><img src="/icon/PhCaretUpDown.svg"></img></div>
                             <select name="type" className="rounded w-[95%] h-8 flex m-auto text-[#937a43] lg:h-10">
                                 <option value="演奏依頼">演奏依頼</option>
                                 <option value="企業からのご依頼">企業からのご依頼</option>
@@ -32,7 +31,7 @@ export const SectionContact = () => {
                     </div>
                     <button className="font-medium text-sm py-2 px-4 justify-center items-center bg-[#fcafaf] rounded-lg w-[96%] lg:ml-8 lg:w-[95.3%] mt-3 ml-[7px] text-white" type="submit" data-comform-touched="true">送信</button>
                 </form>
-            </div>
-        </section>
+            </div >
+        </section >
     )
 }

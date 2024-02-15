@@ -29,13 +29,13 @@ export const SectionConcerts = () => {
                     <div>
                         <div className="flex justify-center lg:justify-start my-2">
                             <button
-                                className={`upcoming__button ${mode === 'upcoming' ? 'activate' : ''}`}
+                                className={`font-medium text-sm py-1 px-4 border border-solid border-[#937a43] bg-[#fefaff] text-[#937a43] ${mode === 'upcoming' ? 'font-medium text-sm py-1 px-4 border border-solid text-[#ee71bf] bg-[#ffeeee]' : ''}`}
                                 onClick={() => handleClickModeButton('upcoming')}
                             >
                                 Upcoming
                             </button>
                             <button
-                                className={`past__button ${mode === 'past' ? 'activate' : ''}`}
+                                className={`font-medium text-sm py-1 px-4 border border-solid ml-[15px] border-[#937a43] bg-[#fefaff] text-[#937a43] ${mode === 'past' ? 'afont-medium text-sm py-1 px-4 border border-solid ml-[15px]  text-[#ee71bf] bg-[#ffeeee]' : ''}`}
                                 onClick={() => handleClickModeButton('past')}
                             >
                                 Past
