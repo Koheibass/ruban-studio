@@ -1,12 +1,12 @@
-import { HeaderLeft } from './Header/HeaerLeft'
-import { HeaderIcon } from './Header/HeaderIcon'
-import { HeaderDropdown } from './Header/HeaderDropdown'
+import { HeaderIcon } from '../Header/HeaderIcon'
+import { HeaderDropdown } from '../Header/HeaderDropdown'
 import { useLanguage } from '@/utils/language'
-import HeaderMenuEn from './English/HeaderEn/HeaderMenuEn'
-import HeaderMenu from './Header/HeaderMenu'
+import HeaderMenu from '../Header/HeaderMenu'
 import { useEffect } from 'react'
+import { HeaderLeft } from '../Header/HeaerLeft'
+import HeaderMenuEn from './HeaderEn/HeaderMenuEn'
 
-export const AppNavIndi = () => {
+export const AppNavIndiEn = () => {
     const { lang } = useLanguage();
 
     useEffect(() => {
@@ -62,7 +62,7 @@ export const AppNavIndi = () => {
                             <HeaderMenuEn />
                         }
                         <HeaderIcon />
-                        <HeaderDropdown />
+                        <HeaderDropdown id="biography" href="/biographyen" />
                         <div className="hamburger invisible">
                             <span>
                                 <img src="/photo/piano.svg" width="25" height="25" alt="piano" />

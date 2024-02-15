@@ -2,7 +2,7 @@ import Link from "next/link";
 import { useEffect } from "react";
 import { useLanguage } from '@/utils/language'
 
-export const HeaderDropdown = () => {
+export const IndiDropdown = ({ hrefja, hrefen }) => {
     const { lang } = useLanguage()
 
     useEffect(() => {
@@ -48,10 +48,10 @@ export const HeaderDropdown = () => {
                     <ul className="dropdown__menu__link">Japanese</ul>
                     <ul className="lg:top-[38px] top-12 absolute m-0 p-0 bg-white rounded-[10px]">
                         <li className="list-none p-0 m-0">
-                            <Link href="/" className="drop-menu__link" id="drop-menu-link">Japanese</Link>
+                            <Link href={hrefja} className="drop-menu__link" id="drop-menu-link">Japanese</Link>
                         </li>
                         <li className="list-none p-0 m-0">
-                            <Link href="/indexen" className="drop-menu__link" id="drop-menu-link">English</Link>
+                            <Link href={hrefen} className="drop-menu__link" id="drop-menu-link">English</Link>
                         </li>
                     </ul>
                 </li >
@@ -62,10 +62,10 @@ export const HeaderDropdown = () => {
                     <ul className="dropdown__menu__link__en">English</ul>
                     <ul className="lg:top-[38px] top-12 absolute m-0 p-0 bg-white rounded-[10px]">
                         <li className="list-none p-0 m-0">
-                            <Link href="/" className="drop-menu__link" id="drop-menu-link">Japanese</Link>
+                            <Link href={hrefja} className="drop-menu__link" id="drop-menu-link">Japanese</Link>
                         </li>
                         <li className="list-none p-0 m-0">
-                            <Link href="/indexen" className="drop-menu__link" id="drop-menu-link">English</Link>
+                            <Link href={hrefen} className="drop-menu__link" id="drop-menu-link">English</Link>
                         </li>
                     </ul>
                 </li>

@@ -1,8 +1,8 @@
 import Link from 'next/link'
-import { AppNav } from '@/components/AppNav';
 import { SectionHeader } from "@/components/SectionHeader";
 import { Footer } from '@/components/Footer';
 import React from 'react';
+import { AppNavBio } from '@/components/AppNavBio';
 
 export default function Biography() {
 
@@ -16,7 +16,7 @@ export default function Biography() {
     }
     return (
         <div className="flex flex-col relative min-h-lvh font-noto">
-            <AppNav />
+            <AppNavBio />
             <main className="grow bg-[#fefaff] px-4">
                 <SectionHeader id="biography" title="プロフィール" titleEn="Biography" />
                 <div>

@@ -3,7 +3,9 @@ import { Footer } from '@/components/Footer';
 import React from 'react';
 import { SectionHeader } from '@/components/SectionHeader';
 import { LanguageContext } from '@/utils/language';
-import { AppNav } from '@/components/AppNav';
+import { AppNavBio } from '@/components/AppNavBio';
+
+
 
 export default function BiographyEn() {
 
@@ -18,7 +20,7 @@ export default function BiographyEn() {
     return (
         <LanguageContext.Provider value='en'>
             <div className="flex flex-col relative min-h-lvh font-noto">
-                <AppNav />
+                <AppNavBio />
                 <main className="grow bg-[#fefaff] px-4">
                     <SectionHeader id="biography" title="Biography" titleEn="Biography" />
                     <div>

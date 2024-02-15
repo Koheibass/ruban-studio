@@ -29,7 +29,7 @@ export const SectionContact = () => {
                         <label htmlFor="message" className="font-medium block bg-inherit pl-2 lg:pl-8 pb-1 text-[.875rem] leading-none lg:mb-2">お問い合わせの内容</label>
                         <textarea className="border rounded w-[95%] h-12 flex m-auto lg:h-20" id="message" name="message"></textarea>
                     </div>
-                    <button className="font-medium text-sm py-2 px-4 justify-center items-center bg-[#fcafaf] rounded-lg w-[96%] lg:ml-8 lg:w-[95.3%] mt-3 ml-[7px] text-white" type="submit" data-comform-touched="true">送信</button>
+                    <button className="font-medium text-sm py-2 px-4 justify-center items-center bg-[#fcafaf] rounded-lg w-[96%] lg:ml-10 lg:w-[95.3%] mt-3 ml-[7px] text-white" type="submit" data-comform-touched="true">送信</button>
                 </form>
             </div >
         </section >
