@@ -6,7 +6,7 @@ export const SectionContactEn = () => {
             <SectionHeader id="contact" title="Contact" titleEn="contact" />
             <div>
                 <div className="text-center my-4 text-[80%] text-[#937a43] lg:text-[100%]">For requests or inquiries regarding Pianist Rina Akahoshi, please contact us here.</div>
-                <form action="/Linkpi/contact" method="get" noValidate id="contact-form" className="gap-4 grid-cols-1 grid text-[#937a43]">
+                <form action="/api/contact" method="get" noValidate id="contact-form" className="gap-4 grid-cols-1 grid text-[#937a43]">
                     <div>
                         <label htmlFor="name" className="font-medium block bg-inherit text-[.875rem] leading-none mb-2">Name</label>
                         <input className="border rounded w-full py-2 px-2 flex m-auto outline outline-1" id="name" name="name" />

@@ -8,7 +8,7 @@ export default function News20230801() {
             <AppNavNews />
             <main className="grow px-4 bg-[#fefaff]">
                 <div className="mx-auto">
-                    <div className="gridp-4 border rounded gap-4 bg-white border-[#9d8566] border-solid mt-4">
+                    <div className="grid p-4 border rounded gap-4 bg-white border-[#9d8566] border-solid mt-4">
                         <div>
                             <div className="font-bold text-xl lg:text-center lg:py-4">
                                 みんなの挑戦をあたたかく見守る場所“おといのち音楽会”開催決定

@@ -4,7 +4,7 @@ export const Footer = () => {
     return (
         <div className="pt-4 h-40 bg-[#ffeeee]">
             <div className="flex justify-center">
-                <Link href="https://www.instagram.com/Linkkaboshi_rina/">
+                <Link href="https://www.instagram.com/akaboshi_rina/">
                     <img src="/icon/Instagram.svg" className="inline-block pt-[6px]" width="40" height="50" alt="twitter" />
                 </Link>
                 <Link href="https://www.youtube.com/@akaboshirina">

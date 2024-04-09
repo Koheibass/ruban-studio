@@ -5,9 +5,12 @@ import { EmailTemplate } from '@/components/EmailTemplate';
 const resend = new Resend(process.env.RESEND_API_KEY);
 
 export default async function handler(req, res) {
-    const { name, email, type, message, favorite_color } = req.query
-    if (favorite_color !== '') {
-        return res.redirect(307, '/thanks')
+    const { name, email, type, message, } = req.query
+    if (name.includes('@')) {
+        return;
+    }
+    if (name.includes('RobertErero')) {
+        return;
     }
 
     const { error } = await resend.emails.send({
