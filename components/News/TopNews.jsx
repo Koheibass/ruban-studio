@@ -16,7 +16,7 @@ export const TopNews = () => {
                 lang === 'ja' &&
 
                 <Link href="https://oto-inochi.com/" className="no-underline text-[#937a43] text-[93%] ml-2" target="_blank" rel="noopener noreferrer">
-                    <span className="lg:text-[18px]">クラシック愛好家のためのオンラインコミュニティ“おといのちオンライン”開設のお知らせ</span>
+                    <span className="lg:text-[18px]">ヨーロピアンなピアノスタジオOPENしました♪</span>
                 </Link>
             }
             {

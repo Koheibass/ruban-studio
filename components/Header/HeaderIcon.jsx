@@ -2,7 +2,7 @@ import Link from "next/link"
 
 export const HeaderIcon = () => {
     return (
-        <div className="inline-flex">
+        <div className="inline-flex invisible">
             <Link href="https://www.instagram.com/akaboshi_rina/" className="inline-flex pt-[5px] mr-2 w-[22px] lg:inline-block lg:ml-1" target="_blank" rel="noopener noreferrer">
                 <img src="/icon/Instagram.svg" width="35" height="35" alt="instagram" />
             </Link>

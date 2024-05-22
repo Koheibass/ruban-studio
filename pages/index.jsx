@@ -9,6 +9,7 @@ import { SectionRecordings } from '@/components/SectionRecordings';
 import { SectionContact } from '@/components/SectionContact';
 import { Footer } from '@/components/Footer';
 import { LanguageContext } from '@/utils/language';
+import BottomNav from '@/components/BottomNav';
 
 
 export default function Home() {
@@ -17,8 +18,10 @@ export default function Home() {
       <div className="flex flex-col relative min-h-lvh font-noto">
         <AppNav />
         <TopSlider />
+        <BottomNav />
         <main className="grow bg-[#fefaff] px-4 lg:px-20">
           <SectionNews />
+          <iframe src="https://web.star7.jp/reserve_new/mobile_yoyaku_glance.php?p=d09908f508&nodispheadfoot=1" width="100%" height="520"></iframe>
           <SectionBiography />
           <SectionConcerts />
           <SectionMedia />

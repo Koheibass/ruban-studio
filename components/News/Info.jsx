@@ -3,7 +3,6 @@ import Link from 'next/link'
 export const Info = () => {
     return (
         <div>
-            { }
             <h3 className="text-center text-[16px] lg:tracking-widest lg:text-[18px] leading-none font-bold pt-4 pb-1 text-[#937a43] font-noto">
                 <div>最新情報</div>
                 <div className="translate__another">Updates</div>
