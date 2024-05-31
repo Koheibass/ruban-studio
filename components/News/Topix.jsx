@@ -6,7 +6,7 @@ export const Topix = () => {
     const { lang } = useLanguage();
     return (
         <div>
-            <h3 className="mb-4 text-center text-[16px] lg:tracking-widest lg:text-[18px] leading-none font-bold pt-4 pb-1 text-[#937a43] font-noto mt-4">
+            <h3 className="mb-4 text-center text-[20px] lg:tracking-widest lg:text-[18px] leading-none font-bold pt-2 pb-1 text-[#937a43] font-noto mt-4">
                 <div>最新情報</div>
             </h3>
             <div className="grid mb-4 lg:mt-4 px-4 py-4 bg-[#f9f4ff] border rounded">
