@@ -6,7 +6,6 @@ export const SectionNews = () => {
 
     return (
         <section>
-            <TopNews />
             < Topix />
         </section>
     )

@@ -52,25 +52,13 @@ export const AppNav = () => {
             <div>
                 <div className="flex items-center h-20">
                     <HeaderLeft />
-                    <div className="flex items-center justify-end">
-                        <p className='text-[20px] text-[#937a43]'>
-                            東京都 練馬区 平和台駅から徒歩５分
-                        </p>
-                        {
-                            lang === 'ja' &&
-                            <p className='text-[20px] pl-10 text-[#937a43]'></p>
-                        }
-                        {
-                            lang === 'en' &&
-                            <HeaderMenuEn />
-                        }
-                        <HeaderIcon />
-                        <HeaderDropdown />
+                    <HeaderIcon />
+                    <div className="flex items-center">
                         <div className="hamburger lg:invisible">
-                            <span>
-                                <img src="/photo/piano.svg" width="25" height="25" alt="piano" />
-                            </span>
-                            <p className="piano-menu">menu</p>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <p className="piano-menu">MENU</p>
                         </div>
                     </div>
                     <ul className="slide-menu">
