@@ -8,20 +8,20 @@ export default function BottomNav() {
     return (
         <ul className='flex left-0 right-0 z-0 justify-center text-center pt-2 pb-2 bg-[#ffeeee] text-[#a5862f]'>
             <li className='pl-'>
-                <Link href='/'><PiPianoKeysFill className='text-[30px] ml-4' /></Link>
-                <span className='text-[10px]'>スタジオ案内</span>
+                <Link href='/'><PiPianoKeysFill className='text-[30px] ml-7' /></Link>
+                <span className='text-[13px]'>スタジオ案内</span>
             </li>
             <li className='pl-8'>
                 <Link href='/'><HiOutlineCurrencyYen className='text-[30px]' /></Link>
-                <span className='text-[10px]'>料金</span>
+                <span className='text-[13px]'>料金</span>
             </li>
             <li className='pl-8'>
                 <Link href='/'><LuMapPin className='text-[30px] ml-2' /></Link>
-                <span className='text-[10px]'>アクセス</span>
+                <span className='text-[13px]'>アクセス</span>
             </li>
             <li className='pl-8'>
-                <Link href='/'><FaStar className='text-[30px] ml-2' /></Link>
-                <span className='text-[10px]'>初めての方</span>
+                <Link href='/'><FaStar className='text-[30px] ml-4' /></Link>
+                <span className='text-[13px]'>初めての方</span>
             </li>
         </ul>
     );

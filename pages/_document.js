@@ -10,6 +10,7 @@ export default function Document() {
         <meta name="description" content="ピアニストスタジオリュバンの公式ホームページです♪" />
         <meta property="og:url" content="https://rina-akaboshi.com/" />
         <meta property="og:image" content='https://rina-akaboshi.com/photo/biography.webp' />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
       </Head>
       <body>
         <Main />
