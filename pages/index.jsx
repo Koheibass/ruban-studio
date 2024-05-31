@@ -21,6 +21,9 @@ export default function Home() {
         <BottomNav />
         <main className="grow bg-[#fefaff] px-4 lg:px-20">
           <SectionNews />
+          <h3 className="mb-4 text-center text-[16px] lg:tracking-widest lg:text-[18px] leading-none font-bold pt-4 pb-1 text-[#937a43] font-noto mt-4">
+            <div>ご予約</div>
+          </h3>
           <iframe src="https://web.star7.jp/reserve_new/mobile_yoyaku_glance.php?p=d09908f508&nodispheadfoot=1" width="100%" height="520"></iframe>
           <SectionBiography />
           <SectionConcerts />
