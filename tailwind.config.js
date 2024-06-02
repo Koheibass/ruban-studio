@@ -17,6 +17,7 @@ module.exports = {
         castoro: ['Castoro', 'serif'],
         paris: ['Parisienne', 'cursive'],
         rock: ['RocknRoll One", sans-serif'],
+        cormo: ["Cormorant Garamond", 'serif'],
       }
     },
   },

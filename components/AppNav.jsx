@@ -54,7 +54,7 @@ export const AppNav = () => {
                 <div className="flex items-center h-20">
                     <HeaderLeft />
                     <HeaderIcon />
-                    <div className="flex items-center">
+                    <div className="flex items-center pr-1">
                         <div className="hamburger lg:invisible">
                             <span></span>
                             <span></span>
