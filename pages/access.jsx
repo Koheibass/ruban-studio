@@ -7,7 +7,7 @@ import { LanguageContext } from '@/utils/language';
 import BottomNav from '@/components/BottomNav';
 
 
-export default function Home() {
+export default function Access() {
     return (
         <LanguageContext.Provider value='ja'>
             <div className="flex flex-col relative min-h-lvh font-noto">
