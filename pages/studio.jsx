@@ -17,11 +17,11 @@ export default function Home() {
                 <main className="grow bg-[#fefaff] px-4 lg:px-20">
                     <h4><img src="/photo/studiotitle.jpg" /></h4>
                     <div className=''>
-                        <p className='font-Rock font-thin'>東京メトロ有楽町線、副都心線 平和台駅から<br />徒歩5分のピアノスタジオ
+                        <p className='font-Rock font-thin pb-1'>東京メトロ有楽町線、副都心線 平和台駅から<br />徒歩5分のピアノスタジオ
                             東京都内の主要駅からのアクセスも良く、お気軽にご利用いただけるスタジオです。
-                            <br />
-                            <img src="/photo/DSCF6956.JPG" className='border rounded-md' />
-                            白基調のエレガントな内装にもこだわっており、写真撮影や動画撮影はもちろん、いつもと違うヨーロピアンな空間で練習をお楽しみいただけます。
+                        </p>
+                        <img src="/photo/DSCF6956.JPG" className='border rounded-md' />
+                        <p className='pt-1'>白基調のエレガントな内装にもこだわっており、写真撮影や動画撮影はもちろん、いつもと違うヨーロピアンな空間で練習をお楽しみいただけます。
 
                             完全無人スタジオで、スタッフと顔を合わせることなくご利用可能です。（防犯カメラあり）
 
@@ -44,7 +44,7 @@ export default function Home() {
                 </main>
                 <Footer />
             </div >
-        </LanguageContext.Provider>
+        </LanguageContext.Provider >
     )
 }
 /**
