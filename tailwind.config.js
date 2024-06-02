@@ -16,6 +16,7 @@ module.exports = {
         noto: ['Noto Serif JP', 'serif'],
         castoro: ['Castoro', 'serif'],
         paris: ['Parisienne', 'cursive'],
+        Rock: ['RocknRoll One", sans-serif'],
       }
     },
   },
