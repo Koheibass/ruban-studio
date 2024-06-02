@@ -15,6 +15,12 @@ export default function Home() {
         <TopSlider />
         <BottomNav />
         <main className="grow bg-[#fefaff] px-4 lg:px-20">
+          <h4><img src="/photo/studiotitle.jpg" /></h4>
+          <div className=''>
+            <p className='font-Rock font-thin pb-1'>東京メトロ有楽町線、副都心線 平和台駅から<br />徒歩5分のピアノスタジオ
+              東京都内の主要駅からのアクセスも良く、お気軽にご利用いただけるスタジオです。
+            </p>
+          </div>
           <SectionNews />
         </main>
         <Footer />

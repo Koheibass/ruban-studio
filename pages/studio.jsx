@@ -15,12 +15,7 @@ export default function Home() {
                 <TopSlider />
                 <BottomNav />
                 <main className="grow bg-[#fefaff] px-4 lg:px-20">
-                    <h4><img src="/photo/studiotitle.jpg" /></h4>
                     <div className=''>
-                        <p className='font-Rock font-thin pb-1'>東京メトロ有楽町線、副都心線 平和台駅から<br />徒歩5分のピアノスタジオ
-                            東京都内の主要駅からのアクセスも良く、お気軽にご利用いただけるスタジオです。
-                        </p>
-                        <img src="/photo/DSCF6956.JPG" className='border rounded-md' />
                         <p className='pt-1'>
                             白基調のエレガントな内装にもこだわっており、写真撮影や動画撮影はもちろん、いつもと違うヨーロピアンな空間で練習をお楽しみいただけます。
 
@@ -28,6 +23,7 @@ export default function Home() {
 
                             ご予約時間のみ有効の暗証番号式ロックを採用しているため、前の方が鍵を置き忘れて入室できない…といったトラブルもありません。
                         </p>
+                        <img src="/photo/DSCF6956.JPG" className='border rounded-md' />
                         <br />
                         <p>設置ピアノ
 
