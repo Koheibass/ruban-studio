@@ -66,13 +66,13 @@
 .slide-menu li {
     color: #a07c43;
     line-height: 400%;
-    margin-right: 30px;
+    margin-right: 180px;
     font-weight: 700;
     text-align: center;
 }
 
 .slide-menu.active {
-    transform: translateX(0);
+    transform: translateX(50%);
 }
 
 .slide-menu.non-active {

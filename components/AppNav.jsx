@@ -5,6 +5,7 @@ import { useLanguage } from '@/utils/language'
 import HeaderMenuEn from './English/HeaderEn/HeaderMenuEn'
 import HeaderMenu from './Header/HeaderMenu'
 import { useEffect } from 'react'
+import Link from 'next/link'
 
 export const AppNav = () => {
     const { lang } = useLanguage();
@@ -62,11 +63,11 @@ export const AppNav = () => {
                         </div>
                     </div>
                     <ul className="slide-menu">
-                        <li>{lang === 'ja' && <a href="#biography" className="slide-menu1">プロフィール</a>}{lang === 'en' && <a href="#biography" className="slide-menu1">Biography</a>}</li>
-                        <li>{lang === 'ja' && <a href="#concerts" className="slide-menu2">コンサート</a>}{lang === 'en' && <a href="#concerts" className="slide-menu2">Concerts</a>}</li>
-                        <li>{lang === 'ja' && <a href="#media" className="slide-menu3">メディア</a>}{lang === 'en' && <a href="#media" className="slide-menu3">Media</a>}</li>
-                        <li>{lang === 'ja' && <a href="#recordings" className="slide-menu4">CD</a>}{lang === 'en' && <a href="#recordings" className="slide-menu4">CD</a>}</li>
-                        <li>{lang === 'ja' && <a href="#contact" className="slide-menu5">お問い合わせ</a>}{lang === 'en' && <a href="#contact" className="slide-menu5">Contact</a>}</li>
+                        <li>{lang === 'ja' && <Link href="/studio" className="slide-menu1">スタジオ案内</Link>}{lang === 'en' && <a href="#biography" className="slide-menu1">Biography</a>}</li>
+                        <li>{lang === 'ja' && <Link href="/price" className="slide-menu2">ご利用料金</Link>}{lang === 'en' && <a href="#concerts" className="slide-menu2">Concerts</a>}</li>
+                        <li>{lang === 'ja' && <Link href="/access" className="slide-menu3">アクセス</Link>}{lang === 'en' && <a href="#media" className="slide-menu3">Media</a>}</li>
+                        <li>{lang === 'ja' && <a href="#recordings" className="slide-menu4">初めての方へ</a>}{lang === 'en' && <a href="#recordings" className="slide-menu4">CD</a>}</li>
+                        <li>{lang === 'ja' && <a href="#contact" className="slide-menu5">NEWS</a>}{lang === 'en' && <a href="#contact" className="slide-menu5">Contact</a>}</li>
                     </ul>
                 </div>
             </div>

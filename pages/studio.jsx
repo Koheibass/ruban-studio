@@ -16,14 +16,14 @@ export default function Home() {
                 <BottomNav />
                 <main className="grow bg-[#fefaff] px-4 lg:px-20">
                     <div className=''>
+                        <h4><img src="/photo/elegant.jpg" /></h4>
                         <p className='pt-1'>
-                            白基調のエレガントな内装にもこだわっており、写真撮影や動画撮影はもちろん、いつもと違うヨーロピアンな空間で練習をお楽しみいただけます。
+                            白基調の内装にもこだわっており、写真撮影や動画撮影はもちろん、いつもと違うヨーロピアンな空間で練習をお楽しみいただけます。
 
                             完全無人スタジオで、スタッフと顔を合わせることなくご利用可能です。（防犯カメラあり）
 
                             ご予約時間のみ有効の暗証番号式ロックを採用しているため、前の方が鍵を置き忘れて入室できない…といったトラブルもありません。
                         </p>
-                        <img src="/photo/DSCF6956.JPG" className='border rounded-md' />
                         <br />
                         <p>設置ピアノ
 
