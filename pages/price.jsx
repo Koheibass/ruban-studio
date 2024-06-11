@@ -14,18 +14,33 @@ export default function Price() {
                 <AppNav />
                 <TopSlider />
                 <BottomNav />
-                <main className="grow bg-[#fefaff] px-4 lg:px-20">
-                    <p>オープニング記念価格！
+                <main className="grow bg-[#fefaff] px-4 lg:px-20 tracking-[4px] leading-7">
+                    <div className='pt-2 px-20'>
+                        <strong className='text-[#766335] font-cormo font-bold text-[20px] px-14'>Price</strong>
+                    </div>
+                    <div className='px-6 text-[14px]'>
+                        <p className='pt-2 text-[px] pb-2'>オープニング記念価格！</p>
+                        <p className='text-[px] pb-'> 何曜日でも何時でも、<br />1時間2,000円です。
+                            <br />
+                            ぜひこの機会にご利用ください！！
 
-                        何曜日でも何時でも、1時間2,000円です。
-
-                        ぜひこの機会にご利用ください！！
-
-                        （※録音、配信プランを除く）</p>
+                            （※録音、配信プランを除く）</p>
+                        <div className='pt-14 px-20'>
+                            <strong className='text-[#766335] font-cormo font-bold text-[20px] px-8'>Policy</strong>
+                        </div>
+                        <p className='pt-2 text-[px] pb-2'>キャンセル規定</p>
+                        <p>
+                            1週間前まで：3.6%
+                            <br />
+                            3〜6日前まで：スタジオ代金50%
+                            <br />
+                            当日、前日、前々日：スタジオ代金100％
+                        </p>
+                    </div>
                 </main>
                 <Footer />
             </div >
-        </LanguageContext.Provider>
+        </LanguageContext.Provider >
     )
 }
 /**

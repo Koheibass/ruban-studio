@@ -6,22 +6,22 @@ import { FaStar } from "react-icons/fa";
 
 export default function BottomNav() {
     return (
-        <ul className='flex left-0 right-0 z-0 justify-center text-center pt-2 pb-2 bg-[#ffeeee] text-[#a5862f]'>
-            <li className='pl-'>
-                <Link href='/studio'><PiPianoKeysFill className='text-[30px] ml-7' /></Link>
-                <span className='text-[13px]'>スタジオ案内</span>
+        <ul className='flex left-0 right-0 z-0 justify-center text-center pt-3 pb-2 bg-[#ffeeee] text-[#a5862f]'>
+            <li className='pl-2'>
+                <Link href='/studio'><PiPianoKeysFill className='text-[30px] ml-[22px]' /></Link>
+                <span className='text-[12px]'>スタジオ案内</span>
             </li>
             <li className='pl-8'>
                 <Link href='/price'><HiOutlineCurrencyYen className='text-[30px]' /></Link>
-                <span className='text-[13px]'>料金</span>
+                <span className='text-[12px]'>料金</span>
             </li>
-            <li className='pl-8'>
+            <li className='pl-11'>
                 <Link href='/access'><LuMapPin className='text-[30px] ml-2' /></Link>
-                <span className='text-[13px]'>アクセス</span>
+                <span className='text-[12px]'>アクセス</span>
             </li>
-            <li className='pl-8'>
-                <Link href='/'><FaStar className='text-[30px] ml-4' /></Link>
-                <span className='text-[13px]'>初めての方</span>
+            <li className='pl-5 pr-2'>
+                <Link href='/use'><FaStar className='text-[30px] ml-5' /></Link>
+                <span className='text-[12px]'>ご利用の流れ</span>
             </li>
         </ul>
     );

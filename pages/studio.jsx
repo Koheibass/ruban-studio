@@ -7,7 +7,7 @@ import { LanguageContext } from '@/utils/language';
 import BottomNav from '@/components/BottomNav';
 
 
-export default function Home() {
+export default function Studio() {
     return (
         <LanguageContext.Provider value='ja'>
             <div className="flex flex-col relative min-h-lvh font-noto">
@@ -16,7 +16,6 @@ export default function Home() {
                 <BottomNav />
                 <main className="grow bg-[#fefaff] px-4 lg:px-20">
                     <div className=''>
-                        <h4><img src="/photo/elegant.jpg" /></h4>
                         <p className='pt-1'>
                             白基調の内装にもこだわっており、写真撮影や動画撮影はもちろん、いつもと違うヨーロピアンな空間で練習をお楽しみいただけます。
 

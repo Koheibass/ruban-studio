@@ -7,25 +7,20 @@ import { LanguageContext } from '@/utils/language';
 import BottomNav from '@/components/BottomNav';
 
 
-export default function Home() {
-  return (
-    <LanguageContext.Provider value='ja'>
-      <div className="flex flex-col relative min-h-lvh font-noto">
-        <AppNav />
-        <TopSlider />
-        <BottomNav />
-        <main className="grow bg-[#fefaff] px-4 lg:px-20">
-          <h4><img src="/photo/studiotitle.jpg" /></h4>
-          <div className=''>
-            <p className='font-Rock font-thin pb-1'>東京メトロ有楽町線、副都心線 平和台駅から<br />徒歩5分のピアノスタジオ
-              東京都内の主要駅からのアクセスも良く、お気軽にご利用いただけるスタジオです。
-            </p>
-          </div>
-        </main>
-        <Footer />
-      </div >
-    </LanguageContext.Provider>
-  )
+export default function News() {
+    return (
+        <LanguageContext.Provider value='ja'>
+            <div className="flex flex-col relative min-h-lvh font-noto">
+                <AppNav />
+                <TopSlider />
+                <BottomNav />
+                <main className="grow bg-[#fefaff] px-4 lg:px-20 tracking-[4px] leading-7">
+                    <SectionNews />
+                </main>
+                <Footer />
+            </div >
+        </LanguageContext.Provider >
+    )
 }
 /**
  * <h3 className="mb-4 text-center text-[16px] lg:tracking-widest lg:text-[18px] leading-none font-bold pt-4 pb-1 text-[#937a43] font-noto mt-4">

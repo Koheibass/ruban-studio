@@ -19,7 +19,7 @@ export default function Access() {
                         <strong className='text-[#766335] font-cormo font-bold text-[20px] px-12'>Address</strong>
                     </div>
                     <div className='px-6 text-[14px]'>
-                        <p className='pt-2 text-[16px] pb-2'>東京都練馬区北町6-37-3</p>
+                        <p className='pt-2 text-[px] pb-2'>東京都練馬区北町6-37-3</p>
                         <div className='pt-2 px-20'>
                             <strong className='text-[#766335] font-cormo font-bold text-[20px] px-8'>Access</strong>
                         </div>
