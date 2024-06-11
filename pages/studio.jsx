@@ -14,7 +14,10 @@ export default function Studio() {
                 <AppNav />
                 <TopSlider />
                 <BottomNav />
-                <main className="grow bg-[#fefaff] px-4 lg:px-20">
+                <main className="grow bg-[#fefaff] px-4 lg:px-20 text-center">
+                    <div className='py-4'>
+                        <strong className='text-[#766335] font-cormo font-bold text-[20px] px-14'>About</strong>
+                    </div>
                     <div className=''>
                         <p className='pt-1'>
                             白基調の内装にもこだわっており、写真撮影や動画撮影はもちろん、いつもと違うヨーロピアンな空間で練習をお楽しみいただけます。
@@ -23,7 +26,9 @@ export default function Studio() {
 
                             ご予約時間のみ有効の暗証番号式ロックを採用しているため、前の方が鍵を置き忘れて入室できない…といったトラブルもありません。
                         </p>
-                        <br />
+                        <div className='py-4'>
+                            <strong className='text-[#766335] font-cormo font-bold text-[20px] px-14'>Piano</strong>
+                        </div>
                         <p>設置ピアノ
 
                             YAMAHA C3B

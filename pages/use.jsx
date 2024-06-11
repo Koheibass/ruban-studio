@@ -30,7 +30,7 @@ export default function Use() {
                                 何日前からでもご予約可能ですが、キャンセルの場合には3.6%の返金手数料が発生いたしますのでご注意ください。
                                 <br />
                                 <br />
-                                キャンセル時の返金規定は<Link href='' className='underline'>こちら</Link>から
+                                キャンセル時の返金規定は<Link href='/price/#policy' className='underline'>こちら</Link>から
                             </p>
 
                             <h3 className='font-bold bg-[#f9f4ff] inline-block px-2 py-2'>2.当日ご利用（ご入室）</h3>
@@ -39,11 +39,11 @@ export default function Use() {
                                 <br />
                                 オートロックの解除キーは、ご予約完了メールに記載されております◯ケタの数字です。
                                 <br />
-                                必ず数字を入力した後に「＊」を打ち込んでください。
+                                必ず数字を入力した後に上部の「RemoteLock」ボタンを押してください。
                                 <br />
                                 例：解除キーが1234の場合
 
-                                「1234＊」と入力
+                                「1234 RemoteLock」と入力
                                 <br />
                                 時間内に再入場の場合にも同じ解除キーをご使用ください。
                                 <br />

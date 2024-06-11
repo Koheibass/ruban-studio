@@ -14,29 +14,28 @@ export default function Access() {
                 <AppNav />
                 <TopSlider />
                 <BottomNav />
-                <main className="grow bg-[#fefaff] px-4 lg:px-20 tracking-[4px] leading-7">
+                <main className="grow bg-[#fefaff] px-4 lg:px-20 tracking-[4px] leading-7 text-center">
                     <div className='pt-2 px-20'>
-                        <strong className='text-[#766335] font-cormo font-bold text-[20px] px-12'>Address</strong>
+                        <strong className='text-[#766335] font-cormo font-bold text-[20px]'>Address</strong>
                     </div>
                     <div className='px-6 text-[14px]'>
-                        <p className='pt-2 text-[px] pb-2'>東京都練馬区北町6-37-3</p>
+                        <p className='pt-4 text-[px] pb-2'>東京都練馬区北町6-37-3</p>
                         <div className='pt-2 px-20'>
-                            <strong className='text-[#766335] font-cormo font-bold text-[20px] px-8'>Access</strong>
+                            <strong className='text-[#766335] font-cormo font-bold text-[20px]'>Access</strong>
                         </div>
-                        <p>東京メトロ有楽町線、副都心線<br />平和台駅から徒歩5分
-                            <br />
-                            <div className='pt-2 px-20'>
-                                <strong className='text-[#766335] font-cormo font-bold text-[20px] px-4'>Attention</strong>
-                            </div>
-                            駐車場はございません。
-
-                            （近隣にコインパーキングあり）</p>
+                        <p className='text-left pt-4'>東京メトロ有楽町線、副都心線<br />平和台駅から徒歩5分</p>
+                        <br />
+                        <div className='pt-2 px-20'>
+                            <strong className='text-[#766335] font-cormo font-bold text-[20px]'>Attention</strong>
+                        </div>
+                        <p className='text-left pt-4'>駐車場はございません。</p>
+                        <p className='text-[13px] pr-3 pb-8'>（近隣にコインパーキングあり）</p>
                     </div>
                     <div><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12950.647445545132!2d139.6506195!3d35.759115!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018ed4088e6e60d%3A0x1cc03abea33f6f6f!2z44OU44Ki44OO44K544K_44K444Kq44Oq44Ol44OQ44Oz!5e0!3m2!1sja!2sjp!4v1717300015844!5m2!1sja!2sjp" width="100%" height="300" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
                 </main>
                 <Footer />
             </div >
-        </LanguageContext.Provider>
+        </LanguageContext.Provider >
     )
 }
 /**

@@ -67,7 +67,7 @@ export const AppNav = () => {
                         <li>{lang === 'ja' && <Link href="/price" className="slide-menu2">ご利用料金</Link>}{lang === 'en' && <a href="#concerts" className="slide-menu2">Concerts</a>}</li>
                         <li>{lang === 'ja' && <Link href="/access" className="slide-menu3">アクセス</Link>}{lang === 'en' && <a href="#media" className="slide-menu3">Media</a>}</li>
                         <li>{lang === 'ja' && <Link href="/use" className="slide-menu4">初めての方へ</Link>}{lang === 'en' && <a href="#recordings" className="slide-menu4">CD</a>}</li>
-                        <li>{lang === 'ja' && <a href="/news" className="slide-menu5">NEWS</a>}{lang === 'en' && <a href="#contact" className="slide-menu5">Contact</a>}</li>
+                        <li>{lang === 'ja' && <Link href="/news" className="slide-menu5">NEWS</Link>}{lang === 'en' && <a href="#contact" className="slide-menu5">Contact</a>}</li>
                     </ul>
                 </div>
             </div>
