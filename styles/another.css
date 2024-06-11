@@ -13,7 +13,7 @@
     position: absolute;
     width: 100%;
     height: 1px;
-    background-color: #a07c43;
+    background-color: #BDA06A;
     transition: .3s;
 }
 
@@ -48,7 +48,7 @@
     font-size: 20px;
     font-weight: 400;
     padding-top: 23px;
-    color: #a07c43;
+    color: #BDA06A;
     -webkit-transform: scale(0.5);
     transform: scale(0.5);
 }

@@ -6,7 +6,7 @@ import { FaStar } from "react-icons/fa";
 
 export default function BottomNav() {
     return (
-        <ul className='flex left-0 right-0 z-0 justify-center text-center pt-3 pb-2 bg-[#ffeeee] text-[#a5862f]'>
+        <ul className='flex left-0 right-0 z-0 justify-center text-center pt-3 pb-2 bg-[#f4e7d8] text-[#BDA06A]'>
             <li className='pl-2'>
                 <Link href='/studio'><PiPianoKeysFill className='text-[30px] ml-[22px]' /></Link>
                 <span className='text-[12px]'>スタジオ案内</span>
