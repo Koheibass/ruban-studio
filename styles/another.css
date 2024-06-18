@@ -231,7 +231,7 @@ html {
 
 .anim-box {
     animation: fadeup 2s cubic-bezier(0.33, 1, 0.68, 1) forwards;
-    padding-top: 32px;
+    padding-top: 40px;
 }
 
 @keyframes fadeup {

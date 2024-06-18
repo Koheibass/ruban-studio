@@ -14,9 +14,9 @@ export default function Home() {
       <TopSlider />
       <BottomNav />
       <main className="grow bg-[#fefaff] px-4 lg:px-20">
-        <h4 className='anim-box'><img src="/photo/studiotitle.jpg" /></h4>
+        <h4 className='anim-box'><img src="/photo/senren.png" /></h4>
         <div className='mx-6'>
-          <p className='text-center py-8 tracking-[4px] leading-[28px] text-[14px]'>
+          <p className='text-center py-6 tracking-[4px] leading-[28px] text-[14px]'>
             東京メトロ有楽町線、副都心線
             <br />
             平和台駅から徒歩5分
@@ -54,14 +54,10 @@ export default function Home() {
           <h3 className='font-bold bg-[#F5DAE6] inline-block px-2 py-2 tracking-[4px] text-[#6c4b2d]'>3. 手続き等なくご利用終了♪</h3>
         </div>
         <div className='mx-6'>
-          <p className='text-center py-8 tracking-[4px] leading-[28px] text-[14px]'>
-            <div className=''>
-              <p className='text-center tracking-[4px] leading-[28px] text-[16px]'>
-                より詳細なご利用の流れは
-                <br />
-                <Link href="/use" class="underline font-bold">こちら</Link>をご覧ください。
-              </p>
-            </div>
+          <p className='text-center tracking-[4px] leading-[28px] text-[16px]'>
+            より詳細なご利用の流れは
+            <br />
+            <Link href="/use" class="underline font-bold">こちら</Link>をご覧ください。
           </p>
         </div>
         <div className='mx-6 text-center py-6'>
