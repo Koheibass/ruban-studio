@@ -3,28 +3,25 @@ import TopSlider from '@/components/TopSlider';
 import { AppNav } from '@/components/AppNav';
 import { SectionNews } from '@/components/News/SectionNews';
 import { Footer } from '@/components/Footer';
-import { LanguageContext } from '@/utils/language';
 import BottomNav from '@/components/BottomNav';
 
 
 export default function Home() {
   return (
-    <LanguageContext.Provider value='ja'>
-      <div className="flex flex-col relative min-h-lvh font-noto">
-        <AppNav />
-        <TopSlider />
-        <BottomNav />
-        <main className="grow bg-[#fefaff] px-4 lg:px-20">
-          <h4 className='pt-4'><img src="/photo/studiotitle.jpg" /></h4>
-          <div className='py-8'>
-            <p className='font-Rock font-thin pb-1 tracking-wider'>東京メトロ有楽町線、副都心線 平和台駅から徒歩5分のピアノスタジオ
-              東京都内の主要駅からのアクセスも良く、お気軽にご利用いただけるスタジオです。
-            </p>
-          </div>
-        </main>
-        <Footer />
-      </div >
-    </LanguageContext.Provider>
+    <div className="flex flex-col relative min-h-lvh font-noto">
+      <AppNav />
+      <TopSlider />
+      <BottomNav />
+      <main className="grow bg-[#fefaff] px-4 lg:px-20">
+        <h4 className='anim-box'><img src="/photo/studiotitle.jpg" /></h4>
+        <div className=''>
+          <p className='text-center py-8 tracking-[4px] leading-[28px]'>東京メトロ有楽町線、副都心線 平和台駅から徒歩5分の<br />ピアノスタジオ<br />
+            東京都内の主要駅からの<br />アクセスも良く、<br />お気軽にご利用いただける<br />スタジオです。
+          </p>
+        </div>
+      </main>
+      <Footer />
+    </div >
   )
 }
 /**

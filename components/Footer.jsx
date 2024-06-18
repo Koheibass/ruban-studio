@@ -2,7 +2,7 @@ import Link from "next/link"
 
 export const Footer = () => {
     return (
-        <div className="pt-1 bg-[#ffeeee]">
+        <div className="pt-1 bg-[#f4e7d8]">
             <div className="text-sm text-center bg-transparent mt-4 pb-4 text-[#a5862f] underline">
                 <Link href='https://maps.app.goo.gl/zpmZPzvNjdmfFEZK9' target='_blank'>Google Mapで見る</Link>
             </div>

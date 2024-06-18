@@ -9,43 +9,39 @@ import BottomNav from '@/components/BottomNav';
 
 export default function Studio() {
     return (
-        <LanguageContext.Provider value='ja'>
-            <div className="flex flex-col relative min-h-lvh font-noto">
-                <AppNav />
-                <TopSlider />
-                <BottomNav />
-                <main className="grow bg-[#fefaff] px-4 lg:px-20 text-center">
-                    <div className='py-4'>
-                        <strong className='text-[#766335] font-cormo font-bold text-[20px] px-14'>About</strong>
-                    </div>
+        <div className="flex flex-col relative min-h-lvh font-noto">
+            <AppNav />
+            <TopSlider />
+            <BottomNav />
+            <main className="grow bg-[#ffffff] px-4 lg:px-20 text-center">
+                <div className='pt-8 mx-6'>
+                    <h3 className='font-bold bg-[#F5DAE6] inline-block px-2 py-2 tracking-[4px] text-[#6c4b2d]'>スタジオについて</h3>
+                    <p className='text-center py-8 tracking-[4px] leading-[28px]'>
+                        白基調の内装にもこだわっており、写真撮影や動画撮影はもちろん、いつもと違うヨーロピアンな空間で練習をお楽しみいただけます。
+
+                        完全無人スタジオで、スタッフと顔を合わせることなくご利用可能です。（防犯カメラあり）
+
+                        ご予約時間のみ有効の暗証番号式ロックを採用しているため、前の方が鍵を置き忘れて入室できない…といったトラブルもありません。
+                    </p>
                     <div className=''>
-                        <p className='pt-1'>
-                            白基調の内装にもこだわっており、写真撮影や動画撮影はもちろん、いつもと違うヨーロピアンな空間で練習をお楽しみいただけます。
-
-                            完全無人スタジオで、スタッフと顔を合わせることなくご利用可能です。（防犯カメラあり）
-
-                            ご予約時間のみ有効の暗証番号式ロックを採用しているため、前の方が鍵を置き忘れて入室できない…といったトラブルもありません。
-                        </p>
-                        <div className='py-4'>
-                            <strong className='text-[#766335] font-cormo font-bold text-[20px] px-14'>Piano</strong>
-                        </div>
-                        <p>設置ピアノ
-
-                            YAMAHA C3B
-
-                            全ハンマー、全弦を新品に交換済（2024年）
-
-                            ピアノ弦はドイツ製の大変質の良いものを使用しています。
-
-                            この弦は世界トップクラスの高級輸入ピアノによく使用されており、柔軟性に富んだ輝きのある響きが特徴です。
-
-                            まろやかに響く音で、練習、レッスンをお楽しみください。また録音にも適しており、美しい響きと音質でお録りいただけます。
-                        </p>
+                        <h3 className='font-bold bg-[#F5DAE6] inline-block px-2 py-2 tracking-[4px] text-[#6c4b2d]'>Piano</h3>
                     </div>
-                </main>
-                <Footer />
-            </div >
-        </LanguageContext.Provider>
+                    <p className='text-center py-8 tracking-[4px] leading-[28px]'>設置ピアノ
+
+                        YAMAHA C3B
+
+                        全ハンマー、全弦を新品に交換済（2024年）
+
+                        ピアノ弦はドイツ製の大変質の良いものを使用しています。
+
+                        この弦は世界トップクラスの高級輸入ピアノによく使用されており、柔軟性に富んだ輝きのある響きが特徴です。
+
+                        まろやかに響く音で、練習、レッスンをお楽しみください。また録音にも適しており、美しい響きと音質でお録りいただけます。
+                    </p>
+                </div>
+            </main>
+            <Footer />
+        </div >
     )
 }
 /**

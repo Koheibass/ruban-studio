@@ -14,28 +14,25 @@ export default function Price() {
                 <AppNav />
                 <TopSlider />
                 <BottomNav />
-                <main className="grow bg-[#fefaff] px-4 lg:px-20 tracking-[4px] leading-7 text-center">
-                    <div className='pt-2 px-20'>
-                        <strong className='text-[#766335] font-cormo font-bold text-[20px]'>Price</strong>
-                    </div>
-                    <div className='px-6 text-[14px]'>
-                        <p className='pt-2 text-[px] pb-2'>オープニング記念価格！</p>
-                        <p className='text-[px] pb-'> 何曜日でも何時でも、<br />1時間2,000円です。
-                            <br />
-                            ぜひこの機会にご利用ください！！
-
-                            （※録音、配信プランを除く）</p>
-                        <div className='pt-14 px-20'>
-                            <strong className='text-[#766335] font-cormo font-bold text-[20px]'>Policy</strong>
+                <main className="grow bg-[#ffffff] px-4 lg:px-20 text-center">
+                    <div className='pt-8 mx-6'>
+                        <div className='pt-1'>
+                            <h3 className='font-bold bg-[#F5DAE6] inline-block px-2 py-2 tracking-[4px] text-[#6c4b2d]'>ご利用料金</h3>
+                            <p className='text-center py-8 tracking-[4px] leading-[28px]'>オープニング記念価格！</p>
+                            <p className='text-[14px] tracking-[4px] text-center leading-[28px] pb-8'> 何曜日でも何時でも、<br /><br />1時間2,000円です。
+                                <br /><br />
+                                ぜひこの機会にご利用ください！！
+                                <br />
+                                （※録音、配信プランを除く）</p>
+                            <h3 className='font-bold bg-[#F5DAE6] inline-block px-2 py-2 tracking-[4px] text-[#6c4b2d]'>キャンセル規定</h3>
+                            <p className='py-4 text-[11px] tracking-[4px] text-center leading-[28px]'>
+                                1週間前まで：3.6%
+                                <br />
+                                3〜6日前まで：スタジオ代金50%
+                                <br />
+                                当日、前日、前々日：スタジオ代金100％
+                            </p>
                         </div>
-                        <p className='pt-2 text-[px] pb-2' id='policy'>キャンセル規定</p>
-                        <p className='text-left'>
-                            1週間前まで：3.6%
-                            <br />
-                            3〜6日前まで：スタジオ代金50%
-                            <br />
-                            当日、前日、前々日：スタジオ代金100％
-                        </p>
                     </div>
                 </main>
                 <Footer />

@@ -6,7 +6,9 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 const images = [
-    "/photo/DSCF6956.JPG",
+    "/photo/test1.JPG",
+    "/photo/test2.JPG",
+    "/photo/test3.JPG",
 ];
 
 export default function TopSlider() {
