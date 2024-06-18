@@ -5,6 +5,7 @@ import { SectionNews } from '@/components/News/SectionNews';
 import { Footer } from '@/components/Footer';
 import BottomNav from '@/components/BottomNav';
 import Link from 'next/link';
+import { Scroll } from '@/components/scrollreveal';
 
 
 export default function Home() {
@@ -27,6 +28,7 @@ export default function Home() {
           </p>
         </div>
         <div className='mx-6'>
+          <h2 className='pt-2'><img src="photo/top6.jpg" /></h2>
           <p className='text-center py-8 tracking-[4px] leading-[28px] text-[14px]'>
             内装は白を基調とした
             <br />
@@ -42,7 +44,7 @@ export default function Home() {
           </p>
         </div>
         <div className='mx-6 text-center py-6'>
-          <h2 className='text-[20px] tracking-[2px] font-semibold pb-8'>ご利用は簡単３ステップ</h2>
+          <h2 className='text-[20px] tracking-[2px] font-semibold pb-8'><img src="photo/riyou.png" /></h2>
         </div>
         <div className='pb-8 text-center'>
           <h3 className='font-bold bg-[#F5DAE6] inline-block px-2 py-2 tracking-[4px] text-[#6c4b2d]'>1. Webにて予約、お支払い</h3>
@@ -53,15 +55,15 @@ export default function Home() {
         <div className='text-center'>
           <h3 className='font-bold bg-[#F5DAE6] inline-block px-2 py-2 tracking-[4px] text-[#6c4b2d]'>3. 手続き等なくご利用終了♪</h3>
         </div>
-        <div className='mx-6'>
+        <div className='mx-6 pt-8'>
           <p className='text-center tracking-[4px] leading-[28px] text-[16px]'>
             より詳細なご利用の流れは
             <br />
             <Link href="/use" class="underline font-bold">こちら</Link>をご覧ください。
           </p>
         </div>
-        <div className='mx-6 text-center py-6'>
-          <h2 className='text-[20px] tracking-[2px] font-semibold pb-8'>ご利用シーンに合わせた設備</h2>
+        <div className='mx-6 text-center pt-14'>
+          <h2 className='text-[20px] tracking-[2px] font-semibold pb-8'><img src="photo/riyou1.png" /></h2>
         </div>
         <div className='mx-6'>
           <p className='text-center tracking-[4px] leading-[28px] text-[14px]'>
@@ -90,7 +92,8 @@ export default function Home() {
             設備、備品に関して<br />詳しくは<Link href="/" class="underline font-bold">こちら</Link>をご覧ください。
           </p>
         </div>
-        <div className='mx-6 pt-10 '>
+        <div className='mx-6 pt-10 pb-10'>
+          <h2 className='pt-2 pb-8'><img src="photo/top4.jpg" /></h2>
           <p className='text-center tracking-[4px] leading-[28px] text-[14px]'>
             オーナーが大切に<br />こだわって作った空間です。
             <br />
@@ -101,13 +104,6 @@ export default function Home() {
             ワクワクする音楽体験が<br />生まれることを<br />
             心から願っております。
           </p>
-        </div>
-        <div className='mx-6 pt-10 pb-8'>
-          <div className='text-center tracking-[4px] leading-[17px] text-[12px]'>
-            <p className='text-[14px] pb-3'>ピアノスタジオ リュバン</p>
-            東京都練馬区北町6-37-3　1F<br />
-            営業時間　9:00～21:00
-          </div>
         </div>
       </main >
       <Footer />

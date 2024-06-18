@@ -3,6 +3,13 @@ import Link from "next/link"
 export const Footer = () => {
     return (
         <div className="pt-1 bg-[#f4e7d8] text-center">
+            <div className='mx-6 pt-4 pb-'>
+                <div className='text-center tracking-[4px] leading-[17px] text-[12px]'>
+                    <p className='text-[14px] pb-3'>ピアノスタジオ リュバン</p>
+                    <p className="pb-2">東京都練馬区北町6-37-3　1F</p>
+                    <p>営業時間　9:00～21:00</p>
+                </div>
+            </div>
             <div className="text-sm text-center bg-transparent mt-4 pb-4 text-[#a5862f] underline">
                 <Link href='https://maps.app.goo.gl/zpmZPzvNjdmfFEZK9' target='_blank'>Google Mapで見る</Link>
             </div>
