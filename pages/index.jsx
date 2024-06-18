@@ -103,11 +103,11 @@ export default function Home() {
           </p>
         </div>
         <div className='mx-6 pt-10 pb-8'>
-          <p className='text-center tracking-[4px] leading-[17px] text-[12px]'>
+          <div className='text-center tracking-[4px] leading-[17px] text-[12px]'>
             <p className='text-[14px] pb-3'>ピアノスタジオ リュバン</p>
             東京都練馬区北町6-37-3　1F<br />
             営業時間　9:00～21:00
-          </p>
+          </div>
         </div>
       </main >
       <Footer />
