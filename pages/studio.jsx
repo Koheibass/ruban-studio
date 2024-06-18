@@ -5,6 +5,7 @@ import { SectionNews } from '@/components/News/SectionNews';
 import { Footer } from '@/components/Footer';
 import { LanguageContext } from '@/utils/language';
 import BottomNav from '@/components/BottomNav';
+import Link from 'next/link';
 
 
 export default function Studio() {
@@ -39,6 +40,7 @@ export default function Studio() {
                         まろやかに響く音で、練習、レッスンをお楽しみください。また録音にも適しており、美しい響きと音質でお録りいただけます。
                     </p>
                 </div>
+                <div className='pb-6 underline'><Link href="/">Top</Link></div>
             </main>
             <Footer />
         </div >
@@ -49,9 +51,9 @@ export default function Studio() {
             <div>ご予約</div>
           </h3>
           <iframe src="https://web.star7.jp/reserve_new/mobile_yoyaku_glance.php?p=d09908f508&nodispheadfoot=1" className='border rounded' width="100%" height="520"></iframe>
-          <SectionBiography />
-          <SectionConcerts />
-          <SectionMedia />
-          <SectionRecordings />
-          <SectionContact />
- */
+            <SectionBiography />
+            <SectionConcerts />
+            <SectionMedia />
+            <SectionRecordings />
+            <SectionContact />
+            */

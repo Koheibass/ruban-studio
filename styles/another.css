@@ -230,8 +230,8 @@ html {
 
 
 .anim-box {
-    animation: fadeup 1s cubic-bezier(0.33, 1, 0.68, 1) forwards;
-    padding-top: 20px;
+    animation: fadeup 2s cubic-bezier(0.33, 1, 0.68, 1) forwards;
+    padding-top: 32px;
 }
 
 @keyframes fadeup {
@@ -247,5 +247,56 @@ html {
     100% {
         opacity: 1;
         transform: translateY(0);
+    }
+}
+
+.animation_box_1 {
+    padding: 10px;
+    animation: fadeIn 3s ease 1s 1 normal backwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.animation_box_2 {
+    padding: 10px;
+    animation: fadeIn 3s ease 2s 1 normal backwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.animation_box_3 {
+    padding: 10px;
+    animation: fadeIn 3s ease 3s 1 normal backwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
     }
 }
