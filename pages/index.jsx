@@ -5,8 +5,9 @@ import { SectionNews } from '@/components/News/SectionNews';
 import { Footer } from '@/components/Footer';
 import BottomNav from '@/components/BottomNav';
 import Link from 'next/link';
-import { Scroll } from '@/components/scrollreveal';
 
+import dynamic from 'next/dynamic';
+const Scroll = dynamic(() => import('./ScrollReveal'), { ssr: false });
 
 export default function Home() {
   return (
@@ -14,7 +15,7 @@ export default function Home() {
       <AppNav />
       <TopSlider />
       <BottomNav />
-      <main className="grow bg-[#fefaff] px-4 lg:px-20">
+      <main className="grow bg-[#fefaff] px- lg:px-20">
         <h4 className='anim-box'><img src="/photo/senren.png" /></h4>
         <div className='mx-6'>
           <p className='text-center py-6 tracking-[4px] leading-[28px] text-[14px]'>
@@ -27,8 +28,8 @@ export default function Home() {
             お気軽にご利用いただける<br />ピアノスタジオです
           </p>
         </div>
+        <h2 className='pt-2'><img src="photo/top4.jpg" /></h2>
         <div className='mx-6'>
-          <h2 className='pt-2'><img src="photo/top6.jpg" /></h2>
           <p className='text-center py-8 tracking-[4px] leading-[28px] text-[14px]'>
             内装は白を基調とした
             <br />
@@ -44,7 +45,7 @@ export default function Home() {
           </p>
         </div>
         <div className='mx-6 text-center py-6'>
-          <h2 className='text-[20px] tracking-[2px] font-semibold pb-8'><img src="photo/riyou.png" /></h2>
+          <Scroll><h2 className='text-[20px] tracking-[2px] font-semibold pb-8'><img src="photo/riyou.png" /></h2></Scroll>
         </div>
         <div className='pb-8 text-center'>
           <h3 className='font-bold bg-[#F5DAE6] inline-block px-2 py-2 tracking-[4px] text-[#6c4b2d]'>1. Webにて予約、お支払い</h3>
@@ -63,7 +64,7 @@ export default function Home() {
           </p>
         </div>
         <div className='mx-6 text-center pt-14'>
-          <h2 className='text-[20px] tracking-[2px] font-semibold pb-8'><img src="photo/riyou1.png" /></h2>
+          <Scroll><h2 className='text-[20px] tracking-[2px] font-semibold pb-8'><img src="photo/riyou1.png" /></h2></Scroll>
         </div>
         <div className='mx-6'>
           <p className='text-center tracking-[4px] leading-[28px] text-[14px]'>
@@ -92,8 +93,8 @@ export default function Home() {
             設備、備品に関して<br />詳しくは<Link href="/" class="underline font-bold">こちら</Link>をご覧ください。
           </p>
         </div>
+        <h2 className='pt-11'><img src="photo/top6.jpg" /></h2>
         <div className='mx-6 pt-10 pb-10'>
-          <h2 className='pt-2 pb-8'><img src="photo/top4.jpg" /></h2>
           <p className='text-center tracking-[4px] leading-[28px] text-[14px]'>
             オーナーが大切に<br />こだわって作った空間です。
             <br />

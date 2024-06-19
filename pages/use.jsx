@@ -56,6 +56,7 @@ export default function Use() {
                             <h3 className='font-bold bg-[#F5DAE6] inline-block px-2 py-2 tracking-[4px] text-[#6c4b2d]'>免責事項</h3>
                             <br />
                             <p className='py-8 text-[15px] tracking-[4px] text-center leading-[28px]'>完全無人スタジオのため、<br />突発的な機材トラブル等に対して、その場ですぐにご対応できない場合がございます。<br /><br />そのような場合にも利用料金が発生してしまうことを予めご了承いただいた上で、ご利用いただきますようお願いいたします。</p>
+                            <p className='pb-8 underline'><Link href="/">利用規約</Link></p>
                         </div>
                     </div>
                 </div>
