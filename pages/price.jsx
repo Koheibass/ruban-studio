@@ -5,6 +5,7 @@ import { SectionNews } from '@/components/News/SectionNews';
 import { Footer } from '@/components/Footer';
 import { LanguageContext } from '@/utils/language';
 import BottomNav from '@/components/BottomNav';
+import TopSliderMobile from '@/components/TopSliderMobile';
 
 
 export default function Price() {

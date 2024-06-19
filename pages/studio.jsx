@@ -6,6 +6,7 @@ import { Footer } from '@/components/Footer';
 import { LanguageContext } from '@/utils/language';
 import BottomNav from '@/components/BottomNav';
 import Link from 'next/link';
+import TopSliderMobile from '@/components/TopSliderMobile';
 
 
 export default function Studio() {
