@@ -5,25 +5,31 @@ import { SectionNews } from '@/components/News/SectionNews';
 import { Footer } from '@/components/Footer';
 import BottomNav from '@/components/BottomNav';
 import Link from 'next/link';
-
 import dynamic from 'next/dynamic';
-const Scroll = dynamic(() => import('./ScrollReveal'), { ssr: false });
+import TopSliderMobile from '@/components/TopSliderMobile';
+
+
+const ScrollRevealContainer = dynamic(
+  import('@/components/ScrollReveal'),
+  { ssr: false, }
+);
 
 export default function Home() {
   return (
     <div className="flex flex-col relative min-h-lvh font-noto">
       <AppNav />
-      <TopSlider />
+      <div className='lg:inline-block hidden'><TopSlider /></div>
+      <div className='lg:hidden'><TopSliderMobile /></div>
       <BottomNav />
-      <main className="grow bg-[#fefaff] px- lg:px-20">
-        <h4 className='anim-box'><img src="/photo/senren.png" /></h4>
+      <main className="grow bg-[#fefaff] lg:px-20">
+        <h4 className='anim-box'><img src="/photo/senren1.png" /></h4>
         <div className='mx-6'>
           <p className='text-center py-6 tracking-[4px] leading-[28px] text-[14px]'>
             東京メトロ有楽町線、副都心線
             <br />
             平和台駅から徒歩5分
             <br />
-            池袋駅から19分とアクセスも良く
+            池袋駅から18分とアクセスも良く
             <br />
             お気軽にご利用いただける<br />ピアノスタジオです
           </p>
@@ -44,8 +50,9 @@ export default function Home() {
             練習、レッスン、音楽を<br />お楽しみください
           </p>
         </div>
+        <h2 className='pb-8'><img src="photo/top6.jpg" /></h2>
         <div className='mx-6 text-center py-6'>
-          <Scroll><h2 className='text-[20px] tracking-[2px] font-semibold pb-8'><img src="photo/riyou.png" /></h2></Scroll>
+          <ScrollRevealContainer><h2 className='text-[20px] tracking-[2px] font-semibold pb-8'><img src="photo/riyou.png" /></h2></ScrollRevealContainer>
         </div>
         <div className='pb-8 text-center'>
           <h3 className='font-bold bg-[#F5DAE6] inline-block px-2 py-2 tracking-[4px] text-[#6c4b2d]'>1. Webにて予約、お支払い</h3>
@@ -63,8 +70,9 @@ export default function Home() {
             <Link href="/use" class="underline font-bold">こちら</Link>をご覧ください。
           </p>
         </div>
+        <h2 className='pt-10'><img src="photo/top5.jpg" /></h2>
         <div className='mx-6 text-center pt-14'>
-          <Scroll><h2 className='text-[20px] tracking-[2px] font-semibold pb-8'><img src="photo/riyou1.png" /></h2></Scroll>
+          <ScrollRevealContainer><h2 className='text-[20px] tracking-[2px] font-semibold pb-8'><img src="photo/riyou1.png" /></h2></ScrollRevealContainer>
         </div>
         <div className='mx-6'>
           <p className='text-center tracking-[4px] leading-[28px] text-[14px]'>
@@ -85,7 +93,7 @@ export default function Home() {
             各種撮影にご利用いただけるよう<br />
             <strong>照明、カメラマイクスタンド</strong><br /><br />
 
-            また配信にも十分な<br />超高速インターネットも<br />
+            また配信にも十分な<br />超高速10Gインターネットも<br />
             完備しております。<br />
             飲食も可能ですので（条件あり）<br />
             小さな交流会にも<br />ご利用いただけます♪<br />
@@ -93,7 +101,7 @@ export default function Home() {
             設備、備品に関して<br />詳しくは<Link href="/" class="underline font-bold">こちら</Link>をご覧ください。
           </p>
         </div>
-        <h2 className='pt-11'><img src="photo/top6.jpg" /></h2>
+        <h2 className='pt-11'><img src="photo/top8.jpg" /></h2>
         <div className='mx-6 pt-10 pb-10'>
           <p className='text-center tracking-[4px] leading-[28px] text-[14px]'>
             オーナーが大切に<br />こだわって作った空間です。

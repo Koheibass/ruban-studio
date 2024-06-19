@@ -6,12 +6,12 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 const images = [
-    "/photo/PC2.jpg",
-    "/photo/PC3.jpg",
-    "/photo/PC4.jpg",
+    "/photo/topmobile1.jpg",
+    "/photo/topmobile2.jpg",
+    "/photo/topmobile3.jpg",
 ];
 
-export default function TopSlider() {
+export default function TopSliderMobile() {
     const slideSettings = {
         0: {
             slidesPerView: 1,

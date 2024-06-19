@@ -10,7 +10,8 @@ export default function Use() {
     return (
         <div className="flex flex-col relative min-h-lvh font-noto">
             <AppNav />
-            <TopSlider />
+            <div className='lg:inline-block hidden'><TopSlider /></div>
+            <div className='lg:hidden'><TopSliderMobile /></div>
             <BottomNav />
             <main className="grow bg-[#ffffff] px-4 lg:px-20">
                 <div className='pt-8 mx-6'>
