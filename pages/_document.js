@@ -6,7 +6,7 @@ export default function Document() {
       <Head>
         <title>Piano Studio Ruban公式ホームページ</title>
         <link rel='icon' href='/favicon.png' />
-        <link rel='apple-touch-icon' href='/favicon.png' />
+        <link rel='apple-touch-icon' href='/faviconruban.png' />
         <meta name="description" content="ピアニストスタジオリュバンの公式ホームページです♪" />
         <meta property="og:url" content="https://pianostudio-ruban.com/" />
         <meta property="og:image" content='https://pianostudio-ruban.com//photo/top1.jpg' />

@@ -3,6 +3,7 @@ import { HeaderIcon } from './Header/HeaderIcon'
 import { useLanguage } from '@/utils/language'
 import { useEffect } from 'react'
 import Link from 'next/link'
+import HeaderMenu from './Header/HeaderMenu'
 
 export const AppNav = () => {
     const { lang } = useLanguage();
@@ -50,6 +51,13 @@ export const AppNav = () => {
             <div>
                 <div className="flex items-center h-20">
                     <HeaderLeft />
+                    <div className='pr-10 hidden lg:block lg:text-[20px] lg:text-[#BDA06A]'>
+                        <Link href="/studio/#studio" className="lg:pr-7">スタジオ案内</Link>
+                        <Link href="/price/#price" className="lg:pr-7">ご利用料金</Link>
+                        <Link href="/access/#access" className="lg:pr-7">アクセス</Link>
+                        <Link href="/use/#use" className="lg:pr-7">初めての方へ</Link>
+                        <Link href="/news" className="lg:pr-7">NEWS</Link>
+                    </div>
                     <HeaderIcon />
                     <div className="flex items-center pr-1">
                         <div className="hamburger lg:invisible">
@@ -60,10 +68,10 @@ export const AppNav = () => {
                         </div>
                     </div>
                     <ul className="slide-menu">
-                        <li><Link href="/studio" className="slide-menu1">スタジオ案内</Link></li>
-                        <li><Link href="/price" className="slide-menu2">ご利用料金</Link></li>
-                        <li><Link href="/access" className="slide-menu3">アクセス</Link></li>
-                        <li><Link href="/use" className="slide-menu4">初めての方へ</Link></li>
+                        <li><Link href="/studio/#studio" className="slide-menu1">スタジオ案内</Link></li>
+                        <li><Link href="/price/#price" className="slide-menu2">ご利用料金</Link></li>
+                        <li><Link href="/access/#access" className="slide-menu3">アクセス</Link></li>
+                        <li><Link href="/use/#use" className="slide-menu4">初めての方へ</Link></li>
                         <li><Link href="/news" className="slide-menu5">NEWS</Link></li>
                     </ul>
                 </div>

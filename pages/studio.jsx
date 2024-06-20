@@ -9,41 +9,153 @@ import Link from 'next/link';
 import TopSliderMobile from '@/components/TopSliderMobile';
 
 
+
 export default function Studio() {
     return (
         <div className="flex flex-col relative min-h-lvh font-noto">
             <AppNav />
             <div className='lg:inline-block hidden'><TopSlider /></div>
             <div className='lg:hidden'><TopSliderMobile /></div>
-            <BottomNav />
-            <main className="grow bg-[#ffffff] px-4 lg:px-20 text-center">
+            <div className='lg:hidden block'>
+                <BottomNav />
+            </div>
+            <main className="grow bg-[#ffffff] px-4 lg:px-20 text-center" id="studio">
                 <div className='pt-8 mx-6'>
                     <h3 className='font-bold bg-[#F5DAE6] inline-block px-2 py-2 tracking-[4px] text-[#6c4b2d]'>スタジオについて</h3>
-                    <p className='text-center py-8 tracking-[4px] leading-[28px]'>
-                        白基調の内装にもこだわっており、写真撮影や動画撮影はもちろん、いつもと違うヨーロピアンな空間で練習をお楽しみいただけます。
-
-                        完全無人スタジオで、スタッフと顔を合わせることなくご利用可能です。（防犯カメラあり）
-
-                        ご予約時間のみ有効の暗証番号式ロックを採用しているため、前の方が鍵を置き忘れて入室できない…といったトラブルもありません。
-                    </p>
-                    <div className=''>
-                        <h3 className='font-bold bg-[#F5DAE6] inline-block px-2 py-2 tracking-[4px] text-[#6c4b2d]'>Piano</h3>
+                    <div></div>
+                    <div>
+                        <p className='text-center py-8 tracking-[5px] leading-[28px]'>ヨーロッパに留学していた<br />オーナー夫婦が
+                            <br />
+                            そんな風に考えて作った<br />空間です。
+                            <br />
+                            日本の防音マンションや<br />防音スタジオは
+                            <br />
+                            よく吸音され、<br />どちらかというと
+                            <br />
+                            デットな空間になりがちです。
+                            <br />
+                            そのような環境での練習を
+                            <br />
+                            好まれる方も<br />多いかもしれませんが
+                            <br />
+                            留学先ではよく響く空間が多く
+                            <br />
+                            そのようなところから<br />学ぶことも
+                            <br />
+                            たくさんありました。
+                            <br />
+                            なかなかない、<br />よく響くスタジオで
+                            <br />
+                            演奏してみませんか？
+                        </p>
                     </div>
-                    <p className='text-center py-8 tracking-[4px] leading-[28px]'>設置ピアノ
+                    <div>
+                        <p className='text-center py-8 tracking-[5px] leading-[28px]'>
+                            白基調の内装にも<br />こだわっており、<br />写真撮影や<br />動画撮影はもちろん、<br />いつもと違う<br />ヨーロピアンな空間で<br />練習をお楽しみいただけます。
 
-                        YAMAHA C3B
+                            完全無人スタジオで、<br />スタッフと<br />顔を合わせることなく<br />ご利用可能です。<br />（防犯カメラあり）
+                            <br /><br />
+                            ご予約時間のみ有効の<br />暗証番号式ロックを<br />採用しているため、<br />前の方が鍵を置き忘れて<br />入室できない…<br />といったトラブルも<br />ありません。
+                        </p>
+                        <p className='text-left tracking-[5px] leading-[28px] ml-10 pb-8'>
+                            ・楽器練習、<br />
+                            ・レッスン<br />
+                            ・録音、動画撮影<br />
+                            ・ライブ配信<br />
+                            ・プロフィール写真撮影<br />
+                            ・コワーキングスペース<br />
+                            <br />
+                            などなど、様々な用途にて<br />ご利用ください。
+                        </p>
+                        <p className='text-left tracking-[4px] leading-[24px] ml-3 pb-8 text-[13px]' >※完全防音ではありません。外の音はほぼ聞こえませんが、場合によっては大きな音のサイレン等、少し聞こえてしまう場合もございます。<br />そのため、大切なコンクールのための録音などの際は、よく考慮されご納得いただいたうえでご予約いただきますようお願いいたします。
+                            <br /><br />
+                            ※大変申し訳ありませんが、金管楽器、打楽器は演奏不可とさせていただいております。ご理解のほどお願いいたします。
+                        </p>
+                    </div>
+                    <div className='pt-8'>
+                        <h3 className='font-bold bg-[#F5DAE6] inline-block px-2 py-2 tracking-[4px] text-[#6c4b2d]'>設置ピアノ</h3>
+                    </div>
+                    <div className='pb-8'>
+                        <p className='text-center py- tracking-[4px] leading-[28px]'>
+                            <br />
+                            YAMAHA C3B
+                            <br />
+                            全ハンマー、全弦を<br />新品に交換済（2024年）<br />
 
-                        全ハンマー、全弦を新品に交換済（2024年）
+                            ピアノ弦はドイツ製の<br />大変質の良いものを<br />使用しています。<br />
 
-                        ピアノ弦はドイツ製の大変質の良いものを使用しています。
-
-                        この弦は世界トップクラスの高級輸入ピアノによく使用されており、柔軟性に富んだ輝きのある響きが特徴です。
-
-                        まろやかに響く音で、練習、レッスンをお楽しみください。また録音にも適しており、美しい響きと音質でお録りいただけます。
-                    </p>
+                            この弦は世界トップクラスの<br />高級輸入ピアノに<br />よく使用されており、<br />柔軟性に富んだ<br />輝きのある響き<br />が特徴です。
+                            <br />
+                            まろやかに響く音で、<br />練習、レッスンを<br />お楽しみください。
+                        </p>
+                    </div>
+                    <div>
+                        <p className='text-left  tracking-[4px] leading-[28px] ml-10'>スタジオ備品一覧<br />
+                            <br />
+                            グランドピアノ （常設）
+                            <br />
+                            ピアノ椅子<br />(背なし1、背なし油圧式1)
+                            <br />
+                            演奏用イス4
+                            <br />
+                            見学用椅子6
+                            <br />
+                            マイクスタンド
+                            <br />
+                            マイクケーブル
+                            <br />
+                            譜面台1本
+                            <br /><br />
+                            本棚に置いてある楽譜や本も、大切に扱っていただけるのであれば、ご自由にご覧ください。
+                            <br /><br />
+                            高音質マイク</p>
+                        <p>
+                            （録音録画プランの時のみ使用）
+                        </p>
+                        <br />
+                        <p className='text-left  tracking-[4px] leading-[28px] ml-10'>
+                            高画質カメラ
+                        </p>（録音録画プランの時のみ<br />録音技師が使用）
+                        <p className='text-left  tracking-[4px] leading-[28px] ml-10 pb-8'>
+                            <br />
+                            折りたたみ机
+                            <br />
+                            コンセント8
+                        </p>
+                    </div>
+                    <div>
+                        <p className='text-center tracking-[4px] leading-[28px] pb-8'>
+                            営業時間
+                            <br />
+                            年中無休
+                            <br />
+                            9:00〜21:00
+                        </p>
+                    </div>
+                    <div>
+                        <h4 className='text-center  tracking-[4px] leading-[28px] mb-8'>スタジオ利用ルール</h4>
+                        <p className='text-left  tracking-[4px] leading-[28px] pb-8 text-[13px]'>
+                            ・楽器や空間、備品を大切にしてくださる方のみご利用お願いいたします。<br /><br />
+                            ・当スタジオは土足禁止です。入ってすぐのマットは土足OKですので必ず靴をお脱ぎください。<br /><br />
+                            ・本番用シューズ等でご利用されたい場合、靴の底を拭いた上でご使用いただいてかまいません。<br />ただし、ピンヒールや床が傷つくおそれのあるシューズはお控えください。<br /><br />
+                            ・飲食可能です。ただしピアノの側ではなく、入って右側半分のスペースのみでお願いいたします。<br />また飲食された場合、汚れのあるなしにかかわらず利用後に掃除機をかけていただくようお願いいたします。<br />匂いの強い食べ物はNGとします。<br /><br />
+                            ・アルコールの持ち込み、酒気帯びの方のご利用は禁止です。<br /><br />
+                            ・ペーパータオル以外のゴミはお持ち帰りをお願いしております。<br /><br />
+                            ・ピアノの移動は調律の関係で禁止とします。<br /><br />
+                            ・ピアノは屋根を開けていただいてかまいませんが、開け方をご存知の場合のみでお願いいたします。<br /><br />
+                            ・撮影等の都合でスタジオ内の備品を移動させていただいても構いません（ピアノを除く）。<br />ただし、ご利用終了時に必ず元の位置にお戻しください。<br /><br />
+                            ・万が一スタジオ設備や備品を破損、汚損、傷つけられた場合、すみやかにご連絡ください。故意、過失にかかわらず原状回復費は実費でご負担いただきます。ご連絡いただけなかった場合、今後の利用を制限させていただきますのであらかじめご了承ください。<br /><br />
+                            ・長時間のご利用の際は、換気を行なってください。<br /><br />
+                            ・スタジオ内は禁煙です。火気および危険物の持ち込みは固くお断りいたします。<br /><br />
+                            ・スタジオ内で起こった事故、怪我、お客様の持ち込み機材などの破損に関しても当スタジオは一切責任を負いません。<br /><br />
+                            ・貴重品の管理は個人の責任でお願いします。万が一紛失、盗難等の事故が生じた場合でも当スタジオは一切責任を負いません。<br /><br />
+                            ・当スタジオの名誉もしくは信用を棄損する行為があった場合は即刻退室して頂きます。<br /><br />
+                        </p>
+                    </div>
+                    <div className='text-[13px] pb-4'>その他詳細は<Link href="/useterms" className="underline font-bold">利用規約</Link>を必ずご確認ください。</div>
                 </div>
-                <div className='pb-6 underline'><Link href="/">Top</Link></div>
-            </main>
+                <div className='py-2 tracking-[4px] leading-[28px] text-[13px]'><Link href="/">Top page</Link></div>
+            </main >
             <Footer />
         </div >
     )

@@ -9,8 +9,14 @@ import dynamic from 'next/dynamic';
 import TopSliderMobile from '@/components/TopSliderMobile';
 
 
+
 const ScrollRevealContainer = dynamic(
   import('@/components/ScrollReveal'),
+  { ssr: false, }
+);
+
+const ScrollRevealContainer2 = dynamic(
+  import('@/components/ScrollReveal2'),
   { ssr: false, }
 );
 
@@ -18,9 +24,11 @@ export default function Home() {
   return (
     <div className="flex flex-col relative min-h-lvh font-noto">
       <AppNav />
-      <div className='lg:inline-block hidden'><TopSlider /></div>
+      <div className='lg:block hidden'><TopSlider /></div>
       <div className='lg:hidden'><TopSliderMobile /></div>
-      <BottomNav />
+      <div className='lg:hidden block'>
+        <BottomNav />
+      </div>
       <main className="grow bg-[#fefaff] lg:px-20">
         <h4 className='anim-box'><img src="/photo/senren1.png" /></h4>
         <div className='mx-6'>
@@ -55,13 +63,13 @@ export default function Home() {
           <ScrollRevealContainer><h2 className='text-[20px] tracking-[2px] font-semibold pb-8'><img src="photo/riyou.png" /></h2></ScrollRevealContainer>
         </div>
         <div className='pb-8 text-center'>
-          <h3 className='font-bold bg-[#F5DAE6] inline-block px-2 py-2 tracking-[4px] text-[#6c4b2d]'>1. Webにて予約、お支払い</h3>
+          <ScrollRevealContainer2><h3 className='font-bold bg-[#F5DAE6] inline-block px-2 py-2 tracking-[4px] text-[#6c4b2d]'>1. Webにて予約、お支払い</h3></ScrollRevealContainer2>
         </div>
         <div className='pb-8 text-center'>
-          <h3 className='font-bold bg-[#F5DAE6] inline-block px-2 py-2 tracking-[4px] text-[#6c4b2d]'>2. オートロックを解除し入室</h3>
+          <ScrollRevealContainer2><h3 className='font-bold bg-[#F5DAE6] inline-block px-2 py-2 tracking-[4px] text-[#6c4b2d]'>2. オートロックを解除し入室</h3></ScrollRevealContainer2>
         </div>
         <div className='text-center'>
-          <h3 className='font-bold bg-[#F5DAE6] inline-block px-2 py-2 tracking-[4px] text-[#6c4b2d]'>3. 手続き等なくご利用終了♪</h3>
+          <ScrollRevealContainer2><h3 className='font-bold bg-[#F5DAE6] inline-block px-2 py-2 tracking-[4px] text-[#6c4b2d]'>3. 手続き等なくご利用終了♪</h3></ScrollRevealContainer2>
         </div>
         <div className='mx-6 pt-8'>
           <p className='text-center tracking-[4px] leading-[28px] text-[16px]'>

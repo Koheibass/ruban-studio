@@ -14,8 +14,10 @@ export default function Access() {
             <AppNav />
             <div className='lg:inline-block hidden'><TopSlider /></div>
             <div className='lg:hidden'><TopSliderMobile /></div>
-            <BottomNav />
-            <main className="grow bg-[#ffffff] px-4 lg:px-20">
+            <div className='lg:hidden block'>
+                <BottomNav />
+            </div>
+            <main className="grow bg-[#ffffff] px-4 lg:px-20" id="access">
                 <div className='pt-8 mx-6'>
                     <div className='pt-1'>
                         <h3 className='font-bold bg-[#F5DAE6] inline-block px-2 py-2 tracking-[4px] text-[#6c4b2d]'>Address</h3>
