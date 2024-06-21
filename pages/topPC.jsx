@@ -15,9 +15,11 @@ const ScrollRevealContainer2 = dynamic(
 export default function TopPc() {
     return (
         <main className="grow bg-[#fefaff] lg:px-20">
-            <h4 className='anim-box'><img src="/photo/senren1.png" /></h4>
-            <div className='mx-6 flex pt-8'>
-                <p className='text-center py-2 tracking-[4px] leading-[28px] text-[14px]'>
+            <div className='text-center sm:pl-[100px]'>
+                <h4 className='anim-box'><img src="/photo/senren1.png" /></h4>
+            </div>
+            <div className='mx-6 flex sm:pt-8'>
+                <p className='text-center mt-8 tracking-[2px] leading-[40px] text-[30px]'>
                     東京メトロ有楽町線、副都心線
                     <br />
                     平和台駅から徒歩5分
@@ -28,9 +30,9 @@ export default function TopPc() {
                 </p>
                 <h2 className='pt-2 w-[60%] ml-8'><img src="photo/top4.jpg" /></h2>
             </div>
-            <div className='mx-6 flex mt-8'>
-                <h2 className='pb-8 w-[60%] mt-10 mr-8'><img src="photo/top6.jpg" /></h2>
-                <p className='text-center py-4 tracking-[4px] leading-[28px] text-[14px]'>
+            <div className='mx-6 flex pt-8 pb-20'>
+                <h2 className='pb-8 w-[60%] mt-20 mr-10'><img src="photo/top6.jpg" /></h2>
+                <p className='text-center mt-12 tracking-[2px] leading-[40px] text-[28px]'>
                     内装は白を基調とした
                     <br />
                     エレガントでヨーロッパ調の空間。
@@ -45,29 +47,28 @@ export default function TopPc() {
                 </p>
             </div>
             <div className='mx-6 text-center py-6'>
-                <ScrollRevealContainer><h2 className='text-[30px] tracking-[2px] font-semibold pb-8'><img src="photo/riyou.png" /></h2></ScrollRevealContainer>
+                <ScrollRevealContainer><h2 className='text-[30px] tracking-[2px] px-20 pb-10 '><img src="photo/riyou.png" /></h2></ScrollRevealContainer>
             </div>
-            <div className='pb-8 text-center'>
-                <ScrollRevealContainer2><h3 className='font-bold bg-[#F5DAE6] inline-block px-2 py-2 tracking-[4px] text-[#6c4b2d] text-[30px]'>1. Webにて予約、お支払い</h3></ScrollRevealContainer2>
+            <div className='pb-10 text-center'>
+                <ScrollRevealContainer2><h3 className='font-bold bg-[#F5DAE6] inline-block px-2 py-2 tracking-[4px] text-[#6c4b2d] text-[50px]'>1. Webにて予約、お支払い</h3></ScrollRevealContainer2>
             </div>
-            <div className='pb-8 text-center'>
-                <ScrollRevealContainer2><h3 className='font-bold bg-[#F5DAE6] inline-block px-2 py-2 tracking-[4px] text-[#6c4b2d] text-[30px]'>2. オートロックを解除し入室</h3></ScrollRevealContainer2>
+            <div className='pb-10 text-center'>
+                <ScrollRevealContainer2><h3 className='font-bold bg-[#F5DAE6] inline-block px-2 py-2 tracking-[4px] text-[#6c4b2d] text-[50px]'>2. オートロックを解除し入室</h3></ScrollRevealContainer2>
             </div>
             <div className='text-center'>
-                <ScrollRevealContainer2><h3 className='font-bold bg-[#F5DAE6] inline-block px-2 py-2 tracking-[4px] text-[#6c4b2d] text-[30px]'>3. 手続き等なくご利用終了♪</h3></ScrollRevealContainer2>
+                <ScrollRevealContainer2><h3 className='font-bold bg-[#F5DAE6] inline-block px-2 py-2 tracking-[4px] text-[#6c4b2d] text-[50px]'>3. 手続き等なくご利用終了♪</h3></ScrollRevealContainer2>
             </div>
-            <div className='mx-6 pt-8'>
-                <p className='text-center tracking-[4px] leading-[28px] text-[16px] pt-6'>
-                    より詳細なご利用の流れは
-                    <Link href="/use" class="underline font-bold">こちら</Link>をご覧ください。
+            <div className='mx-6 pt-10'>
+                <p className='text-center tracking-[4px] leading-[28px] text-[25px] pt-6 pb-10'>
+                    より詳細なご利用の流れは<Link href="/use" class="underline font-bold">こちら</Link>をご覧ください。
                 </p>
             </div>
 
-            <div className='mx-6 text-center pt-14'>
-                <ScrollRevealContainer><h2 className='text-[20px] tracking-[2px] font-semibold pb-8'><img src="photo/riyou1.png" /></h2></ScrollRevealContainer>
+            <div className='mx-6 text-center pt-20'>
+                <ScrollRevealContainer><h2 className='text-[30px] tracking-[2px] px-20 pb-10'><img src="photo/riyou1.png" /></h2></ScrollRevealContainer>
             </div>
-            <div className='mx-6 mt-6'>
-                <p className='text-center tracking-[4px] leading-[28px] text-[14px]'>
+            <div className='mx-6 mt-10'>
+                <p className='text-center tracking-[4px] leading-[28px] text-[25px]'>
                     ピアノは2024年に全弦全ハンマー取り替え済の
                     <strong>YAMAHA C3B</strong>を設置。
                     <br /><br />
@@ -86,11 +87,11 @@ export default function TopPc() {
                     完備しております。<br /><br />
                     飲食も可能ですので（条件あり）
                     小さな交流会にもご利用いただけます♪<br />
-                    <br />
+                    <br /><br />
                     設備、備品に関して詳しくは<Link href="/" class="underline font-bold">こちら</Link>をご覧ください。
                 </p>
             </div>
-            <h2 className='pt-11'><img src="photo/top8.jpg" /></h2>
+            <h2 className='pt-20 px-20 mx-20'><img src="photo/top8.jpg" /></h2>
             <div className='mx-6 pt-10 pb-10'>
                 <p className='text-center tracking-[4px] leading-[28px] text-[14px]'>
                     オーナーが大切に<br />こだわって作った空間です。
