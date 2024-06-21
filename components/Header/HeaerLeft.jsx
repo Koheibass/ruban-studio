@@ -5,8 +5,9 @@ export const HeaderLeft = () => {
     const { lang } = useLanguage()
 
     return (
-        <div className="lg:w-[18%] lg:mr-auto md:w-[18%] md:mr-auto sm:w-[18%] sm:mr-auto">
-            <Link href="/"><img src="/photo/header1.png" width="80%" /></Link>
+
+        <div className="w-[50%] mr-auto sm:w-[18%] sm:mr-auto">
+            <Link href="/"><img src="/photo/header1.png" /></Link>
         </div>
     )
 }

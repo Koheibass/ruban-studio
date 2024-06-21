@@ -1,7 +1,7 @@
 import * as React from 'react';
 import TopSlider from '@/components/TopSlider';
 import { AppNav } from '@/components/AppNav';
-
+import Link from 'next/link';
 import { Footer } from '@/components/Footer';
 import { LanguageContext } from '@/utils/language';
 import BottomNav from '@/components/BottomNav';
@@ -38,6 +38,7 @@ export default function Price() {
                             </p>
                         </div>
                     </div>
+                    <div className='py-2 tracking-[4px] leading-[28px] text-[13px] underline text-[#ff9a9a]'><Link href="/">Topに戻る</Link></div>
                 </main>
                 <Footer />
             </div >

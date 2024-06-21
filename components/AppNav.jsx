@@ -51,16 +51,18 @@ export const AppNav = () => {
             <div>
                 <div className="flex items-center h-20">
                     <HeaderLeft />
-                    <div className='pr-10 hidden lg:block lg:text-[20px] lg:text-[#BDA06A]'>
-                        <Link href="/studio/#studio" className="lg:pr-7">スタジオ案内</Link>
-                        <Link href="/price/#price" className="lg:pr-7">ご利用料金</Link>
-                        <Link href="/access/#access" className="lg:pr-7">アクセス</Link>
-                        <Link href="/use/#use" className="lg:pr-7">初めての方へ</Link>
-                        <Link href="/news" className="lg:pr-7">NEWS</Link>
+                    <div className='pr-10 hidden md:block sm:text-[13px] sm:text-[#BDA06A]'>
+                        <Link href="/studio/#studio" className="sm:pr-5">スタジオ案内</Link>
+                        <Link href="/price/#price" className="sm:pr-5">ご利用料金</Link>
+                        <Link href="/access/#access" className="sm:pr-5">アクセス</Link>
+                        <Link href="/use/#use" className="sm:pr-5">初めての方へ</Link>
+                        <Link href="/news" className="sm:pr-5">NEWS</Link>
                     </div>
                     <HeaderIcon />
                     <div className="flex items-center pr-1">
-                        <div className="hamburger sm:invisible">
+
+                        <div className="hamburger md:invisible">
+
                             <span></span>
                             <span></span>
                             <span></span>
