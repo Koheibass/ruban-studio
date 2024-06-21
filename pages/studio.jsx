@@ -58,7 +58,7 @@ export default function Studio() {
                             ご予約時間のみ有効の<br />暗証番号式ロックを<br />採用しているため、<br />前の方が鍵を置き忘れて<br />入室できない…<br />といったトラブルも<br />ありません。
                         </p>
                         <p className='text-left tracking-[5px] leading-[28px] ml-10 pb-8'>
-                            ・楽器練習、<br />
+                            ・楽器練習<br />
                             ・レッスン<br />
                             ・録音、動画撮影<br />
                             ・ライブ配信<br />
@@ -76,53 +76,38 @@ export default function Studio() {
                         <h3 className='font-bold bg-[#F5DAE6] inline-block px-2 py-2 tracking-[4px] text-[#6c4b2d]'>設置ピアノ</h3>
                     </div>
                     <div className='pb-8'>
-                        <p className='text-center py- tracking-[4px] leading-[28px]'>
-                            <br />
+                        <p className='text-center py- tracking-[4px] leading-[28px] py-8'>
                             YAMAHA C3B
-                            <br />
-                            全ハンマー、全弦を<br />新品に交換済（2024年）<br />
+                        </p>
+                        <p className='text-left tracking-[4px] leading-[28px]'>
+                            全ハンマー、全弦を新品に交換済（2024年）<br />
 
-                            ピアノ弦はドイツ製の<br />大変質の良いものを<br />使用しています。<br />
+                            ピアノ弦はドイツ製の大変質の良いものを使用しています。<br />
 
-                            この弦は世界トップクラスの<br />高級輸入ピアノに<br />よく使用されており、<br />柔軟性に富んだ<br />輝きのある響き<br />が特徴です。
+                            この弦は世界トップクラスの高級輸入ピアノによく使用されており、柔軟性に富んだ輝きのある響きが特徴です。
                             <br />
-                            まろやかに響く音で、<br />練習、レッスンを<br />お楽しみください。
+                            まろやかに響く音で、練習、レッスンをお楽しみください。
                         </p>
                     </div>
                     <div>
                         <div className='text-center'>スタジオ備品一覧</div>
                         <h2 className='pt-8'><img src="photo/bihin.jpg" /></h2>
-                        <p className='text-left  tracking-[4px] leading-[28px] ml-10'>
-                            <br />
-                            グランドピアノ （常設）
-                            <br />
-                            ピアノ椅子<br />(背なし1、背なし油圧式1)
-                            <br />
-                            演奏用イス4
-                            <br />
-                            見学用椅子6
-                            <br />
+                        <p className='text-center  tracking-[4px] leading-[28px] mt-4'>
+                            その他
+                            <br /><br />
                             マイクスタンド
                             <br />
                             マイクケーブル
                             <br />
-                            譜面台1本
-                            <br /><br />
-                            本棚に置いてある楽譜や本も、大切に扱っていただけるのであれば、ご自由にご覧ください。
-                            <br /><br />
-                            高音質マイク</p>
-                        <p>
-                            （録音録画プランの時のみ使用）
+                            譜面台
                         </p>
-                        <br />
-                        <p className='text-left  tracking-[4px] leading-[28px] ml-10'>
+                        <p className='text-center tracking-[4px] leading-[28px] mt-6'>
+                            高音質マイク、
                             高画質カメラ
-                        </p>（録音録画プランの時のみ<br />録音技師が使用）
-                        <p className='text-left  tracking-[4px] leading-[28px] ml-10 pb-8'>
-                            <br />
-                            折りたたみ机
-                            <br />
-                            コンセント8
+                        </p>
+                        <p className='text-center text-[15px] py-1 '>（録音録画プランの時のみ録音技師が使用）</p>
+                        <p className='text-left  tracking-[4px] leading-[28px] ml-1 pb-8 pt-4'>
+                            本棚に置いてある楽譜や本も、大切に扱っていただけるのであれば、ご自由にご覧ください。
                         </p>
                     </div>
                     <div>
@@ -136,7 +121,7 @@ export default function Studio() {
                     </div>
                     <div>
                         <h4 className='text-center  tracking-[4px] leading-[28px] mb-8'>スタジオ利用ルール</h4>
-                        <p className='text-left  tracking-[4px] leading-[28px] pb-8 text-[13px]'>
+                        <p className='text-left  tracking-[4px] leading-[28px] pb-4 text-[13px]'>
                             ・楽器や空間、備品を大切にしてくださる方のみご利用お願いいたします。<br /><br />
                             ・当スタジオは土足禁止です。入ってすぐのマットは土足OKですので必ず靴をお脱ぎください。<br /><br />
                             ・本番用シューズ等でご利用されたい場合、靴の底を拭いた上でご使用いただいてかまいません。<br />ただし、ピンヒールや床が傷つくおそれのあるシューズはお控えください。<br /><br />
@@ -154,9 +139,9 @@ export default function Studio() {
                             ・当スタジオの名誉もしくは信用を棄損する行為があった場合は即刻退室して頂きます。<br /><br />
                         </p>
                     </div>
-                    <div className='text-[13px] pb-4'>その他詳細は<Link href="/useterms" className="underline font-bold">利用規約</Link>を必ずご確認ください。</div>
+                    <div className='text-[13px] pb-4'>その他、詳細は<Link href="/useterms" className="underline font-bold">利用規約</Link>を必ずご確認ください。</div>
                 </div>
-                <div className='py-2 tracking-[4px] leading-[28px] text-[13px]'><Link href="/">Top page</Link></div>
+                <div className='py-2 tracking-[4px] leading-[28px] text-[13px] underline text-[#ff9a9a]'><Link href="/">Topに戻る</Link></div>
             </main >
             <Footer />
         </div >

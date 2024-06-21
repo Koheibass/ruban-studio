@@ -76,6 +76,7 @@ export default function Use() {
                         </div>
                     </div>
                 </div>
+                <div className='py-2 tracking-[4px] leading-[28px] text-[13px] underline text-[#ff9a9a] text-center'><Link href="/">Topに戻る</Link></div>
             </main >
             <Footer />
         </div >
