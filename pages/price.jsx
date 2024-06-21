@@ -1,7 +1,7 @@
 import * as React from 'react';
 import TopSlider from '@/components/TopSlider';
 import { AppNav } from '@/components/AppNav';
-import { SectionNews } from '@/components/News/SectionNews';
+
 import { Footer } from '@/components/Footer';
 import { LanguageContext } from '@/utils/language';
 import BottomNav from '@/components/BottomNav';

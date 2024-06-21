@@ -1,11 +1,10 @@
 import * as React from 'react';
 import TopSlider from '@/components/TopSlider';
 import { AppNav } from '@/components/AppNav';
-import { SectionNews } from '@/components/News/SectionNews';
+
 import { Footer } from '@/components/Footer';
-import { LanguageContext } from '@/utils/language';
+
 import BottomNav from '@/components/BottomNav';
-import Link from 'next/link';
 
 
 export default function Terms() {
@@ -26,7 +25,7 @@ export default function Terms() {
                     <h4 className='pb-2 font-bold'>電話番号</h4>
                     <p className='pb-2'>電話番号については<br />「お問い合わせ先メールアドレス」にて<br />ご請求をいただければ、<br />遅滞なく開示いたします。</p>
                     <h4 className='pb-2 font-bold'>メールアドレス</h4>
-                    <p className='pb-2'>info@rina-akaboshi.com</p>
+                    <p className='pb-2'>contact@ruban-de-musique.com</p>
                     <h4 className='pb-2 font-bold'>利用価格</h4>
                     <p className='pb-2'>利用価格は、<br />表示された金額（消費税込）と致します。</p>
 
