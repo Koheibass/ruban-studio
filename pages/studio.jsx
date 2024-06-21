@@ -21,7 +21,7 @@ export default function Studio() {
             </div>
             <main className="grow bg-[#ffffff] px-4 lg:px-20 text-center" id="studio">
                 <div className='pt-8 mx-6'>
-                    <h3 className='font-bold bg-[#F5DAE6] inline-block px-2 py-2 tracking-[4px] text-[#6c4b2d]'>スタジオについて</h3>
+                    <h4 className='anim-box2'><img src="/photo/ryuugaku1.png" /></h4>
                     <div></div>
                     <div>
                         <p className='text-center py-8 tracking-[5px] leading-[28px]'>ヨーロッパに留学していた<br />オーナー夫婦が
@@ -90,7 +90,9 @@ export default function Studio() {
                         </p>
                     </div>
                     <div>
-                        <p className='text-left  tracking-[4px] leading-[28px] ml-10'>スタジオ備品一覧<br />
+                        <div className='text-center'>スタジオ備品一覧</div>
+                        <h2 className='pt-8'><img src="photo/bihin.jpg" /></h2>
+                        <p className='text-left  tracking-[4px] leading-[28px] ml-10'>
                             <br />
                             グランドピアノ （常設）
                             <br />
