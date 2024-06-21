@@ -60,7 +60,9 @@ export const AppNav = () => {
                     </div>
                     <HeaderIcon />
                     <div className="flex items-center pr-1">
+
                         <div className="hamburger md:invisible">
+
                             <span></span>
                             <span></span>
                             <span></span>
