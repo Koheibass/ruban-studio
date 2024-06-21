@@ -30,11 +30,11 @@ export default function Price() {
                                 （※録音、配信プランを除く）</p>
                             <h3 className='font-bold bg-[#F5DAE6] inline-block px-2 py-2 tracking-[4px] text-[#6c4b2d]'>キャンセル規定</h3>
                             <p className='py-4 text-[11px] tracking-[4px] text-center leading-[28px]'>
-                                1週間前まで：3.6%
+                                利用日の1週間前まで：ご利用料金の3.6%
                                 <br />
-                                3〜6日前まで：スタジオ代金50%
+                                利用日の2～6日前まで：ご利用料金の50%
                                 <br />
-                                当日、前日、前々日：スタジオ代金100％
+                                利用日の前日、当日：ご利用料金の100％
                             </p>
                         </div>
                     </div>
