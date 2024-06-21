@@ -87,7 +87,7 @@
 
 html {
     scroll-behavior: smooth;
-    scroll-padding-top: 80px
+    scroll-padding-top: 100px
 }
 
 
@@ -233,6 +233,27 @@ html {
 .anim-box {
     animation: fadeup 5s cubic-bezier(0.33, 1, 0.68, 1) forwards;
     padding-top: 30px;
+}
+
+@keyframes fadeup {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    80% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.anim-box2 {
+    animation: fadeup 5s cubic-bezier(0.33, 1, 0.68, 1) forwards;
+
 }
 
 @keyframes fadeup {

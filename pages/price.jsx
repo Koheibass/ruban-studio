@@ -1,7 +1,7 @@
 import * as React from 'react';
 import TopSlider from '@/components/TopSlider';
 import { AppNav } from '@/components/AppNav';
-import { SectionNews } from '@/components/News/SectionNews';
+
 import { Footer } from '@/components/Footer';
 import { LanguageContext } from '@/utils/language';
 import BottomNav from '@/components/BottomNav';
@@ -21,7 +21,7 @@ export default function Price() {
                 <main className="grow bg-[#ffffff] px-4 lg:px-20 text-center" id="price">
                     <div className='pt-8 mx-6'>
                         <div className='pt-1'>
-                            <h3 className='font-bold bg-[#F5DAE6] inline-block px-2 py-2 tracking-[4px] text-[#6c4b2d]'>ご利用料金</h3>
+                            <h2 className='text-[20px] tracking-[2px] font-semibold pb-'><img src="photo/price1.png" /></h2>
                             <p className='text-center py-8 tracking-[4px] leading-[28px]'>オープニング記念価格！</p>
                             <p className='text-[14px] tracking-[4px] text-center leading-[28px] pb-8'> 何曜日でも何時でも、<br /><br />1時間2,000円です。
                                 <br /><br />

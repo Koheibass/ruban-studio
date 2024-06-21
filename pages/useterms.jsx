@@ -1,12 +1,11 @@
 import * as React from 'react';
 import TopSlider from '@/components/TopSlider';
 import { AppNav } from '@/components/AppNav';
-import { SectionNews } from '@/components/News/SectionNews';
+
 import { Footer } from '@/components/Footer';
-import { LanguageContext } from '@/utils/language';
+
 import BottomNav from '@/components/BottomNav';
 import Link from 'next/link';
-import Image from 'next/image';
 
 
 export default function useTerms() {
@@ -16,7 +15,8 @@ export default function useTerms() {
             <TopSlider />
             <BottomNav />
             <main className="">
-                <img src="/photo/termlong.jpg" />
+                <img src="/photo/termslong2.jpg" />
+                <Link href="https://drive.google.com/file/d/1wHJBc_bKXQD0e_ZTu5SbjvGZ16OVhCb9/view?usp=drive_link" download>PDFダウンロード</Link>
             </main>
             <Footer />
         </div >
