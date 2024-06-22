@@ -50,30 +50,30 @@ export default function Use() {
                         <ScrollRevealContainer><div className='flex justify-center'>
                             <h2 className='w-[50%]'><img src="photo/tejun.png" /></h2>
                         </div></ScrollRevealContainer>
-                        <div className='py-8 tracking-[4px] leading-[28px] text-center'>
-                            <p className='pb-6'>
-                                1. ご予約完了メールに<br />記載されている<br />5桁の数字と<br />「オートロック解除キー」を<br />入力する
+                        <div className='py-8 tracking-[3px] leading-[28px] text-left -indent-7 px-6 ml-3 '>
+                            <p className='pb-8'>
+                                1. ご予約完了メールに記載されている5桁の数字「オートロック解除キー」を入力する
                                 <br />
                             </p>
                             <p className='pb-3'>
-                                2. 数字入力後、上部の<br />「RemoteLOCK」ボタンを押す
+                                2. 数字入力後、上部の「RemoteLOCK」ボタンを押す
                             </p>
-                            <p className='pb-6'>
-                                例：解除キーが12345の場合「12345 RemoteLOCK」 <br />と押してください
+                            <p className='pb-8 text-[13px] tracking-[2px] leading-[22px]'>
+                                例：解除キーが12345の場合「12345 RemoteLOCK」と押してください
                             </p>
                             <p className='pb-3'>
-                                3. ドアノブを上方向に上げ、<br />入室する
+                                3. ドアノブを上方向に上げ、入室する
                             </p>
-                            <p className='pb-6'>
+                            <p className='pb-8'>
                                 <strong>※必ず数字を入力後にドアノブを開けてください</strong>
                             </p>
-                            <p className='pb-6'>
+                            <p className='pb-8'>
                                 4. 外側扉の鍵を閉める
                             </p>
-                            <p className='pb-6'>
+                            <p className='pb-8'>
                                 5. マットの上で靴を脱ぎ、<br />シューズラックに置き、<br />スリッパに履き替える
                             </p>
-                            <p className='pb-3 text-[15px]'>
+                            <p className='pb-3'>
                                 6. 内側扉を閉め、<br />お楽しみください♪
                             </p>
                         </div>
@@ -86,12 +86,12 @@ export default function Use() {
                     </div>
                     <div className='pt-6 text-center'>
                         <h3 className='font-bold bg-[#F5DAE6] inline-block px-2 py-2 tracking-[4px] text-[#6c4b2d]'>3.当日ご利用（ご退室）</h3>
-                        <p className='pt-8 pb-4 text-[14px] tracking-[4px] text-center leading-[28px]'>元の状態に片付けていただき、<br />そのままご退出ください。<br />またのご利用をお待ちしています♪</p>
-                        <p className='text-[12px] tracking-[1px] leading-[22px] pb-4 text-left'>
+                        <p className='py-8 text-[14px] tracking-[4px] text-center leading-[28px]'>元の状態に片付けていただき、<br />そのままご退出ください。<br />またのご利用をお待ちしています♪</p>
+                        <p className='text-[12px] tracking-[2px] leading-[22px] pb-4 text-left'>
                             ・ロックのかけ方など退室方法詳細は<br />　スタジオの扉面に記載していますので<br />　当日ご確認ください<br />
                             ・次の方のご予約時間が毎時00分から始まります<br />　入れ替え時間もありますので<br />　<strong>必ず終了時間の5分前</strong>にはご退出いただくよう<br />　ご協力お願いいたします
                         </p>
-                        <div className='text-center'>
+                        <div className='text-center pt-6'>
                             <h3 className='font-bold bg-[#F5DAE6] inline-block px-2 py-2 tracking-[4px] text-[#6c4b2d]'>免責事項</h3>
                             <br />
                             <p className='py-8 text-[13px] tracking-[4px] leading-[28px] text-left'>完全無人スタジオのため、突発的な機材トラブル等に対して、その場ですぐにご対応できない場合がございます。そのような場合にも利用料金が発生してしまうことを予めご了承いただいた上で、ご利用お願いいたします。</p>
