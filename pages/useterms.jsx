@@ -14,9 +14,9 @@ export default function useTerms() {
             <AppNav />
             <TopSlider />
             <BottomNav />
-            <main className="">
-                <img src="/photo/termslong2.jpg" />
-                <Link href="https://drive.google.com/file/d/1wHJBc_bKXQD0e_ZTu5SbjvGZ16OVhCb9/view?usp=drive_link" download>PDFダウンロード</Link>
+            <main className="pb-4">
+                <img src="/photo/kiyaku.jpg" />
+                <Link className='hidden' href="https://drive.google.com/file/d/1wHJBc_bKXQD0e_ZTu5SbjvGZ16OVhCb9/view?usp=drive_link" download>PDFダウンロード</Link>
             </main>
             <Footer />
         </div >

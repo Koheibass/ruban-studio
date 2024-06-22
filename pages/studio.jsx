@@ -9,7 +9,6 @@ import Link from 'next/link';
 import TopSliderMobile from '@/components/TopSliderMobile';
 
 
-
 export default function Studio() {
     return (
         <div className="flex flex-col relative min-h-lvh font-noto">
@@ -27,6 +26,9 @@ export default function Studio() {
                         <p className='text-center py-8 tracking-[5px] leading-[28px]'>ヨーロッパに留学していた<br />オーナー夫婦が
                             <br />
                             そんな風に考えて作った<br />空間です。
+                        </p>
+                        <h2 className='pt-2'><img src="photo/sepia.jpg" /></h2>
+                        <p className='text-center py-8 tracking-[5px] leading-[28px]'>
                             <br />
                             日本の防音マンションや<br />防音スタジオは
                             <br />
@@ -49,10 +51,11 @@ export default function Studio() {
                             演奏してみませんか？
                         </p>
                     </div>
+                    <h2 className='pt-2'><img src="photo/studio1.jpg" /></h2>
                     <div>
                         <p className='text-center py-8 tracking-[5px] leading-[28px]'>
                             白基調の内装にも<br />こだわっており、<br />写真撮影や<br />動画撮影はもちろん、<br />いつもと違う<br />ヨーロピアンな空間で<br />練習をお楽しみいただけます。
-
+                            <br />
                             完全無人スタジオで、<br />スタッフと<br />顔を合わせることなく<br />ご利用可能です。<br />（防犯カメラあり）
                             <br /><br />
                             ご予約時間のみ有効の<br />暗証番号式ロックを<br />採用しているため、<br />前の方が鍵を置き忘れて<br />入室できない…<br />といったトラブルも<br />ありません。
@@ -60,22 +63,29 @@ export default function Studio() {
                         <p className='text-left tracking-[5px] leading-[28px] ml-10 pb-8'>
                             ・楽器練習<br />
                             ・レッスン<br />
+                            ・セミナー<br />
                             ・録音、動画撮影<br />
                             ・ライブ配信<br />
                             ・プロフィール写真撮影<br />
                             ・コワーキングスペース<br />
+                            ・オンラインレッスン<br />
                             <br />
                             などなど、様々な用途にて<br />ご利用ください。
+                        </p>
+                        <p className='text-left tracking-[4px] leading-[28px] ml-10 pb-10'>
+                            定員　約10名
+                            <br />
+                            広さ　25.16㎡（約15畳）
                         </p>
                         <p className='text-left tracking-[4px] leading-[24px] ml-3 pb-8 text-[13px]' >※完全防音ではありません。外の音はほぼ聞こえませんが、場合によっては大きな音のサイレン等、少し聞こえてしまう場合もございます。<br />そのため、大切なコンクールのための録音などの際は、よく考慮されご納得いただいたうえでご予約いただきますようお願いいたします。
                             <br /><br />
                             ※大変申し訳ありませんが、金管楽器、打楽器は演奏不可とさせていただいております。ご理解のほどお願いいたします。
                         </p>
                     </div>
-                    <div className='pt-8'>
-                        <h3 className='font-bold bg-[#F5DAE6] inline-block px-2 py-2 tracking-[4px] text-[#6c4b2d]'>設置ピアノ</h3>
+                    <div className='pt-8 flex justify-center'>
+                        <h2 className='w-[60%]'><img src="photo/piano1.png" /></h2>
                     </div>
-                    <div className='pb-8'>
+                    <div className='pb-10'>
                         <p className='text-center py- tracking-[4px] leading-[28px] py-8'>
                             YAMAHA C3B
                         </p>
@@ -89,10 +99,10 @@ export default function Studio() {
                             まろやかに響く音で、練習、レッスンをお楽しみください。
                         </p>
                     </div>
-                    <div>
+                    <div id="equipment">
                         <div className='text-center'>スタジオ備品一覧</div>
                         <h2 className='pt-8'><img src="photo/bihin.jpg" /></h2>
-                        <p className='text-center  tracking-[4px] leading-[28px] mt-4'>
+                        <p className='text-center  tracking-[4px] leading-[28px] mt-8'>
                             その他
                             <br /><br />
                             マイクスタンド
@@ -100,18 +110,21 @@ export default function Studio() {
                             マイクケーブル
                             <br />
                             譜面台
+                            <br />
+                            コンセント8口
                         </p>
-                        <p className='text-center tracking-[4px] leading-[28px] mt-6'>
-                            高音質マイク、
-                            高画質カメラ
+                        <p className='text-center tracking-[3px] leading-[28px] mt-6 text-[14px]'>
+                            高音質マイク（NEUMANN、AKG）
+                            <br />
+                            高画質カメラ（FUJIFILM X-H2S ）
                         </p>
                         <p className='text-center text-[15px] py-1 '>（録音録画プランの時のみ録音技師が使用）</p>
-                        <p className='text-left  tracking-[4px] leading-[28px] ml-1 pb-8 pt-4'>
-                            本棚に置いてある楽譜や本も、大切に扱っていただけるのであれば、ご自由にご覧ください。
+                        <p className='leading-[28px] pb-8 pt-4'>
+                            本棚に置いてある楽譜や本も、<br />大切に扱っていただけるのであれば、<br />　ご自由にご覧ください。
                         </p>
                     </div>
                     <div>
-                        <p className='text-center tracking-[4px] leading-[28px] pb-8'>
+                        <p className='text-center tracking-[4px] leading-[28px] pb-10'>
                             営業時間
                             <br />
                             年中無休
@@ -141,7 +154,7 @@ export default function Studio() {
                     </div>
                     <div className='text-[13px] pb-4'>その他、詳細は<Link href="/useterms" className="underline font-bold">利用規約</Link>を必ずご確認ください。</div>
                 </div>
-                <div className='py-2 tracking-[4px] leading-[28px] text-[13px] underline text-[#ff9a9a]'><Link href="/">Topに戻る</Link></div>
+                <div className='pt-2 pb-6 leading-[28px] text-[13px] underline text-[#ff9a9a]'><Link href="/">Topに戻る</Link></div>
             </main >
             <Footer />
         </div >

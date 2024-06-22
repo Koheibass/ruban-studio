@@ -3,23 +3,24 @@ import TopSlider from '@/components/TopSlider';
 import { AppNav } from '@/components/AppNav';
 import { SectionNews } from '@/components/News/SectionNews';
 import { Footer } from '@/components/Footer';
-import { LanguageContext } from '@/utils/language';
 import BottomNav from '@/components/BottomNav';
+import TopSliderMobile from '@/components/TopSliderMobile';
 
 
 export default function News() {
     return (
-        <LanguageContext.Provider value='ja'>
-            <div className="flex flex-col relative min-h-lvh font-noto">
-                <AppNav />
-                <TopSlider />
+        <div className="flex flex-col relative min-h-lvh font-noto">
+            <AppNav />
+            <div className='lg:inline-block hidden'><TopSlider /></div>
+            <div className='lg:hidden'><TopSliderMobile /></div>
+            <div className='lg:hidden block'>
                 <BottomNav />
-                <main className="grow bg-[#fefaff] px-4 lg:px-20 tracking-[4px] leading-7">
-                    <SectionNews />
-                </main>
-                <Footer />
-            </div >
-        </LanguageContext.Provider >
+            </div>
+            <main className="grow bg-[#fefaff] px-4 lg:px-20 tracking-[4px] leading-7">
+                <SectionNews />
+            </main>
+            <Footer />
+        </div >
     )
 }
 /**

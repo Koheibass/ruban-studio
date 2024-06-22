@@ -24,7 +24,7 @@ const ScrollRevealContainer2 = dynamic(
 
 export default function Home() {
   return (
-    <div className="flex flex-col relative min-h-lvh font-noto">
+    <div className="flex flex-col relativ min-h-lvh font-noto">
       <AppNav />
       <div className='sm:block hidden'><TopSlider /></div>
       <div className='sm:hidden'><TopSliderMobile /></div>

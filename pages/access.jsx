@@ -7,6 +7,12 @@ import { Footer } from '@/components/Footer';
 import BottomNav from '@/components/BottomNav';
 import TopSliderMobile from '@/components/TopSliderMobile';
 
+import dynamic from 'next/dynamic';
+
+const ScrollRevealContainer = dynamic(
+    import('@/components/ScrollReveal'),
+    { ssr: false, }
+);
 
 export default function Access() {
     return (
@@ -18,24 +24,19 @@ export default function Access() {
                 <BottomNav />
             </div>
             <main className="grow bg-[#ffffff] px-4 lg:px-20" id="access">
-                <div className='pt-8 mx-6'>
-                    <div className='pt-1'>
-                        <h3 className='font-bold bg-[#F5DAE6] inline-block px-2 py-2 tracking-[4px] text-[#6c4b2d]'>Address</h3>
-                        <p className='text-center py-8 tracking-[4px] leading-[28px]'>東京都練馬区北町6-37-3</p>
-                    </div>
+                <div className='pt-8'>
                     <div className='pb-8'>
-                        <h3 className='font-bold bg-[#F5DAE6] inline-block px-2 py-2 tracking-[4px] text-[#6c4b2d]'>Access</h3>
-                        <p className='text-center py-8 tracking-[4px] leading-[28px]'>東京メトロ有楽町線、副都心線<br />平和台駅から徒歩5分</p>
-                        <iframe width="300" height="170" src="https://www.youtube.com/embed/YfyZ2WkeirI?si=M80V7uaPJU3V1crY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <ScrollRevealContainer><div className='flex justify-center'>
+                            <h2 className='w-[80%]'><img src="photo/access1.png" /></h2>
+                        </div></ScrollRevealContainer>
+                        <p className='text-center pt-8 tracking-[4px] leading-[28px]'>東京メトロ有楽町線、副都心線<br />平和台駅から徒歩5分</p>
+                        <p className='text-center pt-4 tracking-[4px] leading-[28px]'>駐車場はございません。</p>
+                        <p className='text-[15px] pl-6 pb-2 pt-2'>（近隣にコインパーキングあり）</p>
                     </div>
-                    <div>
-                        <h3 className='font-bold bg-[#F5DAE6] inline-block px-2 py-2 tracking-[4px] text-[#6c4b2d]'>Attention</h3>
-                        <p className='text-center pt-8 tracking-[4px] leading-[28px]'>駐車場はございません。</p>
-                        <p className='text-[15px] pl-6 pb-8 pt-2'>（近隣にコインパーキングあり）</p>
-                    </div>
-                    <div className='pb-8'><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12950.647445545132!2d139.6506195!3d35.759115!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018ed4088e6e60d%3A0x1cc03abea33f6f6f!2z44OU44Ki44OO44K544K_44K444Kq44Oq44Ol44OQ44Oz!5e0!3m2!1sja!2sjp!4v1717300015844!5m2!1sja!2sjp" width="100%" height="300" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+                    <div className='flex justify-center pb-10 w-full'><iframe width="350" height="165" src="https://www.youtube.com/embed/YfyZ2WkeirI?si=M80V7uaPJU3V1crY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                    <div className='pb-10'><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12950.647445545132!2d139.6506195!3d35.759115!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018ed4088e6e60d%3A0x1cc03abea33f6f6f!2z44OU44Ki44OO44K544K_44K444Kq44Oq44Ol44OQ44Oz!5e0!3m2!1sja!2sjp!4v1717300015844!5m2!1sja!2sjp" width="100%" height="300" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
                 </div>
-                <div className='py-2 tracking-[4px] leading-[28px] text-[13px] underline text-[#ff9a9a]'><Link href="/">Topに戻る</Link></div>
+                <div className='pt-2 pb-6 leading-[28px] text-[13px] underline text-[#ff9a9a]'><Link href="/">Topに戻る</Link></div>
             </main >
             <Footer />
         </div >

@@ -99,7 +99,7 @@ export default function TopMo() {
           飲食も可能ですので（条件あり）<br />
           小さな交流会にも<br />ご利用いただけます♪<br />
           <br />
-          設備、備品に関して<br />詳しくは<Link href="/" class="underline font-bold">こちら</Link>をご覧ください。
+          設備、備品に関して<br />詳しくは<Link href="/studio/#equipment" class="underline font-bold">こちら</Link>をご覧ください。
         </p>
       </div>
       <h2 className='pt-11'><img src="photo/top8.jpg" /></h2>
