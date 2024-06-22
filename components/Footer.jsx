@@ -14,6 +14,14 @@ export const Footer = () => {
                 <Link href='https://maps.app.goo.gl/zpmZPzvNjdmfFEZK9' target='_blank'>Google Mapで見る</Link>
             </div>
             <div className="text-[10px] text-[#a5862f]"> <Link href="/terms">特定商取引法に基づく表記</Link></div>
+            <div className="flex justify-center pt-2">
+                <Link href="https://www.instagram.com/piano.studio_ruban/">
+                    <img src="/icon/Instagram.svg" className="inline-block pt-[6px]" width="35" height="40" alt="instagram" />
+                </Link>
+                <Link href="https://x.com/studio_ruban">
+                    <img src="/icon/x-logo.svg" className="inline-block relative pt-2 pl-[15px]" width="45" height="40" alt="x(twitter)" />
+                </Link>
+            </div>
             <div className="text-sm text-center bg-transparent mt-4 pb-4 text-[#a5862f]">© 2024 Piano Studio Ruban</div>
         </div>
     )
