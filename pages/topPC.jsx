@@ -18,48 +18,37 @@ export default function TopPc() {
             <div className='flex justify-center'>
                 <h4 className='anim-box'><img src="/photo/senren1.png" /></h4>
             </div>
-            <div className='mx-6 flex sm:pt-8 justify-center'>
-                <p className='text-center mt-8 tracking-[2px] leading-[40px] text-[30px]'>
-                    東京メトロ有楽町線、副都心線
-                    <br />
-                    平和台駅から徒歩5分
-                    <br />
-                    池袋駅から18分とアクセスも良く
-                    <br />
-                    お気軽にご利用いただける<br />ピアノスタジオです
-                </p>
-                <h2 className='pt-2 w-[60%] ml-8'><img src="photo/top4.jpg" /></h2>
-            </div>
-            <div className='mx-6 flex pt-8 pb-20 justify-center'>
-                <h2 className='pb-8 w-[60%] mt-20 mr-10'><img src="photo/top6.jpg" /></h2>
-                <p className='text-center mt-20 tracking-[2px] leading-[40px] text-[28px]'>
-                    内装は白を基調とした
-                    <br />
-                    エレガントでヨーロッパ調の空間。
-                    <br />
-                    吸音されるデッドな空間ではなく
-                    <br />
-                    とてもよく響くスタジオです
-                    <br />
-                    いつもと違った空間で
-                    <br />
-                    練習、レッスン、音楽を<br />お楽しみください
-                </p>
-            </div>
+            <p className='text-center mt-8 leading-[60px] text-[28px] mb-8'>
+                東京メトロ有楽町線、副都心線
+                平和台駅から徒歩5分<br />
+                池袋駅から18分とアクセスも良く<br />
+                お気軽にご利用いただけるピアノスタジオです
+            </p>
+            <h2 className='pt-2 ml-8 flex justify-center'><img src="photo/top4.jpg" /></h2>
+            <p className='text-center mt-8 leading-[60px] text-[24px] mb-8'>
+                内装は白を基調としたエレガントでヨーロッパ調の空間。
+                <br />
+                吸音されるデッドな空間ではなく
+                とてもよく響くスタジオです
+                <br />
+                いつもと違った空間で
+                練習、レッスン、音楽をお楽しみください
+            </p>
+            <h2 className='pt-2 ml-8 flex justify-center pb-14'><img src="photo/top6.jpg" /></h2>
             <div className='py-6 flex justify-center'>
                 <ScrollRevealContainer><h2 className='text-[30px] tracking-[2px] pb-10 '><img src="photo/riyou.png" /></h2></ScrollRevealContainer>
             </div>
             <div className='pb-10 text-center'>
-                <ScrollRevealContainer2><h3 className='font-bold bg-[#F5DAE6] inline-block px-2 py-2 tracking-[4px] text-[#6c4b2d] text-[50px]'>1. Webにて予約、お支払い</h3></ScrollRevealContainer2>
+                <ScrollRevealContainer2><h3 className='font-bold bg-[#F5DAE6] inline-block px-2 py-2 pr-[50px] tracking-[4px] text-[#6c4b2d] text-[46px]'>1. Webにて予約、お支払い</h3></ScrollRevealContainer2>
             </div>
             <div className='pb-10 text-center'>
-                <ScrollRevealContainer2><h3 className='font-bold bg-[#F5DAE6] inline-block px-2 py-2 tracking-[4px] text-[#6c4b2d] text-[50px]'>2. オートロックを解除し入室</h3></ScrollRevealContainer2>
+                <ScrollRevealContainer2><h3 className='font-bold bg-[#F5DAE6] inline-block px-2 py-2 tracking-[4px] text-[#6c4b2d] text-[46px]'>2. オートロックを解除し入室</h3></ScrollRevealContainer2>
             </div>
             <div className='text-center'>
-                <ScrollRevealContainer2><h3 className='font-bold bg-[#F5DAE6] inline-block px-2 py-2 tracking-[4px] text-[#6c4b2d] text-[50px]'>3. 手続き等なくご利用終了♪</h3></ScrollRevealContainer2>
+                <ScrollRevealContainer2><h3 className='font-bold bg-[#F5DAE6] inline-block px-2 py-2 tracking-[4px] text-[#6c4b2d] text-[46px]'>3. 手続き等なくご利用終了♪</h3></ScrollRevealContainer2>
             </div>
             <div className='mx-6 pt-10'>
-                <p className='text-center tracking-[4px] leading-[28px] text-[25px] pt-6 pb-10'>
+                <p className='text-center tracking-[4px] leading-[28px] text-[24px] pt-6 pb-10'>
                     より詳細なご利用の流れは<Link href="/use" class="underline font-bold">こちら</Link>をご覧ください。
                 </p>
             </div>

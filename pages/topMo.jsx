@@ -56,7 +56,7 @@ export default function TopMo() {
         <ScrollRevealContainer><h2 className='text-[20px] tracking-[2px] font-semibold pb-8'><img src="photo/riyou.png" /></h2></ScrollRevealContainer>
       </div>
       <div className='pb-8 text-center'>
-        <ScrollRevealContainer2><h3 className='font-bold bg-[#F5DAE6] inline-block px-2 py-2 tracking-[4px] text-[#6c4b2d]'>1. Webにて予約、お支払い</h3></ScrollRevealContainer2>
+        <ScrollRevealContainer2><h3 className='font-bold bg-[#F5DAE6] inline-block px-2 py-2 pr-[24px] tracking-[4px] text-[#6c4b2d]'>1. Webにて予約、お支払い</h3></ScrollRevealContainer2>
       </div>
       <div className='pb-8 text-center'>
         <ScrollRevealContainer2><h3 className='font-bold bg-[#F5DAE6] inline-block px-2 py-2 tracking-[4px] text-[#6c4b2d]'>2. オートロックを解除し入室</h3></ScrollRevealContainer2>
@@ -71,7 +71,7 @@ export default function TopMo() {
           <Link href="/use" class="underline font-bold">こちら</Link>をご覧ください。
         </p>
       </div>
-      <h2 className='pt-10'><img src="photo/top5.jpg" /></h2>
+      <h2 className='pt-10'><img src="photo/top7.jpg" /></h2>
       <div className='mx-6 text-center pt-14'>
         <ScrollRevealContainer><h2 className='text-[20px] tracking-[2px] font-semibold pb-8'><img src="photo/riyou1.png" /></h2></ScrollRevealContainer>
       </div>
@@ -99,7 +99,7 @@ export default function TopMo() {
           飲食も可能ですので（条件あり）<br />
           小さな交流会にも<br />ご利用いただけます♪<br />
           <br />
-          設備、備品に関して<br />詳しくは<Link href="/studio/#equipment" class="underline font-bold">こちら</Link>をご覧ください。
+          設備、備品に関して<br />詳しくは<Link href="/studio/#equipment2" class="underline font-bold">こちら</Link>をご覧ください。
         </p>
       </div>
       <h2 className='pt-11'><img src="photo/top8.jpg" /></h2>

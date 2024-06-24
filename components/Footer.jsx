@@ -10,8 +10,11 @@ export const Footer = () => {
                     <p>営業時間　9:00～21:00</p>
                 </div>
             </div>
-            <div className="text-sm text-center bg-transparent mt-4 pb-4 text-[#a5862f] underline">
+            <div className="text-sm text-center bg-transparent mt-4 text-[#a5862f] underline">
                 <Link href='https://maps.app.goo.gl/zpmZPzvNjdmfFEZK9' target='_blank'>Google Mapで見る</Link>
+            </div>
+            <div className="text-sm text-center bg-transparent mt-4 pb-4 text-[#a5862f] underline">
+                <Link href='contact' target='_blank'>お問い合わせ</Link>
             </div>
             <div className="text-[10px] text-[#a5862f]"> <Link href="/terms">特定商取引法に基づく表記</Link></div>
             <div className="flex justify-center pt-2">

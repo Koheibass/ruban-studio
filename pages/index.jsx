@@ -11,17 +11,6 @@ import TopMo from './topMo';
 import TopPc from './topPC';
 
 
-
-const ScrollRevealContainer = dynamic(
-  import('@/components/ScrollReveal'),
-  { ssr: false, }
-);
-
-const ScrollRevealContainer2 = dynamic(
-  import('@/components/ScrollReveal2'),
-  { ssr: false, }
-);
-
 export default function Home() {
   return (
     <div className="flex flex-col relativ min-h-lvh font-noto">
@@ -29,8 +18,8 @@ export default function Home() {
       <div className='sm:block hidden'><TopSlider /></div>
       <div className='sm:hidden'><TopSliderMobile /></div>
       <div className='sm:hidden block'><BottomNav /></div>
-      <div className='sm:hidden'><TopMo /></div>
-      <div className='sm:block hidden'><TopPc /></div>
+      <div className='lg:hidden'><TopMo /></div>
+      <div className='lg:block hidden'><TopPc /></div>
       <Footer />
     </div >
   )

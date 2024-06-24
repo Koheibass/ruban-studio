@@ -6,7 +6,7 @@ export const SectionContact = () => {
             <SectionHeader id="contact" title="お問い合わせ" titleEn="contact" />
             <div>
                 <div className="text-center my-4 text-[80%] text-[#937a43] lg:text-[100%]">ピアニスト 赤星里奈へのご依頼・お問い合わせなどは、<br />こちらからお願い致します。</div>
-                <form action="https://hyperform.jp/api/cMkccTrF" method="post" noValidate id="contact-form" className="gap-4 grid-cols-1 grid text-[#937a43]">
+                <form action="https://hyperform.jp/api/W0ja7ej9" method="post" noValidate id="contact-form" className="gap-4 grid-cols-1 grid text-[#937a43]">
                     <div>
                         <label htmlFor="name" className="font-medium block bg-inherit text-[.875rem] leading-none mb-2">お名前</label>
                         <input className="border rounded w-full py-2 px-2 flex m-auto outline outline-1" id="name" name="name" />

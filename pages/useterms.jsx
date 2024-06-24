@@ -6,14 +6,18 @@ import { Footer } from '@/components/Footer';
 
 import BottomNav from '@/components/BottomNav';
 import Link from 'next/link';
+import TopSliderMobile from '@/components/TopSliderMobile';
 
 
 export default function useTerms() {
     return (
         <div className="flex flex-col relative min-h-lvh font-noto">
             <AppNav />
-            <TopSlider />
-            <BottomNav />
+            <div className='lg:inline-block hidden'><TopSlider /></div>
+            <div className='lg:hidden'><TopSliderMobile /></div>
+            <div className='lg:hidden block'>
+                <BottomNav />
+            </div>
             <main className="pb-4">
                 <img src="/photo/kiyaku.jpg" />
                 <Link className='hidden' href="https://drive.google.com/file/d/1wHJBc_bKXQD0e_ZTu5SbjvGZ16OVhCb9/view?usp=drive_link" download>PDFダウンロード</Link>

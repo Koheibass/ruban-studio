@@ -5,14 +5,18 @@ import { AppNav } from '@/components/AppNav';
 import { Footer } from '@/components/Footer';
 
 import BottomNav from '@/components/BottomNav';
+import TopSliderMobile from '@/components/TopSliderMobile';
 
 
 export default function Terms() {
     return (
         <div className="flex flex-col relative min-h-lvh font-noto">
             <AppNav />
-            <TopSlider />
-            <BottomNav />
+            <div className='lg:inline-block hidden'><TopSlider /></div>
+            <div className='lg:hidden'><TopSliderMobile /></div>
+            <div className='lg:hidden block'>
+                <BottomNav />
+            </div>
             <main className="grow bg-[#ffffff] px-4 lg:px-20 text-center">
                 <div>
                     <h3 className='py-8'>特定商取引法に基づく表記</h3>

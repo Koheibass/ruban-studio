@@ -50,7 +50,7 @@ export default function Use() {
                         <ScrollRevealContainer><div className='flex justify-center'>
                             <h2 className='w-[50%]'><img src="photo/tejun.png" /></h2>
                         </div></ScrollRevealContainer>
-                        <div className='py-8 tracking-[3px] leading-[28px] text-left -indent-7 px-6 ml-3 '>
+                        <div className='py-8 tracking-[3px] leading-[28px] text-left -indent-7 px-6 ml-3'>
                             <p className='pb-8'>
                                 1. ご予約完了メールに記載されている5桁の数字「オートロック解除キー」を入力する
                                 <br />
