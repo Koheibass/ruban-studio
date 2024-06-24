@@ -49,9 +49,9 @@ export const AppNav = () => {
     return (
         <nav className="top-0 z-10 w-full sticky bg-[#ffffff]">
             <div>
-                <div className="flex items-center h-20 sm:h-[100px]">
+                <div className="flex items-center h-20 lg:h-[100px]">
                     <HeaderLeft />
-                    <div className='pr-10 hidden md:block sm:text-[20px] sm:text-[#BDA06A]'>
+                    <div className='pr-10 hidden lg:block lg:text-[25px] lg:text-[#BDA06A]'>
                         <Link href="/studio/#studio" className="sm:pr-5">スタジオ案内</Link>
                         <Link href="/price/#price" className="sm:pr-5">ご利用料金</Link>
                         <Link href="/access/#access" className="sm:pr-5">アクセス</Link>
@@ -60,7 +60,7 @@ export const AppNav = () => {
                     </div>
                     <HeaderIcon />
                     <div className="flex items-center pr-1">
-                        <div className="hamburger md:invisible">
+                        <div className="hamburger lg:invisible">
                             <span></span>
                             <span></span>
                             <span></span>
