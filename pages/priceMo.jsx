@@ -21,7 +21,7 @@ export default function PriceMo() {
                     <p className='text-[14px] tracking-[4px] text-center leading-[28px] pb-8'>
                         ぜひこの機会にご利用ください！！
                         <br />
-                        （※録音、配信プランを除く）</p>
+                        （※録音、録画プランを除く）</p>
                     <h3 className='font-bold inline-block px-2 py-2 tracking-[4px]'>キャンセル規定</h3>
                     <p className='py-4 text-[11px] tracking-[4px] text-center leading-[28px]'>
                         利用日の1週間前まで：ご利用料金の3.6%

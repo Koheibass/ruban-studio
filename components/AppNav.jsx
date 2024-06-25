@@ -56,7 +56,7 @@ export const AppNav = () => {
                         <Link href="/price/#price" className="sm:pr-5">ご利用料金</Link>
                         <Link href="/access/#access" className="sm:pr-5">アクセス</Link>
                         <Link href="/use/#use" className="sm:pr-5">ご利用の流れ</Link>
-                        <Link href="/news" className="sm:pr-5">NEWS</Link>
+                        <Link href="/news/#news" className="sm:pr-5">NEWS</Link>
                     </div>
                     <HeaderIcon />
                     <div className="flex items-center pr-1">

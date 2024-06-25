@@ -1,12 +1,18 @@
-import { TopNews } from "./TopNews"
+
 import { Topix } from "./Topix"
+import { TopixPC } from "./TopixPc"
 
 
 export const SectionNews = () => {
 
     return (
         <section>
-            < Topix />
+            <div className="lg:hidden">
+                < Topix />
+            </div>
+            <div className="hidden lg:block">
+                < TopixPC />
+            </div>
         </section>
     )
 }

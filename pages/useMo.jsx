@@ -25,12 +25,12 @@ export default function UseMo() {
                     <p className='text-center py-8 tracking-[4px] leading-[28px]'>空き状況確認＆ご予約は<br /><Link href="https://web.star7.jp/mypage/mobile_info.php?p=d09908f508" className='underline font-bold' target='_blank'>こちら</Link>から</p>
                 </div>
                 <div>
-                    <p className='text-[12px] tracking-[3px] leading-[24px] pb-2 text-left -indent-4'>・ご予約完了メールは必ず保存をお願いします<br /></p>
-                    <p className='text-[12px] tracking-[3px] leading-[24px] pb-2 text-left -indent-4'>・お支払いはクレジットカードのみのご対応となります<br /></p>
-                    <p className='text-[12px] tracking-[3px] leading-[24px] pb-2 text-left -indent-4'>・決済完了後にご予約完了となります<br /></p>
+                    <p className='text-[12px] tracking-[3px] leading-[24px] pb-2 text-left -indent-4'>・ご予約完了メールは必ず保存をお願いします。<br /></p>
+                    <p className='text-[12px] tracking-[3px] leading-[24px] pb-2 text-left -indent-4'>・お支払いはクレジットカードのみのご対応となります。<br /></p>
+                    <p className='text-[12px] tracking-[3px] leading-[24px] pb-2 text-left -indent-4'>・決済完了後にご予約完了となります。<br /></p>
                     <p className='text-[12px] tracking-[3px] leading-[24px] pb-2 text-left -indent-4'>・そのため、キャンセルとなった場合には下に定めるキャンセル料を差し引いた金額をご返金いたします。<br /></p>
-                    <p className='text-[12px] tracking-[3px] leading-[24px] pb-2 text-left -indent-4'>・前日の23：59まで予約が可能です。当日予約はできません<br /></p>
-                    <p className='text-[12px] tracking-[3px] leading-[24px] pb-2 text-left -indent-4'>・180日前から予約が可能ですが、キャンセルの場合には3.6％の決済手数料がかかってしまいます。ご注意ください<br /></p>
+                    <p className='text-[12px] tracking-[3px] leading-[24px] pb-2 text-left -indent-4'>・前日の23：59まで予約が可能です。当日予約はできません。<br /></p>
+                    <p className='text-[12px] tracking-[3px] leading-[24px] pb-2 text-left -indent-4'>・180日前から予約が可能ですが、キャンセルの場合には3.6％の決済手数料がかかってしまいます。ご注意ください。<br /></p>
                 </div>
                 <p className='text-[12px] tracking-[2px] leading-[24px] pt-6 text-center'>
                     キャンセル規定<br />

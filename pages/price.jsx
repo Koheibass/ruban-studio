@@ -41,7 +41,7 @@ export default function Price() {
                     </div>
                     <div className='flex justify-center pt-4'>
                         <p className='text-[30px] tracking-[4px] text-center leading-[28px] pb-8'>
-                            （※録音、配信プランを除く）
+                            （※録音、録画プランを除く）
                         </p>
                     </div>
                     <div className='flex justify-center pt-10'>
