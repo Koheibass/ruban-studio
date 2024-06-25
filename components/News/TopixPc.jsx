@@ -1,4 +1,4 @@
-import { Info } from '@/components/News/Info'
+
 import { useLanguage } from '@/utils/language';
 import Link from 'next/link';
 

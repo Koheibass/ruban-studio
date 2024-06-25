@@ -1,11 +1,5 @@
 import * as React from 'react';
-import TopSlider from '@/components/TopSlider';
-import { AppNav } from '@/components/AppNav';
 import Link from 'next/link';
-import { Footer } from '@/components/Footer';
-import BottomNav from '@/components/BottomNav';
-import TopSliderMobile from '@/components/TopSliderMobile';
-
 import dynamic from 'next/dynamic';
 
 const ScrollRevealContainer = dynamic(
