@@ -115,6 +115,8 @@ export default function Studio() {
                             <p className='text-center pb-8 leading-[60px] text-[28px]'>
                                 その他
                                 <br />
+                                カメラスタンド
+                                <br />
                                 マイクスタンド
                                 <br />
                                 マイクケーブル
@@ -288,6 +290,8 @@ export default function Studio() {
                             <p className='text-center  tracking-[4px] leading-[28px] mt-8'>
                                 その他
                                 <br /><br />
+                                カメラスタンド
+                                <br />
                                 マイクスタンド
                                 <br />
                                 マイクケーブル

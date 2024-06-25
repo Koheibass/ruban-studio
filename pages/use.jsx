@@ -32,13 +32,13 @@ export default function Use() {
                     <div>
                         <p className='text-center py-8 tracking-[10px] leading-[40px] text-[35px]'>空き状況確認＆ご予約は<Link href="https://web.star7.jp/mypage/mobile_info.php?p=d09908f508" className='underline font-bold' target='_blank'>こちら</Link>から</p>
                     </div>
-                    <div className='py-20 ml-[200px]'>
-                        <p className='text-[25px] tracking-[3px] leading-[24px] pb-10 text-left -indent-4'>・ご予約完了メールは必ず保存をお願いします<br /></p>
-                        <p className='text-[25px] tracking-[3px] leading-[24px] pb-10 text-left -indent-4'>・お支払いはクレジットカードのみのご対応となります<br /></p>
-                        <p className='text-[25px] tracking-[3px] leading-[24px] pb-10 text-left -indent-4'>・決済完了後にご予約完了となります<br /></p>
-                        <p className='text-[25px] tracking-[3px] leading-[24px] pb-10 text-left -indent-4'>・そのため、キャンセルとなった場合には下に定めるキャンセル料を差し引いた金額をご返金いたします。<br /></p>
-                        <p className='text-[25px] tracking-[3px] leading-[24px] pb-10 text-left -indent-4'>・前日の23：59まで予約が可能です。当日予約はできません<br /></p>
-                        <p className='text-[25px] tracking-[3px] leading-[24px] pb-10 text-left -indent-4'>・180日前から予約が可能ですが、キャンセルの場合には3.6％の決済手数料がかかってしまいます。ご注意ください<br /></p>
+                    <div className='py-20 ml-[150px]'>
+                        <p className='text-[25px] tracking-[3px] leading-[35px] pb-10 text-left -indent-7'>・ご予約完了メールは必ず保存をお願いします<br /></p>
+                        <p className='text-[25px] tracking-[3px] leading-[35px] pb-10 text-left -indent-7'>・お支払いはクレジットカードのみのご対応となります<br /></p>
+                        <p className='text-[25px] tracking-[3px] leading-[35px] pb-10 text-left -indent-7'>・決済完了後にご予約完了となります<br /></p>
+                        <p className='text-[25px] tracking-[3px] leading-[35px] pb-10 text-left -indent-7'>・そのため、キャンセルとなった場合には下に定めるキャンセル料を差し引いた金額をご返金いたします。<br /></p>
+                        <p className='text-[25px] tracking-[3px] leading-[35px] pb-10 text-left -indent-7'>・前日の23：59まで予約が可能です。当日予約はできません<br /></p>
+                        <p className='text-[25px] tracking-[3px] leading-[35px] pb-10 text-left -indent-7'>・180日前から予約が可能ですが、キャンセルの場合には3.6％の決済手数料がかかってしまいます。ご注意ください<br /></p>
                     </div>
                     <p className='text-[40px] tracking-[2px] leading-[24px] py-6 text-center'>
                         キャンセル規定<br />
@@ -61,7 +61,7 @@ export default function Use() {
                     <ScrollRevealContainer><div className='flex justify-center pb-12'>
                         <h2 className='w-[50%] flex justify-center'><img src="photo/tejun.png" /></h2>
                     </div></ScrollRevealContainer>
-                    <div className='py-12 mt-12 tracking-[5px] leading-[35px] text-left -indent-7 px-6 ml-[200px] text-[30px]'>
+                    <div className='py-12 mt-12 tracking-[5px] leading-[45px] text-left -indent-12 px-6 ml-[200px] text-[30px]'>
                         <p className='pb-12'>
                             1. ご予約完了メールに記載されている5桁の数字「オートロック解除キー」を入力する
                             <br />
@@ -116,11 +116,11 @@ export default function Use() {
                             ・次の方のご予約時間が毎時00分から始まります入れ替え時間もありますので<strong>必ず終了時間の5分前</strong>にはご退出いただくようご協力お願いいたします
                         </p>
                     </div>
-                    <div className='text-center pt-6'>
-                        <div className='flex justify-center'>
+                    <div className='text-center pt-12'>
+                        <div className='flex justify-center pb-12'>
                             <h3 className='font-bold bg-[#F5DAE6] px-6 py-3 leading-[60px] text-[28px] tracking-[24px] text-[#6c4b2d]'>免責事項</h3>
                         </div>
-                        <p className='py-8 text-[26px] tracking-[8px] leading-[60px] text-left'>完全無人スタジオのため、突発的な機材トラブル等に対して、その場ですぐにご対応できない場合がございます。そのような場合にも利用料金が発生してしまうことを予めご了承いただいた上で、ご利用お願いいたします。</p>
+                        <p className='py-8 text-[28px] tracking-[8px] leading-[60px] text-left'>完全無人スタジオのため、突発的な機材トラブル等に対して、その場ですぐにご対応できない場合がございます。そのような場合にも利用料金が発生してしまう可能性があることを予めご了承いただいた上で、ご利用お願いいたします。</p>
                         <p className='py-12 underline text-3xl'><Link href="/useterms">スタジオ利用規約</Link></p>
                     </div>
                     <div className='py-6 pb-12 leading-[28px] text-[26px] underline text-[#ff9a9a]'><Link href="/">Topに戻る</Link></div>
