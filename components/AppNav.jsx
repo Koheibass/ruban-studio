@@ -73,6 +73,7 @@ export const AppNav = () => {
                         <li><Link href="/access/#access" className="slide-menu3">アクセス</Link></li>
                         <li><Link href="/use/#use" className="slide-menu4">ご利用の流れ</Link></li>
                         <li><Link href="/news" className="slide-menu5">NEWS</Link></li>
+                        <li><Link href="/contact" target='_blank' className="slide-menu5">お問い合わせ</Link></li>
                     </ul>
                 </div>
             </div>

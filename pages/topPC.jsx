@@ -26,7 +26,7 @@ export default function TopPc() {
             </p>
             <h2 className='pt-2 ml-8 flex justify-center'><img src="photo/top4.jpg" /></h2>
             <p className='text-center mt-8 leading-[60px] text-[24px] mb-8'>
-                内装は白を基調としたエレガントでヨーロッパ調の空間。
+                内装は白を基調としたエレガントでヨーロッパ調の空間
                 <br />
                 吸音されるデッドな空間ではなく
                 とてもよく響くスタジオです
@@ -49,7 +49,7 @@ export default function TopPc() {
             </div>
             <div className='mx-6 pt-10'>
                 <p className='text-center tracking-[4px] leading-[28px] text-[24px] pt-6 pb-10'>
-                    より詳細なご利用の流れは<Link href="/use" class="underline font-bold">こちら</Link>をご覧ください。
+                    より詳細なご利用の流れは<Link href="/use" class="underline font-bold">こちら</Link>をご覧ください
                 </p>
             </div>
 
@@ -59,7 +59,7 @@ export default function TopPc() {
             <div className='mx-6 mt-10'>
                 <p className='text-center tracking-[4px] leading-[28px] text-[25px]'>
                     ピアノは2024年に全弦全ハンマー取り替え済の
-                    <strong>YAMAHA C3B</strong>を設置。
+                    <strong>YAMAHA C3B</strong>を設置
                     <br /><br />
 
                     小さなサロンとしてもご利用いただけるよう、
@@ -70,27 +70,27 @@ export default function TopPc() {
                     <strong>演奏者用椅子、譜面台</strong><br /><br />
 
                     各種撮影にご利用いただけるよう
-                    <strong>照明、カメラマイクスタンド</strong><br /><br />
+                    <strong>カメラ、マイクスタンド</strong><br /><br />
 
                     また配信にも十分な超高速10Gインターネットも
-                    完備しております。<br /><br />
+                    完備しております<br /><br />
                     飲食も可能ですので（条件あり）
                     小さな交流会にもご利用いただけます♪<br />
                     <br /><br />
-                    設備、備品に関して詳しくは<Link href="/studio/#equipment" class="underline font-bold">こちら</Link>をご覧ください。
+                    設備、備品に関して詳しくは<Link href="/studio/#equipment" class="underline font-bold">こちら</Link>をご覧ください
                 </p>
             </div>
             <h2 className='pt-20 flex justify-center'><img src="photo/top8.jpg" /></h2>
             <div className='mx-6 pt-10 pb-10'>
                 <p className='text-center tracking-[4px] leading-[28px] text-[px]'>
-                    オーナーが大切に<br />こだわって作った空間です。
+                    オーナーが大切に<br />こだわって作った空間です
                     <br />
                     このスタジオを<br />大切に思ってくださる<br />
                     愛ある音楽愛好家の皆さまに<br />
-                    ご利用いただければ幸いです。<br />
+                    ご利用いただければ幸いです<br />
                     この空間を通して、<br />新しいつながりや<br />
                     ワクワクする音楽体験が<br />生まれることを<br />
-                    心から願っております。
+                    心から願っております
                 </p>
             </div>
         </main >

@@ -66,7 +66,8 @@
 .slide-menu li {
     color: #a07c43;
     line-height: 400%;
-    margin-right: 180px;
+    margin-right: 190px;
+    letter-spacing: 2px;
     font-weight: 700;
     text-align: center;
 }

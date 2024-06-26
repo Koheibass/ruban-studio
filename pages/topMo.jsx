@@ -40,7 +40,7 @@ export default function TopMo() {
         <p className='text-center py-8 tracking-[4px] leading-[28px] text-[14px]'>
           内装は白を基調とした
           <br />
-          エレガントでヨーロッパ調の空間。
+          エレガントでヨーロッパ調の空間
           <br />
           吸音されるデッドな空間ではなく
           <br />
@@ -68,7 +68,7 @@ export default function TopMo() {
         <p className='text-center tracking-[4px] leading-[28px] text-[16px]'>
           より詳細なご利用の流れは
           <br />
-          <Link href="/use" class="underline font-bold">こちら</Link>をご覧ください。
+          <Link href="/use" class="underline font-bold">こちら</Link>をご覧ください
         </p>
       </div>
       <h2 className='pt-10'><img src="photo/top7.jpg" /></h2>
@@ -79,7 +79,7 @@ export default function TopMo() {
         <p className='text-center tracking-[4px] leading-[28px] text-[14px]'>
           ピアノは2024年に<br />全弦全ハンマー取り替え済の
           <br />
-          <strong>YAMAHA C3B</strong>を設置。
+          <strong>YAMAHA C3B</strong>を設置
           <br /><br />
 
           小さなサロンとしても
@@ -92,27 +92,27 @@ export default function TopMo() {
           <strong>演奏者用椅子、譜面台</strong><br /><br />
 
           各種撮影にご利用いただけるよう<br />
-          <strong>照明、カメラマイクスタンド</strong><br /><br />
+          <strong>カメラ、マイクスタンド</strong><br /><br />
 
           また配信にも十分な<br />超高速10Gインターネットも<br />
-          完備しております。<br />
+          完備しております<br />
           飲食も可能ですので（条件あり）<br />
           小さな交流会にも<br />ご利用いただけます♪<br />
           <br />
-          設備、備品に関して<br />詳しくは<Link href="/studio/#equipment2" class="underline font-bold">こちら</Link>をご覧ください。
+          設備、備品に関して<br />詳しくは<Link href="/studio/#equipment2" class="underline font-bold">こちら</Link>をご覧ください
         </p>
       </div>
       <h2 className='pt-11'><img src="photo/top8.jpg" /></h2>
       <div className='mx-6 pt-10 pb-10'>
         <p className='text-center tracking-[4px] leading-[28px] text-[14px]'>
-          オーナーが大切に<br />こだわって作った空間です。
+          オーナーが大切に<br />こだわって作った空間です
           <br />
           このスタジオを<br />大切に思ってくださる<br />
           愛ある音楽愛好家の皆さまに<br />
-          ご利用いただければ幸いです。<br />
+          ご利用いただければ幸いです<br />
           この空間を通して、<br />新しいつながりや<br />
           ワクワクする音楽体験が<br />生まれることを<br />
-          心から願っております。
+          心から願っております
         </p>
       </div>
     </main >

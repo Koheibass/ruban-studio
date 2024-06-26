@@ -35,7 +35,7 @@ export default function StudioPc() {
                             <br />
                             よく吸音され、<br />どちらかというと
                             <br />
-                            デットな空間になりがちです。
+                            デッドな空間になりがちです。
                             <br />
                             そのような環境での練習を
                             <br />

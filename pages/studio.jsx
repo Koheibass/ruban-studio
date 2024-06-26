@@ -33,14 +33,14 @@ export default function Studio() {
                             <br />
                             日本の防音マンションや防音スタジオは
                             よく吸音され、<br />どちらかというと
-                            デットな空間になりがちです。<br />
+                            デッドな空間になりがちです<br />
                             そのような環境での練習を
                             好まれる方も多いかもしれませんが
                             <br />
                             留学先ではよく響く空間が多く
                             <br />
                             そのようなところから学ぶことも
-                            たくさんありました。
+                            たくさんありました
                             <br />
                             なかなかない、よく響くスタジオで
                             演奏してみませんか？
@@ -52,9 +52,9 @@ export default function Studio() {
                             白基調の内装にもこだわっており、写真撮影や動画撮影はもちろん、<br />
                             いつもと違うヨーロピアンな空間で練習をお楽しみいただけます。
                             <br />
-                            完全無人スタジオで、スタッフと顔を合わせることなくご利用可能です。（防犯カメラあり）
+                            完全無人スタジオで、スタッフと顔を合わせることなくご利用可能です（防犯カメラあり）
                             <br /><br />
-                            ご予約時間のみ有効の暗証番号式ロックを採用しているため、<br />前の方が鍵を置き忘れて入室できない…といったトラブルもありません。
+                            ご予約時間のみ有効の暗証番号式ロックを採用しているため、<br />前の方が鍵を置き忘れて入室できない…といったトラブルもありません
                         </p>
                         <div className='flex justify-center pt-10'>
                             <p className='text-left tracking-[8px] leading-[55px] ml-28 pb-8 text-[35px]'>
@@ -98,11 +98,11 @@ export default function Studio() {
                             <p className='text-center pb-8 leading-[60px] text-[28px]'>
                                 全ハンマー、全弦を新品に交換済（2024年）<br />
 
-                                ピアノ弦はドイツ製の大変質の良いものを使用しています。<br />
+                                ピアノ弦はドイツ製の大変質の良いものを使用しています<br />
 
-                                この弦は世界トップクラスの高級輸入ピアノによく使用されており、柔軟性に富んだ輝きのある響きが特徴です。
+                                この弦は世界トップクラスの高級輸入ピアノによく使用されており、柔軟性に富んだ輝きのある響きが特徴です
                                 <br />
-                                まろやかに響く音で、練習、レッスンをお楽しみください。
+                                まろやかに響く音で、練習、レッスンをお楽しみください
                             </p>
                         </div>
                     </div>
@@ -127,14 +127,14 @@ export default function Studio() {
                             </p>
                         </div>
                         <div className='flex justify-center pb-12'>
-                            <p className='text-center pb-8 leading-[60px] text-[28px]'>
+                            <p className='text-center pb-8 leading-[60px] text-[28px] tracking-[3px]'>
                                 高音質マイク（NEUMANN、AKG）
                                 <br />
                                 高画質カメラ（FUJIFILM X-H2S ）
                                 <br />
                                 （録音録画プランの時のみ録音技師が使用）
                                 <br /><br />
-                                本棚に置いてある楽譜や本も、大切に扱っていただけるのであれば、ご自由にご覧ください。
+                                本棚に置いてある楽譜や本も、大切に扱っていただけるのであれば、ご自由にご覧ください
                             </p>
                         </div>
                     </div>
@@ -200,20 +200,20 @@ export default function Studio() {
                     <div>
                         <p className='text-center py-8 leading-[60px] text-[28px]  lg:block hidden'>ヨーロッパに留学していたオーナー夫婦が
                             <br />
-                            そんな風に考えて作った空間です。
+                            そんな風に考えて作った空間です
                         </p>
                         <p className='text-center py-8 tracking-[5px] leading-[28px] lg:hidden'>ヨーロッパに留学していた<br />オーナー夫婦が
                             <br />
-                            そんな風に考えて作った<br />空間です。
+                            そんな風に考えて作った<br />空間です
                         </p>
                         <h2 className='pt-2'><img src="photo/sepia.jpg" /></h2>
                         <p className='text-center py-8 tracking-[5px] leading-[28px]'>
                             <br />
                             日本の防音マンションや<br />防音スタジオは
                             <br />
-                            よく吸音され、<br />どちらかというと
+                            よく吸音され<br />どちらかというと
                             <br />
-                            デットな空間になりがちです。
+                            デッドな空間になりがちです
                             <br />
                             そのような環境での練習を
                             <br />
@@ -223,7 +223,7 @@ export default function Studio() {
                             <br />
                             そのようなところから<br />学ぶことも
                             <br />
-                            たくさんありました。
+                            たくさんありました
                             <br />
                             なかなかない、<br />よく響くスタジオで
                             <br />
@@ -233,13 +233,13 @@ export default function Studio() {
                     <h2 className='pt-2'><img src="photo/studio1.jpg" /></h2>
                     <div>
                         <p className='text-center py-8 tracking-[5px] leading-[28px]'>
-                            白基調の内装にも<br />こだわっており、<br />写真撮影や<br />動画撮影はもちろん、<br />いつもと違う<br />ヨーロピアンな空間で<br />練習をお楽しみいただけます。
+                            白基調の内装にも<br />こだわっており<br />写真撮影や<br />動画撮影はもちろん<br />いつもと違う<br />ヨーロピアンな空間で<br />練習をお楽しみいただけます
                             <br />
-                            完全無人スタジオで、<br />スタッフと<br />顔を合わせることなく<br />ご利用可能です。<br />（防犯カメラあり）
+                            完全無人スタジオで<br />スタッフと<br />顔を合わせることなく<br />ご利用可能です<br />（防犯カメラあり）
                             <br /><br />
-                            ご予約時間のみ有効の<br />暗証番号式ロックを<br />採用しているため、<br />前の方が鍵を置き忘れて<br />入室できない…<br />といったトラブルも<br />ありません。
+                            ご予約時間のみ有効の<br />暗証番号式ロックを<br />採用しているため<br />前の方が鍵を置き忘れて<br />入室できない…<br />といったトラブルも<br />ありません
                         </p>
-                        <div className='flex justify-center pt-10'>
+                        <div className='flex justify-center pt-5'>
                             <p className='text-left tracking-[5px] leading-[28px] ml-4'>
                                 ・楽器練習<br />
                                 ・レッスン<br />
@@ -277,11 +277,11 @@ export default function Studio() {
                             <p className='text-left tracking-[4px] leading-[28px]'>
                                 全ハンマー、全弦を新品に交換済（2024年）<br />
 
-                                ピアノ弦はドイツ製の大変質の良いものを使用しています。<br />
+                                ピアノ弦はドイツ製の大変質の良いものを使用しています<br />
 
-                                この弦は世界トップクラスの高級輸入ピアノによく使用されており、柔軟性に富んだ輝きのある響きが特徴です。
+                                この弦は世界トップクラスの高級輸入ピアノによく使用されており、柔軟性に富んだ輝きのある響きが特徴です
                                 <br />
-                                まろやかに響く音で、練習、レッスンをお楽しみください。
+                                まろやかに響く音で、練習、レッスンをお楽しみください
                             </p>
                         </div>
                         <div id="equipment2">
@@ -305,9 +305,9 @@ export default function Studio() {
                                 <br />
                                 高画質カメラ（FUJIFILM X-H2S ）
                             </p>
-                            <p className='text-center text-[15px] py-1 '>（録音録画プランの時のみ録音技師が使用）</p>
-                            <p className='leading-[28px] pb-8 pt-4'>
-                                本棚に置いてある楽譜や本も、<br />大切に扱っていただけるのであれば、<br />　ご自由にご覧ください。
+                            <p className='text-center text-[15px] py-1'>（録音録画プランの時のみ録音技師が使用）</p>
+                            <p className='leading-[28px] pb-8 pt-4 tracking-[2px]'>
+                                本棚に置いてある楽譜や本も<br />大切に扱っていただけるのであれば<br />ご自由にご覧ください
                             </p>
                         </div>
                         <div>

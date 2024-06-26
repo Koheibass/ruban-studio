@@ -55,7 +55,7 @@ export default function Use() {
                         <h3 className='font-bold bg-[#F5DAE6] px-5 py-3 leading-[60px] text-[28px] tracking-[24px] text-[#6c4b2d]'>2. 当日ご利用（ご入室）</h3>
                     </div>
                     <div className='flex justify-center'>
-                        <p className='py-12 my-12 text-[30px] tracking-[10px] text-center leading-[50px]'>ご利用時刻になりましたら、<br />スタジオ扉に設置された<br />オートロックを解除し<br />ご入室ください。</p>
+                        <p className='py-12 my-12 text-[30px] tracking-[10px] text-center leading-[50px]'>ご利用時刻になりましたら<br />スタジオ扉に設置された<br />オートロックを解除し<br />ご入室ください。</p>
                     </div>
                     <div className='flex justify-center pb-10 w-full'><iframe width="720" height="360" src="https://www.youtube.com/embed/gPCwPIcN1l8?si=fDwutWf976yY_GzX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
                     <ScrollRevealContainer><div className='flex justify-center pb-12'>
@@ -107,7 +107,7 @@ export default function Use() {
                     <div className='flex justify-center'>
                         <h3 className='font-bold bg-[#F5DAE6] px-5 py-3 leading-[60px] text-[28px] tracking-[24px] text-[#6c4b2d]'>3. 当日ご利用（ご退室）</h3>
                     </div>
-                    <p className='py-6 my-12 text-[30px] tracking-[10px] text-center leading-[50px]'>元の状態に片付けていただき、<br />そのままご退出ください。<br />またのご利用をお待ちしています♪</p>
+                    <p className='py-6 my-12 text-[30px] tracking-[10px] text-center leading-[50px]'>元の状態に片付けていただき<br />そのままご退出ください<br />またのご利用をお待ちしています♪</p>
                     <div className='px-6'>
                         <p className='text-[26px] tracking-[5px] leading-[35px] pb-6 text-left -indent-8'>
                             ・ロックのかけ方など退室方法詳細はスタジオの扉面に記載していますので当日ご確認ください<br />
