@@ -24,8 +24,11 @@ export default function Use() {
             <div className='lg:hidden block'>
                 <BottomNav />
             </div>
-            <main className="grow bg-[#ffffff] px-4 lg:px-20 lg:block hidden" id="use">
+            <main className="grow bg-[#ffffff] px-4 lg:px-20 lg:block hidden" id="usepc">
                 <div className='pt-8 mx-6'>
+                    <div className='py-10 flex justify-center'>
+                        <ScrollRevealContainer><h2 className='text-[20px] tracking-[2px] font-semibold'><img src="photo/nagare.png" /></h2></ScrollRevealContainer>
+                    </div>
                     <div className='py-10 flex justify-center'>
                         <h3 className='font-bold bg-[#F5DAE6] px-5 py-3 leading-[60px] text-[28px] tracking-[24px] text-[#6c4b2d]'>1. Webにてご予約</h3>
                     </div>

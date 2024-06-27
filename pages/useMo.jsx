@@ -12,6 +12,9 @@ export default function UseMo() {
     return (
         <main className="grow bg-[#ffffff] px-4 lg:px-20 lg:hidden" id="use">
             <div className='pt-8 mx-6'>
+                <div className='flex justify-center'>
+                    <ScrollRevealContainer><h2 className='w-[70%] py-5 mb-6 ml-10 pl-'><img src="photo/nagare.png" /></h2></ScrollRevealContainer>
+                </div>
                 <div className='pt-1 flex justify-center'>
                     <h3 className='font-bold bg-[#F5DAE6] px-2 py-2 tracking-[4px] text-[#6c4b2d]'>1. Webにてご予約</h3>
                 </div>

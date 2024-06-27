@@ -49,7 +49,7 @@ export default function TopPc() {
             </div>
             <div className='mx-6 pt-10'>
                 <p className='text-center tracking-[4px] leading-[28px] text-[24px] pt-6 pb-10'>
-                    より詳細なご利用の流れは<Link href="/use/#use" class="underline font-bold">こちら</Link>をご覧ください
+                    より詳細なご利用の流れは<Link href="/use/#usepc" class="underline font-bold">こちら</Link>をご覧ください
                 </p>
             </div>
 
