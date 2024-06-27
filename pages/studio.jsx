@@ -32,7 +32,7 @@ export default function Studio() {
                         <p className='text-center py-8 leading-[60px] text-[28px]'>
                             <br />
                             日本の防音マンションや防音スタジオは
-                            よく吸音され、<br />どちらかというと
+                            よく吸音され<br />どちらかというと
                             デッドな空間になりがちです<br />
                             そのような環境での練習を
                             好まれる方も多いかもしれませんが
@@ -49,12 +49,12 @@ export default function Studio() {
                     <h2 className='pt-14 ml-8 flex justify-center'><img src="photo/studio1.jpg" /></h2>
                     <div>
                         <p className='text-center py-8 leading-[60px] text-[28px]'>
-                            白基調の内装にもこだわっており、写真撮影や動画撮影はもちろん、<br />
-                            いつもと違うヨーロピアンな空間で練習をお楽しみいただけます。
+                            白基調の内装にもこだわっており、写真撮影や動画撮影はもちろん<br />
+                            いつもと違うヨーロピアンな空間で練習をお楽しみいただけます
                             <br />
                             完全無人スタジオで、スタッフと顔を合わせることなくご利用可能です（防犯カメラあり）
                             <br /><br />
-                            ご予約時間のみ有効の暗証番号式ロックを採用しているため、<br />前の方が鍵を置き忘れて入室できない…といったトラブルもありません
+                            ご予約時間のみ有効の暗証番号式ロックを採用しているため<br />前の方が鍵を置き忘れて入室できない…といったトラブルもありません
                         </p>
                         <div className='flex justify-center pt-10'>
                             <p className='text-left tracking-[8px] leading-[55px] ml-28 pb-8 text-[35px]'>
@@ -68,7 +68,7 @@ export default function Studio() {
                                 ・オンラインレッスン<br />
                             </p>
                         </div>
-                        <div className='text-2xl py-16 ml-28'>などなど、様々な用途にてご利用ください。</div>
+                        <div className='text-3xl py-16 ml-27'>などなど、様々な用途にてご利用ください。</div>
                         <div className='flex justify-center'>
                             <p className='text-left tracking-[4px] leading-[28px] ml-10 pb-10 text-xl'>
                                 定員　約10名

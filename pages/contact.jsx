@@ -27,16 +27,16 @@ export default function Contact() {
                                 <label className="font-medium block bg-inherit text-[.875rem] leading-none mb-2" htmlFor="type">お問い合わせの種別</label>
                                 <div className="relative">
                                     <select name="type" className="rounded w-full flex m-auto text-[#937a43] px-2 py-2 outline outline-1">
-                                        <option value="予約">予約の変更・キャンセル</option>
+                                        <option value="予約の変更">予約の変更</option>
                                         <option value="企業からのご依頼">企業からのご依頼</option>
                                         <option value="その他">その他</option>
                                     </select>
                                 </div>
                             </div>
-                            <div className='tracking-[4px] leading-[28px] text-left -indent-7 px-6 ml-3'>※予約の変更・キャンセルの際は、予約時と同じ<strong>お名前</strong>、<strong>メールアドレス</strong>を記載の上、<strong>予約日時</strong>を以下のお問い合わせの内容にご記入ください。なお、予約の変更の場合は、変更希望の日時の空き状況を確認の上ご連絡ください。</div>
+                            <div className='tracking-[4px] leading-[28px] text-left -indent-5 px-6 ml-3'>※予約の変更の際は、変更希望の日時の空き状況を確認の上、予約時と同じ<strong>お名前</strong>、<strong>メールアドレス</strong>を記載し、<strong>変更前の予約日時</strong>を以下のお問い合わせの内容にご記入ください。</div>
                             <div>
                                 <label htmlFor="message" className="font-medium block bg-inherit text-[.875rem] leading-none mb-3">お問い合わせの内容</label>
-                                <textarea className="border rounded w-full flex m-auto h-[120px] lg:h-20 px-2 py-2 outline outline-1" id="message" name="message"></textarea>
+                                <textarea className="border rounded w-full flex m-auto h-[120px] lg:h-[120px] px-2 py-2 outline outline-1" id="message" name="message"></textarea>
                             </div>
 
                             <button className="font-medium text-sm py-2 px-4 justify-center items-center bg-[#fcafaf] rounded-lg w-full mt-4 text-white" type="submit" data-comform-touched="true">送信</button>

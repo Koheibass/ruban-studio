@@ -49,7 +49,7 @@ export default function TopPc() {
             </div>
             <div className='mx-6 pt-10'>
                 <p className='text-center tracking-[4px] leading-[28px] text-[24px] pt-6 pb-10'>
-                    より詳細なご利用の流れは<Link href="/use" class="underline font-bold">こちら</Link>をご覧ください
+                    より詳細なご利用の流れは<Link href="/use/#use" class="underline font-bold">こちら</Link>をご覧ください
                 </p>
             </div>
 
@@ -70,7 +70,7 @@ export default function TopPc() {
                     <strong>演奏者用椅子、譜面台</strong><br /><br />
 
                     各種撮影にご利用いただけるよう
-                    <strong>カメラ、マイクスタンド</strong><br /><br />
+                    <strong>スタンド、マイクケーブル</strong><br /><br />
 
                     また配信にも十分な超高速10Gインターネットも
                     完備しております<br /><br />

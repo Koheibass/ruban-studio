@@ -55,13 +55,13 @@ export default function Use() {
                         <h3 className='font-bold bg-[#F5DAE6] px-5 py-3 leading-[60px] text-[28px] tracking-[24px] text-[#6c4b2d]'>2. 当日ご利用（ご入室）</h3>
                     </div>
                     <div className='flex justify-center'>
-                        <p className='py-12 my-12 text-[30px] tracking-[10px] text-center leading-[50px]'>ご利用時刻になりましたら<br />スタジオ扉に設置された<br />オートロックを解除し<br />ご入室ください。</p>
+                        <p className='py-12 my-12 text-[30px] tracking-[10px] text-center leading-[50px]'>ご利用時刻になりましたら<br />スタジオ扉に設置された<br />オートロックを解除し<br />ご入室ください</p>
                     </div>
                     <div className='flex justify-center pb-10 w-full'><iframe width="720" height="360" src="https://www.youtube.com/embed/gPCwPIcN1l8?si=fDwutWf976yY_GzX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
                     <ScrollRevealContainer><div className='flex justify-center pb-12'>
-                        <h2 className='w-[50%] flex justify-center'><img src="photo/tejun.png" /></h2>
+                        <h2 className='w-[50%] flex justify-center mt-10 pt-10'><img src="photo/tejun.png" /></h2>
                     </div></ScrollRevealContainer>
-                    <div className='py-12 mt-12 tracking-[5px] leading-[45px] text-left -indent-12 px-6 ml-[200px] text-[30px]'>
+                    <div className='py-12 mt- tracking-[5px] leading-[45px] text-left -indent-12 px-6 ml-[200px] text-[30px]'>
                         <p className='pb-12'>
                             1. ご予約完了メールに記載されている5桁の数字「オートロック解除キー」を入力する
                             <br />
@@ -79,7 +79,7 @@ export default function Use() {
                             <strong>（※必ず数字を入力後にドアノブを開けてください）</strong>
                         </p>
                         <p className='pb-12'>
-                            4. 外側扉の鍵を閉める
+                            4. 外側扉のドアノブと鍵を閉める
                         </p>
                         <p className='pb-12'>
                             5. マットの上で靴を脱ぎ、シューズラックに置き、スリッパに履き替える
@@ -110,10 +110,13 @@ export default function Use() {
                     <p className='py-6 my-12 text-[30px] tracking-[10px] text-center leading-[50px]'>元の状態に片付けていただき<br />そのままご退出ください<br />またのご利用をお待ちしています♪</p>
                     <div className='px-6'>
                         <p className='text-[26px] tracking-[5px] leading-[35px] pb-6 text-left -indent-8'>
-                            ・ロックのかけ方など退室方法詳細はスタジオの扉面に記載していますので当日ご確認ください<br />
+                            ・利用終了後は、外側扉のドアノブを閉めた後、「RemoteLOCK」ボタンを押して施錠してください。<br />
                         </p>
                         <p className='text-[26px] tracking-[5px] leading-[35px] pb-6 text-left -indent-8'>
-                            ・次の方のご予約時間が毎時00分から始まります入れ替え時間もありますので<strong>必ず終了時間の5分前</strong>にはご退出いただくようご協力お願いいたします
+                            ・ロックのかけ方など退室方法詳細はスタジオの扉面に記載していますので当日ご確認ください。<br />
+                        </p>
+                        <p className='text-[26px] tracking-[5px] leading-[35px] pb-6 text-left -indent-8'>
+                            ・次の方のご予約時間が毎時00分から始まります入れ替え時間もありますので<strong>必ず終了時間の5分前</strong>にはご退出いただくようご協力お願いいたします。
                         </p>
                     </div>
                     <div className='text-center pt-12 mt-12'>

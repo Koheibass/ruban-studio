@@ -92,7 +92,7 @@ export default function TopMo() {
           <strong>演奏者用椅子、譜面台</strong><br /><br />
 
           各種撮影にご利用いただけるよう<br />
-          <strong>カメラ、マイクスタンド</strong><br /><br />
+          <strong>スタンド、マイクケーブル</strong><br /><br />
 
           また配信にも十分な<br />超高速10Gインターネットも<br />
           完備しております<br />

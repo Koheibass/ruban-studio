@@ -65,7 +65,7 @@ export default function UseMo() {
                         <strong>（※必ず数字を入力後にドアノブを開けてください）</strong>
                     </p>
                     <p className='pb-8'>
-                        4. 外側扉の鍵を閉める
+                        4. 外側扉のドアノブと鍵を閉める
                     </p>
                     <p className='pb-8'>
                         5. マットの上で靴を脱ぎ、シューズラックに置き、スリッパに履き替える
@@ -94,16 +94,19 @@ export default function UseMo() {
                 <p className='py-8 text-[14px] tracking-[4px] text-center leading-[28px]'>元の状態に片付けていただき<br />そのままご退出ください<br />またのご利用をお待ちしています♪</p>
                 <div className='px-6'>
                     <p className='text-[12px] tracking-[3px] leading-[24px] pb-2 text-left -indent-4'>
-                        ・ロックのかけ方など退室方法詳細はスタジオの扉面に記載していますので当日ご確認ください<br />
+                        ・利用終了後は、外側扉のドアノブを閉めた後、「RemoteLOCK」ボタンを押して施錠してください。<br />
                     </p>
                     <p className='text-[12px] tracking-[3px] leading-[24px] pb-2 text-left -indent-4'>
-                        ・次の方のご予約時間が毎時00分から始まります入れ替え時間もありますので<strong>必ず終了時間の5分前</strong>にはご退出いただくようご協力お願いいたします
+                        ・ロックのかけ方など退室方法詳細はスタジオの扉面に記載していますので当日ご確認ください。<br />
+                    </p>
+                    <p className='text-[12px] tracking-[3px] leading-[24px] pb-2 text-left -indent-4'>
+                        ・次の方のご予約時間が毎時00分から始まります入れ替え時間もありますので<strong>必ず終了時間の5分前</strong>にはご退出いただくようご協力お願いいたします。
                     </p>
                 </div>
                 <div className='text-center pt-6'>
                     <h3 className='font-bold bg-[#F5DAE6] inline-block px-2 py-2 mt-4 tracking-[4px] text-[#6c4b2d]'>免責事項</h3>
                     <br />
-                    <p className='py-8 text-[13px] tracking-[4px] leading-[28px] text-left'>完全無人スタジオのため、突発的な機材トラブル等に対して、その場ですぐにご対応できない場合がございます。そのような場合にも利用料金が発生してしまうことを予めご了承いただいた上で、ご利用お願いいたします。</p>
+                    <p className='py-8 text-[13px] tracking-[4px] leading-[28px] text-left'>完全無人スタジオのため、突発的な機材トラブル等に対して、その場ですぐにご対応できない場合がございます。そのような場合にも利用料金が発生してしまう可能性があることを予めご了承いただいた上で、ご利用お願いいたします。</p>
                     <p className='pb-8 underline mt-4'><Link href="/useterms">スタジオ利用規約</Link></p>
                 </div>
                 <div className='pt-2 pb-6 leading-[28px] text-[13px] underline text-[#ff9a9a]'><Link href="/">Topに戻る</Link></div>
