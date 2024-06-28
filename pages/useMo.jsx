@@ -103,7 +103,7 @@ export default function UseMo() {
                         ・ロックのかけ方など退室方法詳細はスタジオの扉面に記載していますので当日ご確認ください。<br />
                     </p>
                     <p className='text-[12px] tracking-[3px] leading-[24px] pb-2 text-left -indent-4'>
-                        ・次の方のご予約時間が毎時00分から始まります入れ替え時間もありますので<strong>必ず終了時間の5分前</strong>にはご退出いただくようご協力お願いいたします。
+                        ・次の方のご予約時間が毎時00分から始まります。入れ替え時間もありますので<strong>必ず終了時間の5分前</strong>にはご退出いただくようご協力お願いいたします。
                     </p>
                 </div>
                 <div className='text-center pt-6'>
