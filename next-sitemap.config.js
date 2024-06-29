@@ -1,8 +1,7 @@
 
-
+/** @type {import('next-sitemap').IConfig} */
 module.exports = {
-    siteUrl: 'https://pianostudio-ruban.com/',
-    generateRobotsTxt: true,
-    sitemapSize: 7000,
-    outDir: './out',
+    siteUrl: "https://pianostudio-ruban.com",
+    generateRobotsTxt: true, // (optional)
+    // ...other options
 };

@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://pianostudio-ruban.com
+
+# Sitemaps
+Sitemap: https://pianostudio-ruban.com/sitemap.xml
