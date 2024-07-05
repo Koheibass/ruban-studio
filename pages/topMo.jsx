@@ -1,12 +1,7 @@
 import * as React from 'react';
-import TopSlider from '@/components/TopSlider';
-import { AppNav } from '@/components/AppNav';
-import { SectionNews } from '@/components/News/SectionNews';
-import { Footer } from '@/components/Footer';
-import BottomNav from '@/components/BottomNav';
 import Link from 'next/link';
 import dynamic from 'next/dynamic';
-import TopSliderMobile from '@/components/TopSliderMobile';
+
 
 
 
@@ -22,7 +17,7 @@ const ScrollRevealContainer2 = dynamic(
 
 export default function TopMo() {
   return (
-    <main className="grow bg-[#fefaff] lg:px-20">
+    <main className="grow bg-[#ffffff] lg:px-20">
       <h4 className='anim-box'><img src="/photo/senren1.png" /></h4>
       <div className='mx-6'>
         <p className='text-center py-6 tracking-[4px] leading-[28px] text-[14px]'>

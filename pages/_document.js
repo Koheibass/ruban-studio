@@ -5,8 +5,8 @@ export default function Document() {
     <Html lang="en" prefix="og: http://ogp.me/ns#">
       <Head>
         <title>【東京都】ピアノスタジオ リュバン【練馬区平和台】</title>
-        <link rel='icon' href='favicon1.png' />
-        <link rel='apple-touch-icon' href='favicon1.png' />
+        <link rel='icon' href='favicon3.ico' />
+        <link rel='apple-touch-icon' href='favicon3.ico' />
         <meta name="description" content="【東京都】ピアノスタジオ リュバン【練馬区平和台】" />
         <meta property="og:url" content="https://pianostudio-ruban.com/" />
         <meta property="og:image" content='https://pianostudio-ruban.com//photo/PC2.jpg' />

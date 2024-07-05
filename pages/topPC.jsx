@@ -14,7 +14,7 @@ const ScrollRevealContainer2 = dynamic(
 
 export default function TopPc() {
     return (
-        <main className="grow bg-[#fefaff] px-40">
+        <main className="grow bg-[#ffffff] px-40">
             <div className='flex justify-center'>
                 <h4 className='anim-box'><img src="/photo/senren1.png" /></h4>
             </div>
