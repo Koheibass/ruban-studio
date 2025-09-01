@@ -40,7 +40,7 @@ export default function Use() {
                         <p className='text-[25px] tracking-[3px] leading-[35px] pb-10 text-left -indent-7'>・お支払いはクレジットカードのみのご対応となります。<br /></p>
                         <p className='text-[25px] tracking-[3px] leading-[35px] pb-10 text-left -indent-7'>・決済完了後にご予約完了となります。<br /></p>
                         <p className='text-[25px] tracking-[3px] leading-[35px] pb-10 text-left -indent-7'>・そのため、キャンセルとなった場合には下に定めるキャンセル料を差し引いた金額をご返金いたします。<br /></p>
-                        <p className='text-[25px] tracking-[3px] leading-[35px] pb-10 text-left -indent-7'>・前日の23：59まで予約が可能です。当日予約はできません。<br /></p>
+                        {/*<p className='text-[25px] tracking-[3px] leading-[35px] pb-10 text-left -indent-7'>・前日の23：59まで予約が可能です。当日予約はできません。<br /></p>*/}
                         <p className='text-[25px] tracking-[3px] leading-[35px] pb-10 text-left -indent-7'>・180日前から予約が可能ですが、キャンセルの場合には3.6％の決済手数料がかかってしまいます。ご注意ください。<br /></p>
                     </div>
                     <p className='text-[40px] tracking-[2px] leading-[24px] py-6 text-center'>
