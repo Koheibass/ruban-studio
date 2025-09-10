@@ -25,7 +25,7 @@ export const Footer = () => {
                     <img src="/icon/x-logo.svg" className="inline-block relative pt-2 pl-[15px]" width="45" height="40" alt="x(twitter)" />
                 </Link>
             </div>
-            <div className="text-sm text-center bg-transparent mt-4 pb-4 text-[#a5862f]">© 2024 Piano Studio Ruban</div>
+            <div className="text-sm text-center bg-transparent mt-4 pb-4 text-[#a5862f]">© 2025 Piano Studio Ruban</div>
         </div>
     )
 }
