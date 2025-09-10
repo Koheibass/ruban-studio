@@ -17,7 +17,7 @@ export default function PriceMo() {
             <div className='pt-8 mx-6'>
                 <div className='pt-1'>
                     <ScrollRevealContainer><h2 className='text-[20px] tracking-[2px] font-semibold pb-'><img src="photo/price1.png" /></h2></ScrollRevealContainer>
-                    <h2 className='py-8'><img src="photo/open2.png" /></h2>
+                    <h2 className='py-8'><img src="photo/campaign.jpg" /></h2>
                     <p className='text-[14px] tracking-[4px] text-center leading-[28px] pb-8'>
                         ぜひこの機会にご利用ください！！
                         <br />

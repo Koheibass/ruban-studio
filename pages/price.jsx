@@ -31,7 +31,7 @@ export default function Price() {
                         <ScrollRevealContainer><h2 className='text-[20px] tracking-[2px] font-semibold'><img src="photo/price1.png" /></h2></ScrollRevealContainer>
                     </div>
                     <div className='flex justify-center'>
-                        <h2 className='py-10'><img src="photo/open2.png" /></h2>
+                        <h2 className='py-10'><img src="photo/campaign.jpg" /></h2>
                     </div>
                     <div className='flex justify-center pt-10'>
                         <p className='text-[30px] tracking-[4px] text-center leading-[28px] pb-8'>
