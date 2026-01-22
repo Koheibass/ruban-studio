@@ -14,7 +14,7 @@ export default function Contact() {
                 <section className="pb-8">
                     <div>
                         <div className="text-center my-4 text-[#937a43] lg:text-[100%] py-4">ピアノスタジオ リュバンへのお問い合わせは、<br />こちらからお願いいたします。</div>
-                        <form action="https://hyperform.jp/api/W0ja7ej9" method="post" noValidate id="contact-form" className="gap-4 grid-cols-1 grid text-[#937a43]">
+                        <form action="https://hyperform.jp/api/HKS3S6BK" method="post" noValidate id="contact-form" className="gap-4 grid-cols-1 grid text-[#937a43]">
                             <div>
                                 <label htmlFor="name" className="font-medium block bg-inherit text-[.875rem] leading-none mb-2">お名前</label>
                                 <input className="border rounded w-full py-2 px-2 flex m-auto outline outline-1" id="name" name="name" />
